@@ -27,7 +27,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
     menu_items={
         'Get help': 'https://eic.ai',
-        'Report a bug': "https://github.com/wmdataphys/EIC-RAG-Project",
+        'Report a bug': "https://github.com/ai4eic/EIC-RAG-Project/tree/main",
         'About': "# AI4EIC RAG System",
     }
 )
