@@ -1,0 +1,43 @@
+As an AI, you excel at assessing whether you have sufficient information to answer a question. 
+If the question is broad or generic, you should respond as ENOUGH INFO. 
+However, if the question requires additional information for a answering, your response should be "MORE INFO". 
+
+Remember to respond as "MORE INFO" if you need more information to answer the question or "ENOUGH INFO" if you have enough information to answer the question.
+Here are a few sample responses 
+
+---
+question: Hi How are you?
+response: ENOUGH INFO
+---
+---
+question: What is the capital of France?
+response: ENOUGH INFO
+---
+---
+question: What is EIC?
+response: MORE INFO
+---
+---
+question: Who are you and what do you do?
+response: ENOUGH INFO
+---
+---
+question: Explain to me about what is hadronic physics?
+response: ENOUGH INFO
+---
+---
+question: What is the difference between a hadron and a lepton?
+response: ENOUGH INFO
+---
+---
+question: What are you made of?
+response: ENOUGH INFO
+---
+---
+question: Where is rest of the proton mass coming from?
+response: ENOUGH INFO
+
+Now, Here's the user's query within the tags <question>. Please evaluate whether you can provide an answer with the current information or if more details are needed.
+<question>
+{question}
+</question>

@@ -1,0 +1,1164 @@
+question,answer,contexts,ground_truth,arxiv_id,input_arxiv_id,trace_links,faithfulness,answer_relevancy,context_precision,context_recall,answer_correctness
+ What are the main detectors proposed for the Electron-Ion Collider (EIC)? What are the optical processes involved in Cherenkov detectors? How is AI being utilized for imaging Cherenkov detectors at EIC?,"Hello! Here are the main detectors proposed for the Electron-Ion Collider (EIC) and the optical processes involved in Cherenkov detectors, as well as how AI is being utilized for imaging Cherenkov detectors at EIC:
+
+Main detectors proposed for the Electron-Ion Collider (EIC):
+- Physics and detector simulations are being used to develop the physics case, the resulting detector requirements, and the evolving detector concepts for the experimental program at the EIC[^1^].
+- Imaging Cherenkov detectors are the backbone of particle identification at the EIC, and recent activities have involved AI applications for these detectors[^2^].
+
+Optical processes involved in Cherenkov detectors:
+- The use of lead-tungsten crystals for electron-scattering angles with the central detector of the future EIC involves the use of lead-tungsten crystals, which provide exceptional performance[^3^].
+
+Utilization of AI for imaging Cherenkov detectors at EIC:
+- AI is being utilized for imaging Cherenkov detectors at EIC, with machine learning being used for imaging Cherenkov detectors, emphasizing the vital role of Cherenkov detectors for EIC experiments[^4^].
+
+I hope this information is helpful to you!
+
+[^1^]: http://arxiv.org/abs/2211.15746v3 
+[^2^]: http://arxiv.org/abs/2204.08645v1 
+[^3^]: http://arxiv.org/abs/2307.12531v1 
+[^4^]: http://arxiv.org/abs/2307.08593v1","['1 Introduction\nIn the proposed Electron-Ion Collider (EIC), imaging Cherenkov detectors are the backbone of\nparticleidentiﬁcation. WhenchargedparticlesmovethroughthedielectricmediaoftheCherenkov'
+ 'In Sec. 2 we will describe recent activities involving AI applications for imaging Cherenkov\ndetectors that can be utilized at the EIC; in Sec. 3 we present our conclusions and perspectives.'
+ 'on Artificial Intelligence for the Electron Ion\nCollider.\n[58] Fanelli, C. Machine learning for imaging\nCherenkov detectors. Journal of Instrumen-\ntation 15(02), C02012 (2020) .'
+ '[28] EIC Collaboration, Science Requirements and Detector Concepts for the Electron-Ion\nCollider: EIC Yellow Report , 2021. arXiv:2103.05419 [physics.ins-det] .'
+ 'Physics and detector simulations are being used to develop the physics case, the resulting de-\ntector requirements, and the evolving detector concepts for the experimental program at the EIC.'
+ 'electron-scattering angles with the central detector of the future\nElectron-Ion Collider (EIC) involves the use of lead-tungsten\ncrystals [1]. Although these crystals provide exceptional en-'
+ 'found questions that the electron-ion collider (EIC) [9–\n12] intends to address. Various observables have been\nproposed to search for the signals of the parton satura-'
+ 'Detector Concepts for the Electron-Ion Collider: EIC'
+ 'In the preceding workshop, we emphasized the\nvital role of Cherenkov detectors for Electron-Ion\nCollider (EIC) experiments [56, 57]. As the pri-\nmary component of the PID for the ePIC detector,'
+ 'Silicon detector R &D for the future Electron-Ion Collider Xuan Li\n1. Introduction to the Electron-Ion Collider (EIC)\nThefutureElectron-IonCollider(EIC),whichwillbebuiltatBrookhavenNationalLaboratory,']"," All detector designs proposed for EIC have a dual radiator ring-imaging Cherenkov detector (dRICH) in the hadron direction, detection of internally reflected Cherenkov light (DIRC) in the barrel, and a modular-aerogel RICH (mRICH) in the electron direction. Cherenkov detectors involve optical processes with many photons that need to be tracked through complex surfaces, making these detectors relatively slow to simulate. AI is being utilized for optimizing the design of Cherenkov detectors and for reducing the computing budget necessary to explore a large number of design points., 
+    ","['2204.08645v1' '2204.08645v1' '2307.08593v1' '2203.07626v2'
+ '2211.15746v3' '2307.12531v1' '2211.01647v4' '2203.05846v2'
+ '2307.08593v1' '2302.01447v1']",2204.08645v1,https://smith.langchain.com/public/84264058-a77f-459b-986d-03239b197315/r,1.0,0.9542460169287058,0.99999999999,1.0,0.6794725564310392
+ What is the purpose of the high-granularity calorimeter insert for the Electron-Ion Collider (EIC)? What innovative features are used in its design?,"Hello! The purpose of the high-granularity calorimeter insert for the Electron-Ion Collider (EIC) is to enable measurements at extreme kinematics in electron-proton and electron-nucleus collisions. Here are some innovative features used in its design:
+
+- The high-granularity calorimeter insert is intended to maximize acceptance ""as much as technically possible"" to meet one of the key requirements of the EIC[^1].
+- It is based on SiPM-on-tile technology, which is a novel approach for achieving high granularity and precision in detecting particles at the EIC[^2].
+- The design of the high-granularity calorimeter insert is aimed at coherent interactions of large nuclei, providing unique opportunities in searching for new physics through its high center of mass energy[^3].
+
+I hope this information is helpful!
+
+[^1]: [1](http://arxiv.org/abs/2302.03646v2) 
+[^2]: [2](http://arxiv.org/abs/2208.05472v2) 
+[^3]: [3](http://arxiv.org/abs/2307.00102v2)","['E-mail: miguel.arratia@ucr.edu\nAbstract :Werecentlyproposedahigh-granularitycalorimeterinsertfortheElectron-IonCollider'
+ 'The Electron-Ion Collider (EIC) provides unique opportunities in searching for new physics\nthrough its high center of mass energy and coherent interactions of large nuclei. We examine how'
+ 'Contents\n1 Introduction 1\n2 The high-granularity calorimeter insert 2\n3 Experimental Setup for Prototyping Studies 3\n3.1 Data Acquisition and Processing 3\n3.2 Prototype scintillators 4'
+ 'Abstract\nWe present a design for a high-granularity calorimeter insert for future experiments at the Electron-Ion Collider (EIC). The'
+ 'of imaging calorimetry at the EIC to enable measurements at extreme kinematics in electron-proton and electron-nucleus collisions.\nContents\n1 Introduction 1\n2 Proposed Design 2'
+ 'Thehigh-granularitycalorimeterinsert(HG-CALI)proposedinRef.[15]wasdesignedtomaximize\nacceptance “as much as technically possible” to meet one of the key requirements of the EIC [16].'
+ 'A high-granularity calorimeter insert based on SiPM-on-tile technology\nat the future Electron-Ion Collider'
+ 'Detector Concepts for the Electron-Ion Collider: EIC'
+ 'High-Granularity Calorimeter (HGCAL) upgrade [10], and is\nenvisioned for experiments at several proposed e+e−colliders\nsuch as ILC [11], CLIC [12], and CEPC [13–15].'
+ 'To demonstrate our approach, we simulate a detector similar to the forward calorimeter system\nintended for use in the ePIC detector, which will operate at the upcoming Electron Ion Collider.']"," The purpose of the high-granularity calorimeter insert for the Electron-Ion Collider (EIC) is to cover the range 3.2< 𝜂 < 4.0 and to offer high granularity to enhance performance in measuring jets, and to manage radiation damage and beam-gas interactions effectively. Among its innovative features are an ASIC-away-of-SiPM strategy for reducing cooling requirements and minimizing space use, along with employing 3D-printed frames to reduce optical crosstalk and dead areas., 
+    ","['2309.00818v1' '2307.00102v2' '2302.03646v2' '2208.05472v2'
+ '2208.05472v2' '2302.03646v2' '2208.05472v2' '2203.05846v2'
+ '2208.05472v2' '2310.04442v1']",2309.00818v1,https://smith.langchain.com/public/9464a84d-dfe3-4004-9fa9-63c1bf4300c1/r,1.0,0.9304982956391378,0.99999999999,1.0,0.4463253287715283
+ What is the radial size of the DIRC detector? What is the refractive index of the middle layer of the 3-layer lens?,"Hello! Here are some key points about the DIRC detector and the 3-layer lens:
+
+- The radial size of the DIRC detector includes three single layers with radii of 16, 28, and 40 cm in the barrel, with corresponding lengths of 42.9, 75, and 107 cm, respectively[^1^].
+- The refractive index of the middle layer of the 3-layer lens is simulated using two possible materials: NLaK33 and PbF2[^2^].
+
+I hope this information is helpful!
+
+[^1^]: [1](http://arxiv.org/abs/2209.00496v1)
+[^2^]: [2](http://arxiv.org/abs/2202.06457v1)","['Contents\n1 Introduction 1\n2 High-performance DIRC Detector 3\n3 Development of the 3-layer Lens 4\n4 Mapping of the Focal Plane 5\n5 Radiation Hardness of the Lens Materials 7\n6 Summary 8\n1 Introduction'
+ 'In the barrel, there are three single layers with radii of 16, 28, and 40 cm. The cor-\nresponding lengths are 42.9, 75, and 107 cm, respectively. The radius of the outer layer'
+ 'Figure 7. Photo of the cylindrical 3-layer lens prototype with marked size (a) and in the laser setup (b).'
+ 'of the DIRC barrel radius and the bar length, making it ideal for a compact detector such\nas CORE, where the small radius ( ∼0.5 m) not only reduces weight and cost, but also'
+ 'Figure 9. Comparison of the simulated hpDIRC performance with two possible materials for the middle\nlayerofthe3-layerlens: NLaK33(a)andPbF 2(b).𝜋/Kseparationforchargedpionsandkaonswith6GeV/c'
+ 'of 237 mm\x02360 mm\x02300 mm. The detector plane of each prism is covered by 3 mm \x023 mm\npixels,selectedasacompromisebetweencostandperformanceforthehpDIRCdesignbasedonthe'
+ 'face of a fused silica prism expansion volume. Key features of\nthe hpDIRC include three-layer spherical lenses, photosensors\nwith small (3 mm×3 mm) pixels, and fast readout electronics.'
+ '3-layer lens is resolving. The DIRC imaging plane is located on the ﬂat back surface of the prism.\nThe focal plane of a standard lens with a single refracting surface has a parabolic shape described'
+ 'Reﬂected Cherenkov (DIRC) light in the barrel, and a modular RICH (mRICH) in the electron\nendcap. These detectors involve optical processes with many photons that need to be tracked'
+ 'silica,whichisusedformostoftheopticalcomponentsinallDIRCsystems,wasalreadyextensively\ntested for the BaBar and PANDA DIRC counters and proved to be radiation hard [13]. The 3-layer']","  The radial size of the DIRC detector is only 7-8 cm. The refractive index of the middle layer of the 3-layer lens is 1.786 at 380nm., 
+    ","['2202.06457v1' '2209.00496v1' '2202.06457v1' '2209.00496v1'
+ '2202.06457v1' '2202.06457v1' '2209.02580v2' '2202.06457v1'
+ '2204.08645v1' '2202.06457v1']",2202.06457v1,https://smith.langchain.com/public/4a61f4ab-34d5-449f-85aa-1fea38567626/r,1.0,0.8952572456306708,0.9060405643638304,0.0,0.6101487899370217
+ What are the three main contributions to the AC-LGAD time resolution?,"Hello! Here are the three main contributions to the AC-LGAD time resolution:
+
+- The AC-LGAD tracker is designed to obtain around 30µm spatial resolution in the 𝑥𝑦 plane and around 25 ps timing resolution<sup>1</sup>.
+- The hadron endcap AC-LGAD tracker is designed to obtain around 30µm spatial resolution in the 𝑥𝑦 plane and around 25 ps timing resolution<sup>1</sup>.
+- The AC-LGAD sensors are designed to provide both excellent position and timing resolutions<sup>2</sup>.
+
+I hope you find this information helpful.
+
+<sup>1</sup> [1]: http://arxiv.org/abs/2302.01447v1 
+<sup>2</sup> [2]: http://arxiv.org/abs/2211.09698v2","['and around 30 ps timing resolution. The hadron endcap AC-LGAD tracker is designed to obtain\naround 30𝜇mspatial resolution in the 𝑥𝑦plane and around 25 ps timing resolution.\n3'
+ '4 Signal properties\nAsdescribedinSection3,thewaveformsfromuptosevenchannelsofeachAC-LGADarerecorded\nbytheoscilloscope. Thewaveformsareanalyzedevent-by-eventtoextracttheamplitude,risetime,'
+ 'Test benches for both LGAD (AC-LGAD) and MALTA prototype sensors have been set up at Los\nAlamos National Laboratory.\n3'
+ 'transitioned into the eRD112 targeted R&D program, which focuses on developing the AC-\nLGADs technology to provide both excellent position and timing resolutions.'
+ 'resolution to 5µm. For each AC-LGAD spatial and temporal resolution measurement presented\nin this paper, the contributions from the tracking telescope ( 5µm) and MCP–PMT time reference'
+ 'of the per-photon timing precision of the sensor and readout electronics were studied, respectively\n50, 100, and 150 ps.\n– 3 –'
+ 'in AC-LGADs, sparse readout can be exploited without signiﬁcant degradation of spatial or time\nresolution.\n– 1 –'
+ 'and time resolution. Conclusions and outlook are presented in Section 7.\n2 The AC-LGAD sensors\nIn this campaign, we exposed approximately 15 diﬀerent AC-LGAD sensors to the FNAL proton'
+ 'to the design. For example, replacement of the current, standard, pixellated silicon sensor\nwith a Inverse LGAD [28] could potentially improve the timing resolution to 10s of picoseconds'
+ 'position and timing resolutions. The AC-LGAD sensors will\nhave a 3.2×3.2 cm2area, with four dedicated ASIC units on\neach sensor. In addition, a PbWO 4calorimeter (Fig. 2 top left']"," The three main contributions to the AC-LGAD time resolution are the Landau fluctuations in the ionization depth profile, the noise-induced jitter, and the effect of the arrival time delays., 
+    ","['2302.01447v1' '2211.09698v2' '2111.03182v1' '2209.00496v1'
+ '2211.09698v2' '2202.06457v1' '2211.09698v2' '2211.09698v2'
+ '2305.02079v2' '2208.14575v2']",2211.09698v2,https://smith.langchain.com/public/24d897ed-8dd3-4e90-8a11-bdfade5221e5/r,1.0,0.9844437530172336,0.3499999999825,1.0,0.8570818977962289
+ What is the thickness of the gain layer in the AC-LGAD sensors? What is the operating voltage for the BNL 10-200 sensor?,"Hello! Here are some key points about the AC-LGAD sensors based on the provided information:
+
+- The AC-LGAD sensors have been demonstrated to be capable of achieving 30 ps time resolution and 5-30 µm position resolution[^1].
+- The gain layer thickness and operating voltage for the BNL 10-200 sensor are not explicitly mentioned in the provided context.
+
+I hope this information helps!
+
+[^1]: [arXiv:2211.09698v2](http://arxiv.org/abs/2211.09698v2)","['mance of AC-coupled LGADs, JINST 14 (09) (2019) P09004. arXiv:\n1906.11542 ,doi:10.1088/1748-0221/14/09/p09004 .\n[18] R. Heller, et al., Characterization of BNL and HPK AC-LGAD sensors'
+ 'width.\nPhotographs of the three sensor length variations and wirebonding scheme are shown in\nFigures 1 and 2.\nFigure 1: Photographofa4inchwaferfabricatedwithAC-LGADstripsensorsofdiﬀerentlengths.'
+ 'Contents\n1 Introduction 1\n2 The AC-LGAD sensors 2\n3 The experimental setup at the FNAL Test Beam Facility 4\n4 Signal properties 5\n4.1 Gain uniformity 6\n4.2 Signal metrics 7'
+ 'CalorimetryUpgrade option: AC-LGAD layer to\ncapture very high rapidity charged\ntracks\nter with 3 cm-thick lead plane absorbers and ac-\ntive silicon pad layers, where the pad-layer de-'
+ 'A 3-layer AC-LGAD telescope has been assembled with three good AC-LGAD sensors. Figure 4\nshows the conﬁguration of the three-layer AC-LGAD sensor telescope90𝑆𝑟tests, which utilizes'
+ 'Avalanche Detectors (AC-LGAD) [8–11]. These sensors have been demonstrated to be capable of\nachieving 30 pstime resolution and 5-30 µmposition resolution [12–15].'
+ 'To characterize the LGAD (AC-LGAD) prototype sensor performance,90𝑆𝑟source tests are\nused. The LGAD prototype sensor has 15 pixels wire bonded to the output of the carrier board.'
+ 'Figure 2: The three strip length variations of BNL manufactured sensors tested at FNAL. BNL 5-\n200(left),BNL10-200(center)andBNL25-200(right). Thestripsarereadfromalternatingends,'
+ 'In this paper, we explore, for the ﬁrst time, AC-LGADs of centimeter-scale strip length and\nrelatively coarse pitch, enabling coverage of large areas with fewer channels. Longer strip sensors'
+ 'AC-LGAD telescope90Srtests.\nIntheAC-LGADsensor90Srsourcetests,theamplitudeoftheAC-LGADpixelanalogsignal\nisaround-500mVandthepulseFullWidthHalfMaximum(FWHM)isaround1ns. Theleftpanel']"," The gain layer in the AC-LGAD sensors is 50µm thick. The operating voltage for the BNL 10-200 sensor is 255V., 
+    ","['2207.10632v2' '2211.09698v2' '2211.09698v2' '2209.02580v2'
+ '2210.04879v2' '2211.09698v2' '2111.03182v1' '2211.09698v2'
+ '2211.09698v2' '2302.01447v1']",2211.09698v2,https://smith.langchain.com/public/8370923b-4e94-4109-9f53-60ba44c07263/r,0.5,0.8529752780149579,0.99999999999,0.5,0.2209944831953169
+ What is the proposed technology for the Forward Silicon Tracker (FST) detector at the future Electron-Ion Collider (EIC)?,"Hello! The proposed technology for the Forward Silicon Tracker (FST) detector at the future Electron-Ion Collider (EIC) includes the following key points:
+
+- The Forward Silicon Tracker (FST) plays an essential role in track reconstruction in the forward pseudorapidity region for the EIC project detector[^1].
+- It provides fine tracking momentum and spatial resolutions in the forward pseudorapidity region and has fast timing capability[^2].
+- The FST is based on the Monolithic Active Pixel Sensor (MAPS) technology, which has been developed to provide precise track measurements at the EIC[^3].
+
+I hope you find this information helpful!
+
+[^1]: http://arxiv.org/abs/2210.04879v2 
+[^2]: http://arxiv.org/abs/2111.03182v1 
+[^3]: http://arxiv.org/abs/2111.03182v1","['related advanced silicon sensor R &D will be discussed.\n2. Forward Silicon Tracker Detector Conceptual Design\nFigure 1: TheForwardSiliocnTracker(FST)[3,4]geometryhasbeenimplementedinGEANT4simulation'
+ 'eﬀects. At the future electron-ion collider (EIC) such measurements will be performed using far-forward detectors.'
+ 'The FST plays an essential role in track reconstruction in the forward peudorapidity region\nfor the EIC project detector. The track performance of the EIC detector reference design [5]'
+ 'Forward silicon tracking detector developments for the\nfuture Electron-Ion Collider\nXuan Li,𝑎\x96\x03Melynda Brooks,𝑎Matt Durham,𝑎Ming Liu,𝑎Yasser Corrales Morales,𝑎'
+ 'The proposed Forward Silicon Tracker (FST) for the future EIC provides ﬁne tracking mo-\nmentumandspatialresolutionsintheforwardpseudorapidityregion. Fasttimingcapabilitycanbe'
+ 'produced by the asymmetric collisions at the EIC. A Forward Silicon Tracker (FST) based on the\nMonolithic Active Pixel Sensor (MAPS) technology has been developed to provide precise track'
+ 'measurements at the EIC, which have enhanced sensitivities to access these kinematic extremes.\nA Forward Silicon Tracker (FST) detector is under detector design and R &D for the EIC. Two'
+ 'the Electron–Ion Collider (EIC) [7]. A major breakthrough in 4D tracking detector technology\nin recent years has been the development of silicon based sensors such as AC-coupled Low Gain'
+ 'A Proposed Forward Silicon Tracker for the Future Electron-Ion Collider and Associated\nPhysics Studies ,arXiv: 2/zero.alt3/zero.alt39./zero.alt32888 (2/zero.alt32/zero.alt3) .'
+ 'beam tests.\n4. Summary and Outlook\nTheproposedForwardSiliconTrackerconceptualdesign,whichhasbeenincludedintheEIC\nprojectdetectorreferencedesign[5],willenablehighprecisionforwardheavyﬂavorhadronandjet']"," The proposed technology for the Forward Silicon Tracker (FST) detector at the future Electron-Ion Collider (EIC) includes the Depleted Monolithic Active Pixel Sensor (DMAPS) and the AC coupled Low Gain Avalanche Diode (AC-LGAD).,
+    ","['2210.04879v2' '2108.08314v1' '2210.04879v2' '2210.04879v2'
+ '2111.03182v1' '2111.03182v1' '2210.04879v2' '2211.09698v2'
+ '2210.04879v2' '2210.04879v2']",2210.04879v2,https://smith.langchain.com/public/795d3077-39dc-412d-a5a3-e53119d75a5d/r,0.8,0.9467994251721806,0.99999999999,1.0,0.5290268898714551
+ What are the two advanced silicon technologies considered as candidates for the EIC silicon tracking detector? What is the proposed number of silicon disks for the Forward Silicon Tracker (FST) detector?,"Hello! Here are the details about the advanced silicon technologies considered for the EIC silicon tracking detector and the proposed number of silicon disks for the Forward Silicon Tracker (FST) detector:
+
+- The two advanced silicon technologies considered as candidates for the EIC silicon tracking detector are AC-LGAD and DepletedMAPS¹.
+- The proposed number of silicon disks for the Forward Silicon Tracker (FST) detector is three, and each disk contains 12 modules¹ ².
+
+I hope this information is helpful!
+
+¹ [^1^]: http://arxiv.org/abs/2302.00605v1 
+² [^2^]: http://arxiv.org/abs/2302.01447v1","['related advanced silicon sensor R &D will be discussed.\n2. Forward Silicon Tracker Detector Conceptual Design\nFigure 1: TheForwardSiliocnTracker(FST)[3,4]geometryhasbeenimplementedinGEANT4simulation'
+ 'EIC community developed two additional detector proposals:'
+ 'theoretical calculations [506] indicates good discriminating power can be obtained by future EIC measurements.\n5.9. Silicon tracking and vertexing for the EIC'
+ 'measurements at the EIC, which have enhanced sensitivities to access these kinematic extremes.\nA Forward Silicon Tracker (FST) detector is under detector design and R &D for the EIC. Two'
+ 'resolutions, have been considered as candidates for the EIC silicon tracking detector. Progresses\nandresultsabouttheFSTconceptualdesignandongoingDMAPSandLGADdetectorR &Dwill'
+ 'geometry parameters are shown in Table 2. The ECCE hadron\nand electron endcap silicon tracking sub-detector incorporates\nthe proposed Forward Silicon Tracker (FST) detector design by'
+ 'The Forward Silicon Tracker (FST) consists of three identical disks, and each disk\ncontains 12 modules. Each module has 3 single-sided double-metal Silicon mini-strips'
+ 'Other advanced silicon prototype sensors have been studied in parallel for the EIC detectors.\nThroughsupportsbytheLosAlamosNationalLaboratory(LANL)LaboratoryDirectedResearch &\n6'
+ 'electron and 100 GeV gold collisions with the EIC detector performance including a proposed forward silicon tracker [541].'
+ 'Forward silicon tracking detector developments for the future Electron-Ion Collider Xuan Li\nPrototypesensorsoftwoadvancedsilicontechnologies,AC-LGAD[10]andDepletedMAPS']"," The two advanced silicon technologies considered as candidates for the EIC silicon tracking detector are the Depleted Monolithic Active Pixel Sensor (DMAPS) and the AC coupled Low Gain Avalanche Diode (AC-LGAD). The proposed number of silicon disks for the Forward Silicon Tracker (FST) detector is 5., 
+    ","['2210.04879v2' '2208.14575v2' '2203.13199v2' '2210.04879v2'
+ '2210.04879v2' '2207.10632v2' '2302.00605v1' '2302.01447v1'
+ '2203.13199v2' '2210.04879v2']",2210.04879v2,https://smith.langchain.com/public/70858a70-de26-456a-a8db-a8cbcf913785/r,0.6666666666666666,0.9363043972850152,0.8210884353624198,0.5,0.7346752862533741
+ What are the dimensions of the MAPS pixel layer in the EIC technology? How many layers of MAPS detector will be in EIC? What is the thickness of the MAPS layer?,"Hello! Here are the details about the MAPS pixel layer in the EIC technology:
+
+- The dimensions of the MAPS pixel layer in the EIC technology are as follows:
+  - The pixel pitch is 10µm
+  - The material budget is 0.24% [1^] [2^]
+- The EIC will have a tracking system made of MAPS technology, consisting of 3×2 layers of MAPS-based silicon pixels [4^]
+- The thickness of the MAPS layer is optimized, and the details can be found in Table 1, Table 2, and Table 3 of the EIC detector geometry [2^]
+
+I hope this information is helpful!
+
+1. [arXiv](http://arxiv.org/abs/2207.10632v2) 
+2. [arXiv](http://arxiv.org/abs/2302.01447v1)","['generation 65 nm Monolithic Active Pixel Sensor (MAPS) [3], Micro-Pattern Gaseous Detector\n(MPGD) [4] and AC coupled Low Gain Avalanche Diode (AC-LGAD) [5] technologies. The EIC'
+ 'Table 2: ePIC MAPS hadron endcap tracking detector geometry\nIndex𝑧(cm)𝑟in(cm)𝑟out(cm)Pixel Pitch (𝜇m)Material Budget ( 𝑋\x9d𝑋0)\n1 25 3.676 23 10 0.24%\n2 45 3.676 43 10 0.24%\n3 70 3.842 43 10 0.24%'
+ '3 MAPS developments for EIC 9\n3.1 Performance for Tracker detectors . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9'
+ 'techniques. We propose to apply such deep learning methods to particle and jet reconstruction in\nthe SiD collider detector ECal based on MAPS technology.\n3 MAPS developments for EIC'
+ 'tracking system made of MAPS technology. The vertex cylin-\nder consists of strips which are made of pixels, where the indi-\nvidual sensor unit cell size is 17.8 mm ×30.0 mm. The length'
+ 'of the ePIC detector at EIC is presented. The physics case is outlined, together with estimates\nof rates and resolutions, and the current design based on Timepix4 technology is introduced.'
+ 'the Higgs branching ratios.\nFuture studies include:\n•Optimal Pixel size for a MAPS sensor-based ECal;\n•Comparison of analog and digital ECal performance;\n•Optimization of the overall ECal design;'
+ 'a detector design with an all silicon MAPS based tracking\nsystem for an EIC detector [53]. It consists of a barrel\ndetector with 3×2 layers of MAPS based silicon pix-'
+ '5 22.68 cm -30 cm 30 cm 10µm\nTable 2: The ECCE Monolithic Active Pixel Sensor (MAPS) based silicon bar-\nrel detector conceptual design geometry.'
+ 'optimized ePIC detector geometry (details in Table 1, Table 2 and Table 3). As highlighted inside the red\nbox, the current MAPS disk layout is based on stitched ﬂat MAPS sensors.']"," The dimensions of the MAPS pixel layer are 10x10 mm. There are a total of 7 layers in the MAPS detector at EIC. The thickness of each layer of the MAPS detector is 5um., 
+    ","['2302.01447v1' '2302.01447v1' '2203.07626v2' '2203.07626v2'
+ '2205.09185v2' '2305.02079v2' '2203.07626v2' '2210.08609v2'
+ '2207.10632v2' '2302.01447v1']",2305.15593v1,https://smith.langchain.com/public/fa3f9515-e918-4cf6-ae8f-0b8f0d7bd3fb/r,0.6666666666666666,0.9217933411347352,0.9626543209769582,0.3333333333333333,0.7242479580906435
+ What is the timing resolution required for the LGAD detector in the TOPSiDE project? What is the timing resolution achieved in the simulation of the conceptual LGAD silicon detector? What is the timing resolution expected in the monolithic implementation of the LGAD detector?,"Hello! Here are the details about the timing resolution for the LGAD detector in the TOPSiDE project:
+
+- The timing resolution required for the LGAD detector in the TOPSiDE project is theoretically suggested to be in the 10 ns range at best, which is already sufficient for the TOPSiDE application<sup>1</sup>.
+- In the simulation of the conceptual LGAD silicon detector, the timing resolution achieved is around 10 ps, which is a significant improvement from the required 10 ns timing resolution<sup>1</sup>.
+- The monolithic implementation of the LGAD detector is expected to achieve a timing resolution of 10 ps, meeting the required timing resolution for the TOPSiDE project<sup>1</sup>.
+
+I hope this information is helpful to you.
+
+<sup>1</sup> [^1^]: http://arxiv.org/abs/2112.10534v1","['LGAD Detector Concept for TOPSiDE Project 2\nsilicon wafers as a timing resolution detector has been theoretically suggested as 10 ns\nrange at best [5] which is already enough for TOPSiDE application.'
+ 'provide good spatial and timing resolutions, is underway. Bench test results of the LGAD and\nMALTA prototype sensors will be discussed.'
+ 'To evaluate timing resolution of the LGAD we have simulated with the TCAD\nsimulator, we have developed a simple implementation of constant fraction discriminator'
+ 'and around 30 ps timing resolution. The hadron endcap AC-LGAD tracker is designed to obtain\naround 30𝜇mspatial resolution in the 𝑥𝑦plane and around 25 ps timing resolution.\n3'
+ 'integrated into TOPSiDE[1], which is being developed for EIC (Electron-Ion Collider)\nproject. The LGAD detector will be taking its place to resolve requirement of time-'
+ 'experiment. The detector part was implemented with a LGAD based on industry\nstandard material, silicon, and evaluated its timing resolution with an semi-ideal CFD'
+ 'system as described in previous chapter. The timing resolution can only be simulated\nrelying on statistical approach to involve the Landau distribution of the silicon detector'
+ 'LGAD Detector Concept for TOPSiDE Project 9\nFigure 10. A few Landau proﬁles across the 50- µm-thick LGAD.\nFigure 11. Transient response from the particle generation situations depicted in Fig.\n10.'
+ 'of-ﬂight measurement for the TOPSiDE project. To achieve the required timing\nresolution of 10 ps, the LGAD will be completely monolithic structure, eliminating the'
+ 'timing resolution, especially in the vicinity of electron endcap (where the DIRC readout is\nlocated), making it synergetic with the LGAD TOF detectors located in the endcap.']"," The timing resolution required for the LGAD detector in the TOPSiDE project is 10 ps. The timing resolution achieved in the simulation of the conceptual LGAD silicon detector was 23 ps. The timing resolution expected in the monolithic implementation of the LGAD detector is expected to be better than 23 ps., 
+    ","['2112.10534v1' '2111.03182v1' '2112.10534v1' '2302.01447v1'
+ '2112.10534v1' '2112.10534v1' '2112.10534v1' '2112.10534v1'
+ '2112.10534v1' '2209.00496v1']",2112.10534v1,https://smith.langchain.com/public/f0729dae-a0b0-4e62-a155-4d586cebd737/r,0.0,0.9406207062804764,0.9626543209769582,0.3333333333333333,0.7399728126941016
+ What is the purpose of the ANN model in the Gas Electron Multiplier Transition Radiation Detector (GEM TRD)?,"^1^ [1]
+^2^ [2]
+
+[^1^]: http://arxiv.org/abs/2212.08628v1 
+[^2^]: http://arxiv.org/abs/2303.10776v2","['in the Gas Electron Multiplier Transition Radiation Detector (GEM TRD)\nusing deep learning. The Artiﬁcial Neural Network (ANN) model is trained'
+ 'e+e−annihilation. In Sec. 4, we brieﬂy discuss the possibility t o probe the longitudinal spin transfer\nG1Land the longitudinal-to-transverse spin transfer G⊥\n1Tat Belle. We make a summary in Sec. 5.'
+ 'The far-backward detectors measure electrons scattered at very low- Q2(quasi-real photo-\nproduction), and assist in luminosity determination through measurement of bremsstrahlung'
+ '2019.162356\n[2] Fabio Sauli, The gas electron multiplier (GEM): Operating principles\nand applications, Nuclear Instruments and Methods in Physics Re-'
+ 'used for experimental evaluation of analyzing power dependence AN(t) on momentum transfer t=−2mpTR.'
+ 'Some TR photons are absorbed in the 3 cm gas volume (Xe-based mixture)\nof GEM. The X-ray TR photons are extremely forward peaked, and therefore\ntheir clusters overlap with thedE'
+ 'tern Gaseous Detector (MPGD) that is a derivative of Gas Elec-\ntron Multiplier (GEM) technology. It features a single kapton\nfoil with GEM-like conical holes that are closed o ﬀat the bot-'
+ 'for the ANN model with 49 bins. The electron eﬃciency and the pion re-\njection factor can further be increased by using an ANN model with greater\nnumber of bins/features.\n6. Acknowledgements'
+ '2.3. Detector Simulation using DD4hep Software\nDD4hep software is used to create the detector and radiator geometries.\nTwo disk-like shapes are created: one for the TR-radiator and one for GEM.'
+ 'tion and anomaly detection. This method has been\nemployed for both γ/n shower classification in\ntheGlueX barrel calorimeter and detection of\npotential beyond Standard Model (BSM) di-jet']"," The purpose of the ANN model in the Gas Electron Multiplier Transition Radiation Detector (GEM TRD) is to separate electrons from pions using deep learning., 
+    ","['2303.10776v2' '2202.06614v1' '2209.00496v1' '2303.10776v2'
+ '2212.08628v1' '2303.10776v2' '2209.02580v2' '2303.10776v2'
+ '2303.10776v2' '2307.08593v1']",2303.10776v2,https://smith.langchain.com/public/59d00495-e1ce-4450-ae2f-7fc364c42eb6/r,0.0,0.9261276364588956,0.675680272099191,1.0,0.9260576023715632
+ What is the purpose of the ANN model in the Gas Electron Multiplier Transition Radiation Detector (GEM TRD)? What is the number of neurons in the input layer of the ANN model?,"Hello! The purpose of the ANN model in the Gas Electron Multiplier Transition Radiation Detector (GEM TRD) is to separate electrons from pions using deep learning<sup>1</sup>. The ANN model is trained with 49 bins<sup>2</sup>.
+
+The electron efficiency and the pion rejection factor can be further increased by using an ANN model with a greater number of bins/features<sup>2</sup>.
+
+I hope this helps you understand the purpose of the ANN model in the Gas Electron Multiplier Transition Radiation Detector (GEM TRD).
+
+[^1]: http://arxiv.org/abs/2303.10776v2 
+[^2]: http://arxiv.org/abs/2303.10776v2","['in the Gas Electron Multiplier Transition Radiation Detector (GEM TRD)\nusing deep learning. The Artiﬁcial Neural Network (ANN) model is trained'
+ '3.3 DNN inputs 6\n3.4 DNNs for the classiﬁcation or quantiﬁcation of QED radiation 7\n3.5 Regression DNN for DIS kinematic variables Q2,yandx 8'
+ 'e+e−annihilation. In Sec. 4, we brieﬂy discuss the possibility t o probe the longitudinal spin transfer\nG1Land the longitudinal-to-transverse spin transfer G⊥\n1Tat Belle. We make a summary in Sec. 5.'
+ 'for the ANN model with 49 bins. The electron eﬃciency and the pion re-\njection factor can further be increased by using an ANN model with greater\nnumber of bins/features.\n6. Acknowledgements'
+ '2019.162356\n[2] Fabio Sauli, The gas electron multiplier (GEM): Operating principles\nand applications, Nuclear Instruments and Methods in Physics Re-'
+ 'Some TR photons are absorbed in the 3 cm gas volume (Xe-based mixture)\nof GEM. The X-ray TR photons are extremely forward peaked, and therefore\ntheir clusters overlap with thedE'
+ '2.3. Detector Simulation using DD4hep Software\nDD4hep software is used to create the detector and radiator geometries.\nTwo disk-like shapes are created: one for the TR-radiator and one for GEM.'
+ 'tern Gaseous Detector (MPGD) that is a derivative of Gas Elec-\ntron Multiplier (GEM) technology. It features a single kapton\nfoil with GEM-like conical holes that are closed o ﬀat the bot-'
+ 'fornumeroussmallteststobeconductedparasiticallywiththemainHallDmeasurements. Recent\ntestsincludetransitionradiationdetectors,GEMs,andmodularringimagingCherenkovdetectors.'
+ 'In this paper, we will discuss the Gas Electron Multiplier Transition Ra-\ndiation Detector(GEM TRD) [1], simulation of GEM TRD and the deep\nlearning technique to separate electrons from pions.']"," The purpose of the ANN model in the Gas Electron Multiplier Transition Radiation Detector (GEM TRD) is to separate electrons from pions. The number of neurons in the input layer of the ANN model is 69., 
+    ","['2303.10776v2' '2110.05505v2' '2202.06614v1' '2303.10776v2'
+ '2303.10776v2' '2303.10776v2' '2303.10776v2' '2209.02580v2'
+ '2202.13970v1' '2303.10776v2']",2303.10776v2,https://smith.langchain.com/public/197a8ebb-180b-4c4f-b642-dea07574d884/r,1.0,0.9374608871446524,0.6888888888751111,0.5,0.7335455426105082
+ What are the dimensions of the calorimeter towers in the ECAL and HCAL? How many layers of absorbers are there in the HCAL? What is the sampling fraction for the ECAL and HCAL?,"Hello! Here are the details about the calorimeter towers in the ECAL and HCAL:
+
+- The ECAL features a non-projective geometry with 1486 towers, while the HCAL has 520 towers[^1].
+- The HCAL has 15 layers of scintillator planes as active materials[^2].
+- The sampling fraction for the ECAL and HCAL is weighted with their respective calorimeter sampling fractions[^3].
+
+I hope this information is helpful to you!
+
+[^1]: http://arxiv.org/abs/2310.04442v1 
+[^2]: http://arxiv.org/abs/2209.02580v2 
+[^3]: http://arxiv.org/abs/2209.02580v2","['10×10 cm2, 20 mm thick absorbers, and 3 mm thick scintilla-\ntors.\nTable 1: Summary of a single layer of sampling calorimeter structure. Sep-'
+ 'EIC [17]. Both the ECAL and HCAL feature a non-\nprojective geometry, with tower elements aligned parallel\nto the beam axis.\nThe ECAL employs tungsten-powder/scintillating'
+ 'HCal, weighted with their respective calorimeter sampling fractions. The dashed curves represent Gaussian ﬁts to the energy responses.'
+ 'The LFHCAL towers have an active depth of 1.4 m with an\nadditional space for the readout of about 20–30 cm depending\non their radial position, as seen in Table 6. Each tower consists'
+ 'system.\nThe basic calorimeter concept for the IHCAL /OHCAL is a\nsampling calorimeter with absorber plates tilted from the ra-\ndial direction. This design provides more uniform sampling'
+ '2.7 Geometric acceptance . . . . . . . . . . . . . . 7\n2.8 Total calorimeter thickness . . . . . . . . . . . 7\n3 Simulation and performance 10\n3.1 Geometry and simulation setup with DD4HEP . 10'
+ 'electromagnetic calorimeter. The detectors surface areas are\n40.5 cm×40.5 cm at 24 m and 30 cm ×21 cm at 37 m and their\ncalorimeters both use 20 cm long 2 cm ×2 cm PbWO 4crystals.'
+ 'tor planes as active materials. The calorimeter is\nsegmented as 10 cm x 10 cm on a plane and 15\nlayers of scintillator planes will be read together,\nmaking a tower.'
+ 'Figure 8: The simulated design of barrel electromagnetic calorimeter of ATHENA. The 6 layers\nof imaging CMOS Si sensors are interleaved with 5 Pb/ScFi layers, followed by a large chunk of'
+ '(Ecal) with 1486 towers, and a Hadronic Calorimeter (Hcal) with 520 towers. All\nSiPMsensors, front-endelectronicsboardsandreadout&triggeringboardscalledDEP']"," The ECAL towers have an area of 10x10 cm^2. The HCAL has 64 layers of absorbers, with the initial four layers made of tungsten and the subsequent 60 layers made of steel. The sampling fraction for the HCAL is 2.2%, and for the ECAL is 3.0%., 
+    ","['2208.05472v2' '2310.04442v1' '2208.05472v2' '2209.02580v2'
+ '2209.02580v2' '2208.05472v2' '2209.02580v2' '2209.02580v2'
+ '2203.07626v2' '2302.00605v1']",2310.04442v1,https://smith.langchain.com/public/e45f3c6e-aaf4-480d-8310-ddd20293b0fd/r,0.0,0.89263898603836,0.99999999999,0.3333333333333333,0.6538767917943722
+ What is the invariant F as a function of z and PT at √s= 140 GeV and √s= 45 GeV?,"Hello! Here are some key points about the invariant F as a function of z and PT at √s= 140 GeV and √s= 45 GeV:
+
+- Estimates for the invariant F, Eq. (17), are provided as a function of z and PT at √s= 140 GeV and √s= 45 GeV for different energy ranges and LDME sets[^1].
+- The µ parameter is provided as a function of z and PT at √s= 140 GeV and √s= 45 GeV for different approaches and LDME sets[^1].
+- The λ parameter is presented at √s= 140 GeV as a function of the J/ψ energy fraction z and PT[^1].
+
+I hope you find this information helpful.
+
+[^1]: http://arxiv.org/abs/2301.11987v1 
+
+Thank you for your question!","['Figure 7. Estimates for the invariant F, Eq. (17), as a function of z(left panels) and PT(right panels) at two cm energies,√s= 140 GeV (upper panels) and√s= 45 GeV (lower panels), for diﬀerent'
+ '√s = 45 GeV\n(a)\n10-410-310-2\n 0.3  0.4  0.5  0.6  0.7  0.8  0.9dσ/dz    (pb)\nz  √s = 140 GeV \n √s = 45 GeV (b)'
+ 'B. Theµparameter\nEstimates for the µparameter are again provided both in the Gottfried-Jackson and in the Helicity frames, as a\nfunction of zandPTat√s= 140 GeV, Fig. 3, and√s= 45 GeV, Fig. 4.'
+ 'In Fig. 8, the Sivers asymmetry Asin(φS−φT)is shown as a function of qTat√\nS= 45 and 140 GeV. Within the above'
+ 'PT [GeV]0.4\n0.2\n0.00.20.40.6\ns=140 GeV\n9GeV2<Q2<100GeV2\n20GeV<W<100GeV\n0.2<z<0.9 or PT>1 GeV'
+ 'A. Theλparameter\nIn Fig. 1 we present our predictions for λat√s= 140 GeV, as a function of both the J/ψ energy fraction z'
+ 'in both NRQCD and in the CS; as functions of (a) K t, (b)yand (c)z. We have used√s= 140 GeV.\nIn (a) and (b) we have used z= 0.7. In (a) we have taken 0 .1≤y≤1 for the range of yintegration'
+ 'represents the cross-section for√s= 140 GeV, while the red dash-dotted line represents the cross-section for√s= 45'
+ '√s= 89 GeV , R= 0.6\n0.1< y < 0.9, Q2>10 GeV2\n15 GeV < pT<20 GeV\n⟨zΛ⟩= 0.3\nΛAcos(ˆφΛ−ˆφSΛ)\nUU,T (%)\nj⊥(GeV)qT= 1 GeVFig. 4. Asin(ˆφΛ−ˆφSΛ)'
+ 'z(left panels) and PT(right panels). Once again we compute this quantity at two energies,√s= 140 GeV (upper\npanels) and√s= 45 GeV (lower panels) for diﬀerent approaches and LDME sets.']"," The invariant F is not equal to 1/2 and its value depends on both z and PT variables. It is not a constant, as its value varies with different kinematic regions.","['2301.11987v1' '2211.08709v1' '2301.11987v1' '2211.08709v1'
+ '2301.11987v1' '2301.11987v1' '2203.13516v2' '2306.14463v2'
+ '2201.04582v2' '2301.11987v1']",2301.11987v1,https://smith.langchain.com/public/d70266f1-ea0f-45b6-b846-abb961bae49c/r,1.0,0.9615437533836892,0.9028571428390856,0.6666666666666666,0.6599896336693767
+ What is the primary focus of the Spin Physics Detector (SPD) at the Nuclotron based Ion Collider facility (NICA)?,"Hello! The primary focus of the Spin Physics Detector (SPD) at the Nuclotron based Ion Collider facility (NICA) is to study nucleon spin structure in three dimensions. Here are some key points about the SPD at NICA:
+
+- The SPD is a multi-purpose experiment designed to study nucleon spin structure in three dimensions by colliding polarized protons and deuterons[^1^].
+- It aims to make measurements of distribution functions and fragmentation, focusing primarily on making measurements of distribution functions and fragmentation when NICA reaches its full potential of luminosity, energy, and polarization capacities[^2^].
+- The SPD is a proposed experiment at the Nuclotron based Collider facility (NICA) and is designed to test various phenomena at low to medium energies and provide high precision data to improve the present understanding of nucleon structure in general[^2^].
+
+I hope this information is helpful!
+
+[^1^]: http://arxiv.org/abs/2110.04489v1 
+[^2^]: http://arxiv.org/abs/2304.04604v3","['a)avg@jinr.ru\nb)amareshdatta@gmail.com\nc)karpishkoff@gmail.com\nd)iden@jinr.ru\ne)saleev@samsa.ru\nAbstract\nThe Spin Physics Detector (SPD) at the Nuclotron based Ion Collider fAcility'
+ '(NICA) is a multi-purpose experiment designed to study nucleon spin structure in\nthe three dimensions. With capabilities to collide polarized protons and deuterons with'
+ 'For stage II when NICA will reach its full potential of luminosity (1032cm−2s−1for the ppcolli-\nsions), energy and polarization capacities, the SPD will focus primarily on making measurements of'
+ 'and the nucleon spin. Along these lines, the AFTER@LHC programme relying on the LHCb and/or ALICE\ndetectors, can play a crucial role.'
+ 'spin [7].\nThe planned Electron-Ion Colliders (EIC) [8, 9] oﬀer\nunprecedented opportunities for spin physics, especially\nto constrain the ∆ gcontribution to the proton spin via'
+ 'distribution functions [14] and fragmentation [15].\nThe SPD [16] is a proposed experiment at the Nuclotron based Collider fAcility (NICA) at the'
+ 'particle tracks and also helps in determination of the charged particle momentum.\nFigure 3: Schematic of the SPD detector at stage I.'
+ 'Physics programs at the SPD aim to test various phenomena at low to medium energies and\nprovide high precision data to improve present understanding of nucleon structure in general and'
+ 'physics facilities, such as the EIC and NICA.\nControlled radio-frequency (RF) driven spin rotations,\nin particular the spin flip, are indispensable for nuclear'
+ 'collisions at large xfrom NICA-SPD [223, 224] and at high energies from the HL-LHC [225] and the Forward Physics\nFacility (FPF) [52].']"," The primary focus of the Spin Physics Detector (SPD) at the Nuclotron based Ion Collider facility (NICA) is to study nucleon spin structure in three dimensions and to measure cross-sections and spin asymmetries of hadronic processes sensitive to unpolarized and various polarized (helicity, Sivers, Boer-Mulders) gluon distributions inside the nucleons.,
+    ","['2304.04604v3' '2304.04604v3' '2304.04604v3' '2206.11624v1'
+ '2110.04489v1' '2304.04604v3' '2304.04604v3' '2304.04604v3'
+ '2309.06561v2' '2203.13199v2']",2304.04604v3,https://smith.langchain.com/public/4bda613c-b92f-4fab-a72f-38bd657487e7/r,0.8,0.9877587901673432,0.7856701939947976,1.0,0.4894446539789416
+ What is the resolution of the DNN reconstruction for Q2 in the full simulation of the H1 experiment? What is the resolution of the DNN reconstruction for y in the full simulation of the H1 experiment?,"Hello! Here are the key points about the resolution of the DNN reconstruction for Q2 and y in the full simulation of the H1 experiment:
+
+- The resolution for Q2 in various y ranges and reconstruction methods from the full simulation of H1 for events with Q2 > 200 $GeV^2$ is available, showing that the DNN resolution does get worse below y of around 0.2 and there is a small bias at very low y[^1].
+- Detailed resolution plots for the variables Q2 and y from the full simulation of H1 are provided, indicating that the agreement between the fast and full simulation at high y is fairly good[^2].
+- The DNN-based method shows promise for improving the resolution and extending the acceptance at low y events, although the exact correspondence in the full simulation is not yet estimated[^3].
+
+I hope this information is helpful to you!
+
+[^1]: http://arxiv.org/abs/2110.05505v2
+[^2]: http://arxiv.org/abs/2110.05505v2
+[^3]: http://arxiv.org/abs/2110.05505v2","['3.6 Benchmark of the DNN reconstruction vs. standard methods 10\n4 Demonstration using the full simulation of the H1 experiment 11\n5 Impact of further acceptance and resolution eﬀects at low y 15'
+ 'Q2/Q2\ngen0.5 1.0 1.5\nQ2/Q2\ngen0.5 1.0 1.5\nQ2/Q2\ngen\nFigure 16 . Resolutions for Q2in various yranges and reconstruction methods from the full\nsimulation of H1 for events with Q2>200 GeV2.\n– 22 –'
+ 'DJANGOH\nFigure 10 . Resolution comparison of the Rapgap andDjangoh generators on the DNN re-\nconstruction of Q2(left),y(middle), and x(right) as a function of the generated yfor the full'
+ 'yresolution at low y. We do not currently have an estimate for how large that eﬀect in\nATHENA will be, what is the actual correspondence in the full simulation (an acceptance,'
+ 'B Detailed resolution plots for the H1 full simulation\nIn this section detailed resolution plots for the variables Q2(Figures 16 and 17), y(Fig-'
+ 'DNN resolution does get worse below yof around 0.2 and there is a small bias at very low\ny, as we expected based on the H1 study. The Q2reconstruction is insensitive to that, since'
+ 'DA\nelectronH1 full simulation\nDNN\nDA\nelectronDNN\nDA\nelectron\n0.8 0.9 1.0 1.1 1.2\nQ2/Q2\ngen101\n100101102 ygen<0.15DNN\nDA\nelectron\n0.6 0.8 1.0 1.2 1.4\ny/ygenDNN\nDA\nelectron\n0.6 0.8 1.0 1.2 1.4'
+ 'for the standard reconstruction methods for our fast simulation of H1 compared to the full\nsimulation. The agreement between the fast and full simulation at high yis fairly good.'
+ '6 Summary and outlook 18\nA Detailed resolution plots for the ATHENA fast simulation 19\nB Detailed resolution plots for the H1 full simulation 22\n1 Introduction'
+ 'with the H1 full simulation; these comparisons allowed us to identify key eﬀects for low y\nevents.\nOur DNN-based method shows promise for improving the resolution and extending']"," The resolution of the DNN reconstruction for Q2 in the full simulation of the H1 experiment is approximately 1.0. 
+                            The resolution of the DNN reconstruction for y in the full simulation of the H1 experiment is approximately 1.0 as well.
+    ","['2110.05505v2' '2110.05505v2' '2110.05505v2' '2110.05505v2'
+ '2110.05505v2' '2110.05505v2' '2110.05505v2' '2110.05505v2'
+ '2110.05505v2' '2110.05505v2']",2110.05505v2,https://smith.langchain.com/public/66afe309-9222-459f-80b7-0bfd39f50ad0/r,1.0,0.0,0.7928571428373214,1.0,0.6454227789295454
+ What are the polarization parameters used to study J/ψ polarization in SIDIS at large PT?,"Hello! The polarization parameters used to study J/ψ polarization in SIDIS at large PT include:
+
+- The J/ψ formation mechanism is studied at large z (high- and low-energy set-ups) and as a function of PT at large energy[^1].
+- The precision of J/ψ polarization parameters in large-PT semi-inclusive deep-inelastic scattering at the EIC is worth exploring[^1].
+- The study of J/ψ meson production in SIDIS involves matching high and low transverse momentum[^1].
+- Estimates for the transverse Λ polarization in SIDIS are given, emphasizing their role in the study of the universality properties of the pFF[^2].
+
+I hope you find this information helpful!
+
+[^1]: http://arxiv.org/abs/2301.11987v1 
+[^2]: http://arxiv.org/abs/2202.10056v1","['help in getting information on the J/ψ formation mechanism, both at large z(high- and low-energy set-ups) and as\na function of PT(at large energy).'
+ 'the ‘SIDIS1’ results of Figs. 11 and 14 of that paper for comparison. However, we note that the\nsize of these projected asymmetry is heavily dependent on the non-perturbative parameterization\nused.\n4'
+ 'better precision is worth exploring [15–17]. In this paper we propose to look at the J/ψ polarization parameters in\n∗umberto.dalesio@ca.infn.it\n†luca.maxia@ca.infn.it\n‡francesco.murgia@ca.infn.it'
+ 'Λ polarization in unpolarized SIDIS electron-proton and electron-deuterium collisions, for different\nvalues of their beam energies, and considering the three previously presented scenarios.'
+ '[35] D. Boer, U. D’Alesio, F. Murgia, C. Pisano, and P. Taels, “ J/ψ meson production in SIDIS: matching high and low\ntransverse momentum,” JHEP 09(2020) 040, arXiv:2004.06740 [hep-ph] .'
+ '[1709.10054 ].\n[11] B. Parsamyan, Measurement of longitudinal-target-polarization dependent azimuthal\nasymmetries in SIDIS at COMPASS experiment ,PoSDIS2017 (2018) 259 [ 1801.01488 ].'
+ 'test the isospin symmetry in the unpolarized semi-inclusiv e deep inelastic scatterings (SIDIS) at large\n1'
+ 'from Belle data has been presented. Estimates for the transv erseΛpolarization in SIDIS are given,\nemphasising their role in the study of the (universality) pr operties of the pFF.\nReferences'
+ 'been made to the transverse polarization of Λ hyperon\nin SIDIS [55–58]. We note in particular that the param-\neterization in [53] emphasizes on the isospin symmetry'
+ 'J/ψpolarization in large- PTsemi-inclusive deep-inelastic scattering at the EIC\nUmberto D’Alesio,1, 2,∗Luca Maxia,1, 2,†Francesco Murgia,2,‡Cristian Pisano,1, 2,§and Sangem Rajesh3, 4,¶']"," The polarization parameters used to study J/ψ polarization in SIDIS at large PT are λ, µ, and ν. ","['2301.11987v1' '2108.07257v1' '2301.11987v1' '2307.02359v1'
+ '2301.11987v1' '2305.15461v2' '2202.06614v1' '2202.10056v1'
+ '2108.07740v3' '2301.11987v1']",2301.11987v1,https://smith.langchain.com/public/1f430a5f-328d-4b60-bc78-dcdb1590edd9/r,1.0,0.9757417284518,0.19999999999,1.0,0.4736148306724538
+ What are the primary drivers for developing or utilizing new computing infrastructure for the Electron Ion Collider? What are the biggest challenges currently facing the EIC? What is the role of technologies that are in the early stages of application towards High Energy Physics (HEP) and Nuclear Physics (NP) workflows?,"Hello! Here are some key points about the Electron Ion Collider (EIC) and its computing infrastructure:
+
+- The primary drivers for developing new computing infrastructure for the EIC include the need to handle unprecedented computational challenges and optimize complex systems, which can benefit from state-of-the-art AI-based strategies[^1^] [^2^].
+- The biggest challenges currently facing the EIC involve unprecedented computational challenges and the optimization of such complex systems, which can benefit from state-of-the-art AI-based strategies[^1^].
+- Technologies that are in the early stages of application towards High Energy Physics (HEP) and Nuclear Physics (NP) workflows play a crucial role in addressing the computational challenges and optimization needs of the EIC[^1^].
+
+I hope this helps address your questions about the EIC.
+
+[^1^]: http://arxiv.org/abs/2203.04530v2 
+[^2^]: http://arxiv.org/abs/2202.06457v1","['The upcoming Electron Ion Collider (EIC), has the study\nof these correlations and the transverse structure of the\nproton as one of the major scientiﬁc goals [22, 23].'
+ 'future EIC involve unprecedented computational challenges and the optimization of such complex\nsystems can beneﬁt from state of the art AI-based strategies. The Electron Ion Collider is one of'
+ 'nuclear physics (HENP). The EIC is a key international facility that will collide electrons and\nprotons/ions (e-p/A) at high energy with unprecedented luminosity. Amongst its rich physics'
+ 'the LHC and the future Electron-Ion Collider (EIC) in the US, Large Hadron electron\nCollider (LHeC) and Future Circular Collider (FCC) at CERN.'
+ 'development-for-powerful-particle-collider/.\n[5] R. A. Khalek, et al. Science Requirements and Detector Concepts for the Electron-Ion\nCollider: EIC Yellow Report, 2021.'
+ 'The high-luminosity high-energy Electron-Ion Collider (EIC) to be built at Brookhaven National\nLaboratory (BNL) will provide a clean environment to study several fundamental questions in'
+ 'A/b.pc/s.pc/t.pc/r.pc/a.pc/c.pc/t.pc : The Electron-Ion Collider (EIC) will be the next frontier project of nuclear physics'
+ 'motivations for the construction of the Electron - Ion Collider (EIC) in the USA [1], recently\napproved, as well as for the proposal of future electron – hadron colliders at CERN [2]. These\n8'
+ '6 Summary 11\n7 Acknowledgements 12\n1. Introduction\nThe Electron Ion Collider (EIC) is the next generation pre-\ncision nuclear physics accelerator complex that is being con-'
+ 'crucial information at the LHC and RHIC, but also hold the potential to yield novel insights\nat the upcoming Electron-Ion Collider (EIC).']"," Artificial intelligence use cases are one of the primary drivers for developing or utilizing new computing infrastructure for the EIC. The biggest challenges currently facing the EIC include the design and development of future-proof infrastructure, viable both currently and in the next decade when data collection commences. Technologies that are in the early stages of application towards High Energy Physics (HEP) and Nuclear Physics (NP) workflows, such as quantum computing, are important to consider for their possible integration., 
+    ","['2210.08609v2' '2203.04530v2' '2108.08254v1' '2203.12289v1'
+ '2305.02079v2' '2302.01447v1' '2202.06457v1' '2201.10499v1'
+ '2205.08607v1' '2311.00672v1']",2307.08593v1,https://smith.langchain.com/public/4be40b33-ffa3-4236-bb50-3a43b5c7a8bf/r,1.0,0.9221261143835268,0.99999999999,1.0,0.6039977465093711
+ What is the dimension of the MAPS pixel layer in ITS3 EIC technology?,"Hello! The dimension of the MAPS pixel layer in ITS3 EIC technology is as follows:
+
+- The MAPS technology used in the ITS3 EIC technology has a pixel pitch of 10 µm[^1].
+- The individual sensor unit cell size is 17.8 mm × 30.0 mm[^2].
+
+I hope this information is helpful to you.
+
+[^1]: [arxiv.org/abs/2209.02580v2](http://arxiv.org/abs/2209.02580v2)
+[^2]: [arxiv.org/abs/2205.09185v2](http://arxiv.org/abs/2205.09185v2)","['generation 65 nm Monolithic Active Pixel Sensor (MAPS) [3], Micro-Pattern Gaseous Detector\n(MPGD) [4] and AC coupled Low Gain Avalanche Diode (AC-LGAD) [5] technologies. The EIC'
+ 'pixels\n1MAPS 3.5 cm 15.5 cm 30 cm 10𝜇m50𝜇m\x190.72B\n2MAPS 3.5 cm 33.5 cm 53.75 cm 10𝜇m50𝜇m\x193.49B\n3MAPS 5.1 cm 41.1 cm 77.5 cm 10𝜇m50𝜇m\x195.22B\n4MALTA 7.0 cm 45.0 cm 106.25 cm 36.4𝜇m100𝜇m\x190.39B'
+ 'and two middle layers providing the central track\nsagitta measurements. All layers use the ITS-3 sen-\nsors with pixel pitch at 10 µm with an average mate-'
+ 'Table 2: ePIC MAPS hadron endcap tracking detector geometry\nIndex𝑧(cm)𝑟in(cm)𝑟out(cm)Pixel Pitch (𝜇m)Material Budget ( 𝑋\x9d𝑋0)\n1 25 3.676 23 10 0.24%\n2 45 3.676 43 10 0.24%\n3 70 3.842 43 10 0.24%'
+ '3 MAPS developments for EIC 9\n3.1 Performance for Tracker detectors . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9'
+ 'transistors per pixel. Building a new generation of MAPS, thinned and on an increased-resistivity\nsubstrate, is an opportunity that has been enabled thanks to the developments for ITS3 of the'
+ 'tracking system made of MAPS technology. The vertex cylin-\nder consists of strips which are made of pixels, where the indi-\nvidual sensor unit cell size is 17.8 mm ×30.0 mm. The length'
+ 'The EIC Silicon Consortium, of which the BNL and LBL are key members, targets co-development\nwith ALICE-ITS3 of the wafer-scale MAPS for the vertex layers, while also developing an EIC-'
+ 'silicon tracker MAPS (10 µmpixels) ITS3, eRD25 medium ITS2 (ALICE) fallback\nMPGD tracker µRWELL eRD6 medium GEM fallback\nLGAD TOF AC-LGAD eRD112 medium resistive LGAD lower ﬁll factor'
+ 'techniques. We propose to apply such deep learning methods to particle and jet reconstruction in\nthe SiD collider detector ECal based on MAPS technology.\n3 MAPS developments for EIC']"," Dimensions of MAPS pixel layer is 10x10 mm., 
+    ","['2302.01447v1' '2111.03182v1' '2209.02580v2' '2302.01447v1'
+ '2203.07626v2' '2203.07626v2' '2205.09185v2' '2203.07626v2'
+ '2209.00496v1' '2203.07626v2']",2209.11211v2,https://smith.langchain.com/public/498b409c-a9ea-480c-b795-a83078e97787/r,1.0,0.9808693571512628,0.4444444444296296,1.0,0.7191308243946903
+" What are the three criteria for constructing the novel SIDIS observable, q∗? What is the expected detector resolution for q∗ versus ⃗PhT?","Hello! Here are the three criteria for constructing the novel SIDIS observable, q∗, and the expected detector resolution for q∗ versus ⃗PhT:
+
+- The three criteria for constructing the novel SIDIS observable, q∗, include the construction of q∗ subject to limited detector resolution, the expectation of near-perfect resolution on the angles of charged particle tracks delivered by modern tracking detectors, and the measurement of purely angular observables q∗ and ϕ∗SIDIS to a much higher relative precision compared to the transverse momentum PhT[^1].
+- The expected detector resolution for q∗ versus ⃗PhT is evaluated, and it is expected that the purely angular observables q∗ and ϕ∗SIDIS will be measured to much higher relative precision compared to the transverse momentum PhT[^1].
+
+I hope this information is helpful to you!
+
+[^1]: [1] http://arxiv.org/abs/2209.11211v2","['theorem for q∗with standard TMDs, and evaluate the\nexpected detector resolution, statistical power, and re-\nsilience against systematic biases of q∗versus ⃗PhT.\nII. CONSTRUCTING q∗'
+ '1in polarized\nSIDIS on a proton (red), deuteron (blue) and3He (green) target for charged pion, kaon and unidentified hadron final states.'
+ 'Finally, the Q2evolution of the SIDIS structure functions measured at JLab and COMPASS are greatly needed\nfor validation of the current formalism in phenomenology.'
+ 'ηobservable in\nDrell-Yan [23]. We expect the purely angular observables\nq∗andϕ∗\nSIDIS to be measured to much higher relative\nprecision compared to the transverse momentum PhT.\nIII. FACTORIZATION'
+ 'design. Quantify detector acceptance and resolution eﬀects. Study feasibility of free nucleon structure extraction\nusing pole extrapolation in the spectator momentum.'
+ 'dynamics of hadronization and confinement in the kine-\nmatic region with the largest sensitivity.\nIn this paper we construct a novel SIDIS observable,'
+ 'Building upon the observables discussed in Sec. 3.2, we brieﬂy discuss the potential for\ndiffractive measurements at future colliders.'
+ 'Yan and SIDIS processes measured at ﬁxed target experiments [191–199] at relatively low energies,\nand the collider measurements at higher energy scales [200–212]. The span in the resolution scale Q'
+ 'subject to limited detector resolution, modern tracking\ndetectors deliver near-perfect resolution on the angles of\ncharged particle tracks. We will therefore construct q∗'
+ 'γ∗\nqk\nPPh\nFIG. 2. The SIDIS process at small x. An incoming virtual photon with momentum qdecays into a quark–antiquark pair']"," The three criteria for constructing the novel SIDIS observable, q∗, are (i) it is purely defined in terms of lab-frame angles and the beam energies; (ii) at small values q∗≪Q, the differential cross section d σ/dq∗, including spin correlations, still satisfies a rigorous factorization theorem in terms of the standard TMD PDFs and FFs; (iii) it does not dilute the statistical power of the available event sample. The expected detector resolution for q∗ versus ⃗PhT is shown in Fig. 2, where q∗ improves over the resolution of PhT/z by an order of magnitude across the strongly confined TMD region q∗, PhT/z<∼2 GeV.","['2209.11211v2' '2308.07461v1' '2303.02579v1' '2209.11211v2'
+ '2108.08314v1' '2209.11211v2' '2108.08254v1' '2211.15746v3'
+ '2209.11211v2' '2308.07461v1']",2209.11211v2,https://smith.langchain.com/public/4820fed2-b453-4f1d-ab39-25fa4d5d9d2b/r,1.0,0.926126733563383,0.99999999999,0.0,0.4512781675569003
+ What is the significance of the observable q∗ in the context of TMD physics? What is the construction of q∗ based on? What is the expected improvement in resolution of q∗ compared to PhT/z?,"Hello! Here are some key points about the observable q∗ in the context of TMD physics:
+
+- The observable q∗ is significant in TMD physics as it is sensitive to transverse momentum dependence (TMD) in eN→ehX[^1^].
+- The construction of q∗ is based on lab-frame angles and is defined purely by these angles in 3D measurements of confinement and hadronization[^1^].
+- The expected improvement in resolution of q∗ compared to PhT/z is that despite its superior resolution, q∗ enjoys comparable statistical sensitivity to PhT[^1^].
+
+I hope this helps you understand the significance of the observable q∗ in TMD physics.
+
+- [^1^]: http://arxiv.org/abs/2209.11211v2
+
+--- 
+# References
+
+- [^1^]: http://arxiv.org/abs/2209.11211v2","['theorem for q∗with standard TMDs, and evaluate the\nexpected detector resolution, statistical power, and re-\nsilience against systematic biases of q∗versus ⃗PhT.\nII. CONSTRUCTING q∗'
+ 'ing for the QCD factorization breaking. Since its mechanism involves an\ninterplay of the direct-photon and resolved-photon contri butions, the most\nsensitive observable is the xobs'
+ '1. To consider the physics case for a Low Q2Tagger. Is it well established? Is it worth the\ninvestment? What is needed in terms of resolution, event identiﬁcation etc to make it\nuseful?'
+ 'tanϕrest\nacop=sinϕhPhT\nzQs\n1 + 4 M2x2/Q2\n1−M2x2y2/Q2−y+O(λ2)\n=sinϕhPhT\nzQs\n1 +γ2\n1−γ2y2/4−y+O(λ2). (S3)\nWe now wish to construct an optimized observable qM'
+ 'TMD FFs Gh/q\n1L. The observable describes the following scattering process: a longitudinally\npolarized quark inside the transversely polarized proton (as denoted by the TMD PDFs\ngq'
+ 'observables that carry information on the macroscopic QGP properties and then move to discussing advances in\nthe phenomenological modeling and data-theory comparisons.\nInitialenergy\ndensity'
+ 'tum number: is it quarks or a gluonic topological junc-\ntion? Future data analyses and experiments with the\nproposed observables would provide conclusive answers\nto this fundamental question.'
+ 'The following observables that help indicate QED radiation in the event are included\nas inputs to the regression DNN for Q2,yandx:\n•The values of pbal\nTandpbal\nz.'
+ 'We propose an observable q∗sensitive to transverse momentum dependence (TMD) in eN→ehX,\nwith q∗/ENdefined purely by lab-frame angles. In 3D measurements of confinement and hadroniza-'
+ 'Despite its superior resolution, q∗enjoys comparable statisti-\ncal sensitivity to PhT.\nScaled to an integrated EIC luminosity of 10 fb−1, this\nresults in a sample with Nπ+= 4.18×108. We first assess']"," The observable q∗ is significant in TMD physics as it is designed to be maximally resilient against resolution effects while delivering the same sensitivity to TMD dynamics as ⃗PhT. The construction of q∗ is purely defined in terms of lab-frame angles and the beam energies. It is based on the high-precision reconstruction of polar angles and azimuthal angles in the EIC lab frame. The expected improvement in resolution of q∗ compared to PhT/z is an order of magnitude across the strongly confined TMD region q∗, PhT/z<∼2 GeV.","['2209.11211v2' '2303.05182v2' '2305.02079v2' '2209.11211v2'
+ '2311.00672v1' '2303.02579v1' '2205.05685v3' '2110.05505v2'
+ '2209.11211v2' '2209.11211v2']",2209.11211v2,https://smith.langchain.com/public/e204eb55-46f5-413d-a452-fe61cc2225e7/r,0.8,0.920818767970318,0.99999999999,1.0,0.6862480316478009
+ What is the utility of the different forms of the spin precession vector found in the literature?,"Hello! The utility of the different forms of the spin precession vector found in the literature is as follows:
+
+- Different forms of the spin precession vector found in the literature are equivalent and related by the electromagnetic spin precession equation, which is useful for understanding the spin-orbit motion of a particle in an accelerator, including fringe fields[^1^].
+- These forms are derived in detail to show the utility of the precession vector expressions, and they are employed to rotate the spin in accelerator modules[^1^].
+- The spin precession vector expressions are useful for spin matching in electron storage rings, and they are essential for evaluating the absolute value of the vector meson-proton spin-longitudinal asymmetry[^2^].
+
+I hope this information is helpful to you!
+
+[^1^]: [arXiv:2112.07607v3](http://arxiv.org/abs/2112.07607v3)
+[^2^]: [arXiv:2108.02871v1](http://arxiv.org/abs/2108.02871v1)
+
+--- 
+# References
+
+1. [arXiv:2112.07607v3](http://arxiv.org/abs/2112.07607v3)
+2. [arXiv:2108.02871v1](http://arxiv.org/abs/2108.02871v1)","['spin-orbit motion of a particle in an accelerator including fringe fields was derived. We showed\nhow different forms of the spin precession vector found in the literature are equivalent, related by'
+ 'nate D-wave depolarization in the extraction of neutron\nspin structure, or to maximize the D-wave in the ex-\nploration of vector- or tensor-polarized spin asymmetries'
+ 'by theS-wave only with a total spin of 1 /2 and/or 3/2. 148\nFor the evaluation of the absolute value of the vector- 149\nmeson–proton SL, we apply the commonly used and ef- 150'
+ 'The latter have been interpreted as a measure of the pressure and shear forces inside hadrons [21–24] as well as the\nmomentum-current gravitational multipoles [25]; see [26] for a recent review.'
+ '3\nWe emphasize that the set of spin dependent tensor\ngiven by Eq. (4) is complete but not unique. The advan-\ntages of using such a spin dependent set manifest them-'
+ 'by V. Ptitsyn [9], are now re-derived in detail to show the utility of the precession vector expressions\nin Eq. (20). The ESR employs four “solenoid modules” and “bend modules” to rotate the spin to'
+ 'qualitatively and quantitatively, how the proton spin is distributed among the spins and orbital angular momenta'
+ 'Different forms of first order spin-orbit motion and their\nutility in spin matching in electron storage rings∗\nM. G. Signorelli†1and G. H. Hoffstaetter1,2\n1Cornell University, Ithaca, NY 14853'
+ '[2] V. Bargmann, L. Michel, and V. L. Telegdi. “Precession of the Polarization of Particles Moving\nin a Homogeneous Electromagnetic Field”. In: Phys. Rev. Lett. 2 (10 1959), pp. 435–436. doi:'
+ 'The question of how quantum mechanical e ﬀects related to spin degrees of freedom or Quantum Field Theory']"," The different forms of the spin precession vector are useful for fast first-order spin tracking and for deriving spin matching conditions in the Electron Storage Ring (ESR) of the Electron-Ion Collider (EIC).,
+    ","['2112.07607v3' '2108.08314v1' '2108.02871v1' '2305.14572v1'
+ '2108.07740v3' '2112.07607v3' '2308.07461v1' '2112.07607v3'
+ '2112.07607v3' '2303.02579v1']",2112.07607v3,https://smith.langchain.com/public/3f831ad7-61ee-4199-8494-e814aa7653d0/r,1.0,0.9807334634363356,0.8333333333214286,1.0,0.8665078849821285
+ What are the two types of wakefields that drive single-bunch loss of Landau damping (LLD) and coupled-bunch instabilities (CBI)?,"Hello! The two types of wakefields that drive single-bunch loss of Landau damping (LLD) and coupled-bunch instabilities (CBI) are as follows:
+
+- Short-range wakefields are responsible for single-bunch loss of Landau damping (LLD) and are excited at any geometry change of the beam pipe. 
+- Long-range wakefields are responsible for coupled-bunch instabilities (CBI) and are excited when the decay time of the wakefield is longer than the bunch spacing[^1^].
+
+I hope this answers your question!
+
+[^1^]: [1](http://arxiv.org/abs/2309.06638v1) 
+
+--- 
+References:
+1. http://arxiv.org/abs/2306.14463v2 
+2. http://arxiv.org/abs/2309.06638v1","['structures with narrow-band impedance. Single-bunch loss of Landau damping (LLD) is mainly\ndetermined by short-range wakefields excited at any geometry change of the beam pipe (broadband'
+ 'two types of TMDs (known as unintegrated gluon distributions), are known as the Weizs¨ acker-Williams (WW) gluon'
+ 'bunch instability (CBI), leading to the coherent coupled\nmotion of individual bunches, is possible if the decay time\nof the wakefield 2 Q/ω ris longer than the bunch spacing.'
+ 'of the vector meson wave functions. In this analysis we will consider two popular models\nemployed in the literature – the Boosted Gaussian (BG) and Light - Cone Gauss (LCG) –'
+ 'low-charge main beam. There are two SWFA schemes: i) collinear wakeﬁeld acceleration, or CWA,\nwhen the main beam follows the drive beam in the same structure and ii) two-beam acceleration,'
+ 'consider them separately, and then we show that, if the\nLLD threshold is comparable to the CBI threshold, the\ninstability in the presence of two impedances has a sig-'
+ 'are driven by short- and long-range wakefields, respec-\ntively [2–8]. For the longitudinal beam motion consid-\nered below, many impedance sources, related to the wake'
+ '[53] A. Lumpkin, B. Jacobson, A. Edelen, Y. Sun, J. Power, B. Carlsten, and N. Baboi, 2021\nSnowmass LoI: Mitigation of Emittance Dilution Due to Wakeﬁelds in Accelerator Cavities'
+ 'ticles, called Landau damping [1], or on active damping\nsystems in addition.\nIt is common in beam stability analysis to sepa-\nrate single- and multi-bunch collective effects since they'
+ 'Brightness Hadron Beams (Morschach, Switzerland,\n2010) arXiv:1207.5826 [physics.acc-ph].\n[13] I. Karpov, T. Argyropoulos, and E. Shaposhnikova,\n“Thresholds for loss of landau damping in longitudinal']"," The two types of wakefields that drive single-bunch loss of Landau damping (LLD) are short-range wakefields excited at any geometry change of the beam pipe (broadband impedance). The two types of wakefields that drive coupled-bunch instabilities (CBI) are long-range wakefields induced in the resonant structures with narrow-band impedance., 
+    ","['2309.06638v1' '2306.14463v2' '2309.06638v1' '2201.10499v1'
+ '2208.12368v1' '2309.06638v1' '2309.06638v1' '2208.12368v1'
+ '2309.06638v1' '2309.06638v1']",2309.06638v1,https://smith.langchain.com/public/b9da8da8-877f-4267-af98-9b6681d7d099/r,0.6666666666666666,0.9774322255338525,0.9060405643638304,1.0,0.6149664841144629
+ What is the maximum gradient on the electrodes in the DC gun design parameters? What is the peak current in the DC gun design parameters? What is the gap voltage in the DC gun design parameters?,"Hello! The maximum gradient on the electrodes in the DC gun design parameters is 9.4 MV/m<sup>1</sup>. The peak current is 4.5 A, and the gap voltage is 350 kV<sup>1</sup>.
+
+- The maximum gradient on the electrodes in the DC gun design parameters is 9.4 MV/m<sup>1</sup>.
+- The peak current in the DC gun design parameters is 4.5 A<sup>1</sup>.
+- The gap voltage in the DC gun design parameters is 350 kV<sup>1</sup>.
+
+<sup>1</sup>: [http://arxiv.org/abs/2112.03042v1](http://arxiv.org/abs/2112.03042v1)","['ing. With the cathode load-lock system, the cathode canTABLE I. DC gun design parameters\nValue\nGap Voltage 350 kV\nCathode radius 1.26 cm\nPierce angle 22◦\nCathode gradient 3.8 MV/m'
+ 'determined by the maximum gradient on the electrode'
+ 'Nagoya DC guns have achieved 2-6 A of peak current.\nHowever, the rest of polarized guns have peak currents\nup to 10s of mA range. So far, no operational or retired'
+ 'Maximum gradient on the electrodes 9.4 MV /m\nAnode radius 1.8 cm\nPeak Current 4.5 A\nBunch charge 7 nC\nNormalized Emittance 3.4 mm-mrad\nbe activated at a separate preparation chamber, other'
+ '4r) (1)\nwhere V is the voltage across the DC gap of width d, and\nr is the laser spot size radius [18]. The gap distance is\ndetermined by the maximum gradient on the electrode'
+ 'gun voltage has to be above 280 kV with beam peak cur-\nrent above 4.5 A according to the current pre-injector\ndesign [3].\nThere have been substantial eﬀorts in high voltage po-'
+ 'High voltage DC gun for high intensity polarized electron source\nErdong Wang,∗Omer Rahman,†John Skaritka, Wei Liu, Jyoti Biswas,'
+ 'At 350 kV gap voltage, the maximum gradient\nof 9.4 MV/m occurs at the cathode Pierce shape\nnose(labeled 1) and the triple point shed(labeled 3) as\nshown in ﬁgure 2. The gradient at the center of the'
+ 'gas load.\n2. High voltage: For high bunch charge beam, high\ngradient and high voltage are desirable on the\ncathode. However, the gradient cannot exceed 10'
+ 'gap voltage for the SLC gun was 120 kV and the cathode\nhad to be reactivated every 3-5 days [4]. JLab Contin-\nuous Electron Beam Accelerator Facility (CEBAF) gun']"," The maximum gradient on the electrodes in the DC gun design parameters is 9.4 MV/m. The peak current in the DC gun design parameters is 4.5 A. The gap voltage in the DC gun design parameters is 350 kV.,
+  ","['2112.03042v1' '2112.03042v1' '2112.03042v1' '2112.03042v1'
+ '2112.03042v1' '2112.03042v1' '2112.03042v1' '2112.03042v1'
+ '2112.03042v1' '2112.03042v1']",2112.03042v1,https://smith.langchain.com/public/fc5b504b-e68a-418f-b7d2-1c6081563337/r,1.0,0.9131419095514444,0.7869614512359232,1.0,0.9911809298196788
+ What is the process that the azimuthal asymmetries in J/ψ-photon production in the electron-proton scattering process probe?,"Hello! The azimuthal asymmetries in J/ψ-photon production in the electron-proton scattering process probe the following process:
+
+- The process of coherent diffraction (exclusive production of φ and J/ψ) on heavy nuclei, which also provides a way of probing the transverse gluon distributions and possibly its fluctuations[^1^] [^2^]
+- The (un)polarized electron-proton collision process e(l) + p↑(P) → e(l′) + J/ψ(Ph) + X[^6^]
+- The production of J/ψ as a probe of double parton scattering at LHCb[^3^]
+- The pair production of J/ψ as a probe of double parton scattering at LHCb[^4^]
+- The azimuthal asymmetries in the jet-axis probe at the EicC, which includes Asin(φJ+φS) and Acos(2φJ)[^5^]
+
+I hope this information is helpful to you!
+
+[^1^]: http://arxiv.org/abs/2301.11987v1 
+[^2^]: http://arxiv.org/abs/2205.04570v1 
+[^3^]: http://arxiv.org/abs/2204.09982v1 
+[^4^]: http://arxiv.org/abs/2204.01527v3 
+[^5^]: http://arxiv.org/abs/2304.04604v3 
+[^6^]: http://arxiv.org/abs/2108.04866v1","['In this work, we present a study of azimuthal asymmetries in J/ψ -photon production in the electron-proton'
+ 'process is coherent diﬀraction (exclusive production of φandJ/ψ) on heavy nuclei, which\nalso gives a way of probing the transverse gluon distributions and possibly its ﬂuctuations.'
+ 'proton can be linearly polarized [14]. This manifest itself in scattering processes through azimuthal\nasymmetries as pointed out in [1, 15, 16]. These are the QCD analogues of the QED asymmetries'
+ 'pγ⊥∼ −K⊥∼φ⊥−πφ⊥φT\nFIG. 2: Representation of azimuthal angles in J/ψ-photon production in SIDIS process.\nIII. AZIMUTHAL ASYMMETRIES'
+ '[59] C. H. Kom, A. Kulesza, and W. J. Stirling, “Pair\nProduction of J/psi as a Probe of Double Parton\nScattering at LHCb,” Phys. Rev. Lett. 107(2011)\n082002, 1105.4186 .'
+ '2 Sivers asymmetry\nWe consider the (un)polarized electron-proton collision process\ne(l) +p↑(P)→e(l′) +J/ψ(Ph) +X, (1)'
+ 'review the notion of the T-odd jet function. In Section IV, we give the complete list of\nthe azimuthal asymmetries in the jet-axis probe in deep-inelastic scattering of a nucleon.'
+ 'and deuterons via measurements of unpolarized cross-sections and various spin asymmetries in the\nproduction of different probe particles.'
+ '[15] H.-F. Zhang, W.-L. Sang, and Y.-P. Yan, “Statistical analysis of the azimuthal asymmetry in the J/ψ leptoproduction in\nunpolarized epcollisions,” JHEP 10(2019) 234, arXiv:1908.02521 [hep-ph] .'
+ 'Figure 6. Azimuthal asymmetries Asin(φJ+φS)(a) and Acos(2φJ)(b) in the jet-axis probe at the\nEicC. The data points with error bars are from event generator simulations and the lines are from']", The azimuthal asymmetries in J/ψ-photon production in the electron-proton scattering process probe the γ∗+g→J/ψ+γ process.,"['2211.08709v1' '2209.00496v1' '2204.01527v3' '2211.08709v1'
+ '2204.09982v1' '2108.04866v1' '2205.04570v1' '2304.04604v3'
+ '2301.11987v1' '2205.04570v1']",2211.08709v1,https://smith.langchain.com/public/85f6030b-ae21-4f03-89da-f625d6e63ded/r,0.8,0.9429669821153016,0.7347222222130383,1.0,0.4471109551805947
+ What are the two types of gluon TMDs that have attracted a lot of interest in the last few years? What is the process in which the linearly polarized gluon TMD causes azimuthal asymmetries?,"Hello! The two types of gluon Transverse Momentum Dependent Distributions (TMDs) that have attracted a lot of interest in the last few years are the unpolarized gluon TMD and the linearly polarized gluon TMD. The linearly polarized gluon TMD causes azimuthal asymmetries through the measurements of the azimuthal asymmetries in specific weight factors. This process can be probed through the measurements of the azimuthal asymmetries in specific weight factors. The linear gluon polarization manifests itself through $cos^2 φ$ and $cos^4φ$ azimuthal asymmetries. These distributions can be extracted by studying specific azimuthal asymmetries for specific weight factors[^1].
+
+[^1]: [http://arxiv.org/abs/2210.08609v2](http://arxiv.org/abs/2210.08609v2)","['interest in the last few years. Linearly polarized gluon TMD, also referred to as azimuthal correlated gluon distribution'
+ 'asymmetry in the kinematics considered, which will be accessible at the EIC. Our calculations show that D-meson\nand jet production at the EIC could be a useful process to probe the gluon TMDs.'
+ '1gluon\nTMD could be extracted by studying the following two azimuthal asymmetries, for speciﬁc weight factors :\nAcos 2φT=q2\nT\nM2pB0\nA0h⊥g\n1(x,q2\nT)\nfg\n1(x,q2\nT), (23)\nand\nAcos 2(φT−φ⊥)=q2\nT\nM2pB2'
+ 'TMD gluon distribution is considered in the strict high energy limit and they still can undergo\nnonlinear evolution, even at leading twist (for an interesting discussion of two types of saturation'
+ 'the gluon content of the nucleons and nuclei. An example that has recently gathered attention is the gluon TMDs.'
+ '1are the gluon\nSivers TMD and the unpolarized gluon TMD, respec-\ntively. The TMD of linearly polarized gluons can\nbe probed through the measurements of the azimuthal'
+ 'In all cross-sections we have found a contribution of unpolarized and linearly polarized gluon\nTMD. For both of these distributions we have used their re-factorization in coeﬃcient functions and'
+ 'In a leading-twist TMD approach there are eight independent gluon TMD distribution functions\n(TMD PDFs) for a spin-1 /2 hadron [2]. They account for all relevant correlations bet ween the gluon\n1'
+ 'the linear gluon polarization manifests itself through cos 2 φand cos 4φazimuthal asymmetries [12, 18].'
+ 'unpolarized and linearly polarized gluon TMDs, fg\n1andh⊥g\n1, was investigated in Refs. [51–53].\nThe ﬁrst class of processes that serves as probe channels of the BFKL dynamics is represented']", The two types of gluon TMDs that have attracted a lot of interest in the last few years are linearly polarized gluon distribution and the gluon Sivers function. The linearly polarized gluon TMD causes azimuthal asymmetries in the unpolarized electron-proton scattering process.,"['2211.08709v1' '2306.14463v2' '2211.08709v1' '2306.17513v1'
+ '2203.13199v2' '2210.08609v2' '2111.03703v2' '2203.03299v1'
+ '2204.01527v3' '2206.11624v1']",2211.08709v1,https://smith.langchain.com/public/76144041-5e5d-4c52-b366-c19c59af1c9c/r,1.0,0.906634901601208,0.9749999999878124,1.0,0.6125432919228542
+ What is the process dependence of the gluon TMDs? How many gauge links are present in the gluon TMDs? What is the expected sign of the Sivers function in a SIDIS process compared to its observation in a Drell-Yan process?,"Hello! Here are some key points about the process dependence of the gluon TMDs and the expected sign of the Sivers function in different processes:
+
+- The gluon Transverse Momentum Dependent Distribution Functions (TMDs) exhibit process dependence, meaning they are dependent on the process considered[^1].
+- The process dependence of the gluon TMDs is influenced by the gauge link, and it does not occur in the collinear case[^1].
+- At the leading twist, there are eight gluon TMDs, and the Boer-Mulders function, $h_{\perp g}^1$, and the Sivers function, $f_{\perp g}$, are among these functions[^2].
+- The expected sign of the Sivers function in a Semi-Inclusive Deep Inelastic Scattering (SIDIS) process is opposite to its observation in a Drell-Yan process[^3].
+- The gauge link structure is simpler in electron-proton scattering processes compared to other processes, making it easier to disentangle the d-type gluon TMDs[^4].
+
+I hope this information is helpful to you!
+
+[^1]: [1]
+[^2]: [2]
+[^3]: [3]
+[^4]: [4]","['the process dependence of the TMDs. Experimental veriﬁcation of such properties could test our understanding of\nthe TMD formalism and nonperturbative QCD eﬀects in general.'
+ 'Some estimates for gluon Sivers TMD from both\nhadron-hadron collision and SIDIS data exist. Fits to\nSIDIS data on transverse asymmetry in pion and kaon'
+ '(2019), doi:10.1140 /epjc/s10052-019-7551-4, 1910.09640 .\n[12]U. D’Alesio, L. Maxia, F . Murgia, C. Pisano and S. Rajesh, Process dependence of the gluon'
+ 'and d-type gluon TMDs, and disentangling the two is diﬃcult from the observables. The gauge\nlink structure is simpler in epscattering processes [39], and the upcoming electron-ion collider'
+ 'will discuss the expected manifestations of gluon saturation for each of these processes while\nkeeping an open tab to other mechanisms that could shroud its attributes.'
+ 'At the leading twist, there are eight gluon TMDs. Among these, the Boer-Mulders function, h⊥g\n1, and the Sivers\nfunction, f⊥g'
+ 'of the gauge link makes them dependent on the process considered, while it does not happen in\nthe collinear case [13–15]. In particular, quark TMD PDFs depend on the process by means of'
+ 'are process-independent. Preliminary results for spectator-model T-odd TMDs at twist-2 and their\ndependence on the gauge link can be found in Refs. [43–45].'
+ 'within our gluon GTMD model context and assumptions, there is considerable tension between the\ndata for these two types of processes concerning the tdependence. Photo- and electroproduction'
+ 'in exclusive processes like double Drell-Yan [147–150], as well as being probed by exclusive diﬀractive processes\nthat are sensitive to small- xgluon GTMDs and gluon saturation [151–153].']"," The process dependence of the gluon TMDs is more involved due to the presence of two gauge links. The Sivers function observed in a SIDIS process is expected to have opposite sign as compared with its observation in a Drell-Yan process, due to the difference in the gauge link structure or initial/final state effects., 
+    ","['2211.08709v1' '2210.08609v2' '2108.04866v1' '2203.13516v2'
+ '2108.08254v1' '2306.14463v2' '2310.19916v1' '2206.11624v1'
+ '2301.07980v3' '2305.14572v1']",2211.08709v1,https://smith.langchain.com/public/d80cdc83-a8e3-452b-a11c-cf662766e3f6/r,0.8333333333333334,0.834556780992191,0.99999999999,0.6666666666666666,
+ What are the dimensions of the aperture of the IR quadrupole and dipole coils? What is the field gradient of the IR quadrupole? What is the field of the IR dipole?,"Hello! Here are the details about the dimensions of the aperture of the IR quadrupole and dipole coils, as well as the field gradient of the IR quadrupole and the field of the IR dipole:
+
+- The aperture of the IR quadrupole and dipole coils is provided in the context document [1^].
+- The field gradient of the IR quadrupole is also mentioned in the context document [2^].
+- The field of the IR dipole is specified in the context document [3^].
+
+I hope this information is helpful!
+
+- [1]: http://arxiv.org/abs/2305.06775v1 
+- [2]: http://arxiv.org/abs/2305.06775v1 
+- [3]: http://arxiv.org/abs/2305.06775v1 
+
+--- 
+# References
+
+- [6]: http://arxiv.org/abs/2305.06775v1","['high-field Nb 3Sn dipoles and quadrupoles for the 2nd IR. \nThese studies included the aperture and field ranges, \noperation margins, and stress management in brittle N b3Sn \ncoils.'
+ 'Magnet  Length  \n[m] Aperture  \n[mm]  Field G  \n[T/m]  B field   \n[T] \nQFF1A  2.6*/1.2** 173*/119** -106.4*/155** - \nQFF2A  3.2*/1.2** 256*/190** 71.9*/-65.6** - \nQFF2B  3** 258** 71.6** -'
+ 'which carries virtuality Q2,ris the transverse size and direction of the dipole, zthe energy\nfraction of the photon taken by the quark, bis the impact parameter of the dipole relative the'
+ 'width and the gap are 260 mm and 110 mm, respectively. The\npole shim was designed to have a good field region within a\ndiameter of 60 mm. The dipole is laminated for pulsed opera-'
+ 'Beam envelopes and apertures are illustrated, as are quadrupoles (blue boxes), dipoles (red boxes), and detectors (green boxes).'
+ '4\n0 5 100.00.20.40.60.8Momentum (IRF) [GeV]5x41\nEvaporation\nNucleons\n0 5 10 15Recoil\nNucleons\nOpening Angle [mrad]\n0 2 4 60.00.20.40.60.8Momentum (IRF) [GeV]10x110\nEvaporation\nNucleons\n0 2 4 6 8Recoil'
+ 'by the dipole radius scale, and how it aﬀects the wave-\nfunction overlap. Let us again follow Ref. [41] for look-\ning into two scaling behaviors deep in the saturation\ndomain.'
+ 'Table 2 . IR magnet parameters  \nParameter  IRQ IRD \nCoil ID, mm  270 310 \nIron yoke ID, mm  360 400 \nCoil current, kA  12.5 12.5 \nCoil field, T  12.55 12.52'
+ 'tion. The field is 0.19 T and the curvature of the trajectory is\n1.6 m. 48-turns coils are wound around the upper and lower\npoles. The total current in each coil is 8.4 kA turn. The con-'
+ 'in the aperture in Fig ure 4).   \n \nFigure 4: Field quality diagram in the aperture and field \ndistribution in the quadrupole  (top) and dipole (bottom) \ncoil blocks at 12.5 kA current.']"," The aperture of the IR quadrupole coil is 270 mm and the aperture of the IR dipole coil is 310 mm. The field gradient of the IR quadrupole is 77.96 T/m. The field of the IR dipole is 12.52 T., 
+    ","['2305.06775v1' '2305.06775v1' '2305.15880v2' '2303.10409v3'
+ '2211.15746v3' '2109.09509v1' '2202.05981v2' '2305.06775v1'
+ '2303.10409v3' '2305.06775v1']",2305.06775v1,https://smith.langchain.com/public/478bd16e-bbfa-41ee-a671-4ba3e399f17c/r,0.0,0.9489469273272982,0.8240079364976364,0.75,0.9708042428704508
+ What is the process that contributes to the inelastic cross section in lepton-nucleus collisions?,"Hello! The process that contributes to the inelastic cross section in lepton-nucleus collisions is the bremsstrahlung process, where a photon is emitted into the final state. This process is the dominant contribution to the inelastic cross section in lepton-nucleus collisions. Additionally, the lepton beam at JLab forces one to consider Bethe-Heitler-type processes, which are suppressed with respect to the photoproduction mechanism studied here. 
+
+I hope this answers your question!
+
+- [^1^][1]
+- [^2^][2]
+
+--- 
+References:
+
+[^1^]: http://arxiv.org/abs/2307.16245v2 
+[^2^]: http://arxiv.org/abs/2302.12026v1","['I. INTRODUCTION\nThe dominant contribution to the inelastic cross sec-\ntion in lepton-nucleus collisions is the bremsstrahlung\nprocess, where a photon is emitted into the final state:'
+ 'proportional to |Cτe|2/Λ2. As a result, one can write the cross section as\nσ(eAZ→τAZa)≡|Cτe|2\nΛ2ˆσ. (4.1)\nIn what follows, we will assume that the ALP always decays leptonically in the detector'
+ '[66] G. Ingelman, A. Edin, J. Rathsman, LEPTO 6.5: A Monte Carlo generator for deep inelastic\nlepton - nucleon scattering, Comput. Phys. Commun. 101 (1997) 108–134.'
+ 'For an unpolarized hadronic process, the cross-section is made out of hard contributions from un-\npolarized initial quarks dσU(γ∗f), unpolarized initial gluons dσU(γ∗g), and linearly polarized gluons'
+ 'level process is described by lepton-parton scattering e+qi→e+qf, where the outgoing quark qfbackscatters'
+ 'account the eﬀects of both elastic and inelastic nuclear shadowing, which dramatically\nsuppress the cross sections of light vector meson photoproduction on heavy nuclei.'
+ 'Ion Collider at BNL [4], and diﬀractive processes have an important role in\nachieving this goal.\n2. Deep inelastic scattering at high energy'
+ 'Complete Formalism of Cross Sections and Asymmetries for Longitudinally and\nTransversely Polarized Leptons and Hadrons in Deep Inelastic Scattering'
+ 'The lepton beam at JLab forces one to also consider Bethe-Heitler- type processes. However, such\ncontributions are suppressed with respect to the photoproduct ion mechanism studied here, see [ 13].'
+ 'lepton momenta. We analyze the impact of higher order corrections in the EIC kinematics, its\nperturbative stability and phenomenological implications, for both neutral and charged current\nprocesses.']"," The dominant contribution to the inelastic cross section in lepton-nucleus collisions is the bremsstrahlung process, where a photon is emitted into the final state.","['2307.16245v2' '2112.04513v3' '2110.05505v2' '2111.03703v2'
+ '2305.14572v1' '2203.12289v1' '2303.15670v1' '2306.00097v1'
+ '2302.12026v1' '2112.08223v2']",2307.16245v2,https://smith.langchain.com/public/38a1fd6e-47d5-4cae-9892-937811065e75/r,0.6666666666666666,0.9760712931115382,0.6215277777622394,1.0,0.6116275894123143
+ What is the purpose of the JSPEC package? What is the new feature added to the JSPEC package?,"Hello! The purpose of the JSPEC package is to simulate electron cooling, a process used to reduce the emittance of a charged particle beam. The package allows users to search a multi-dimensional parameter space for a set of values that meets their design needs. It also helps to optimize certain beam parameters to achieve a target cooling time. 
+
+Additionally, the JSPEC package has added several new features, including new friction force models, a Nelder-Mead Simplex optimization algorithm, and a cloud-based Sirepo interface for JSPEC, which allows users to search a multi-dimensional parameter space for a set of values that meets their design needs.
+
+I hope this information is helpful to you!
+
+- [^1^][1]
+- [^2^][2]
+- [^3^][3]
+- [^4^][4]
+
+--- 
+References
+1. [^1^]: http://arxiv.org/abs/2309.16056v1 
+2. [^2^]: http://arxiv.org/abs/2309.16056v1 
+3. [^3^]: http://arxiv.org/abs/2309.16056v1 
+4. [^4^]: http://arxiv.org/abs/2309.16056v1","['Associated Equipment , 391(1):1–11, 1997.\n[6] JSPEC source code.\n[7]H. Zhang et al. The latest code development progress of JSPEC. In Proc. of NAPAC2019 ,\npages 539–541, Lansing, MI, 2019.'
+ 'change when it is bound in the nucleus? What is the spectrum and structure of conventional and exotic hadrons?'
+ 'and use them to demonstrate the optimization and parameter scan features of JSPEC. We will\nalso construct an example to demonstrate magnetized electron cooling at pre-injection. We will'
+ 'Several new friction force models were added to the JSPEC package, bringing it in line with\nthe set of models available in Betacool. This set includes the Derbenev & Skrinsky model [ 11],'
+ 'to the JSPEC package, which implements a Nelder-Mead Simplex optimization algorithm\nto allow a user to optimize certain beam parameters in order to achieve a target cooling\ntime.\n1 Introduction'
+ 'in JSPEC, which allows users to search a multi-dimensional parameter space for a set of values\nthat meets their design needs. A full listing of parameters that may be varied within the'
+ '9.3: New features and improvements ,Computer Physics\nCommunications 256(nov, 2020) 107478.'
+ 'EIC/sPHENIX software [25, 50]. Fun4All was determined to\nbe the best software stack for the ECCE proposal studies, for\nexpediency, reliability and its familiarity within the software'
+ 'of parameters for themselves using the cloud-based Sirepo interface for JSPEC available at\nhttps://sirepo.com/jspec .\n9'
+ 'be required to keep the beam size from growing due to intra-beam scattering. The\nJSPEC (JLab Simulation Package for Electron Cooling) C ++package is a tool designed to']"," The JSPEC package is designed to model magnetized and unmagnetized cooling through friction forces between co-propagating electron and ion bunches. A new feature added to the JSPEC package is the implementation of a Nelder-Mead Simplex optimization algorithm to allow a user to optimize certain beam parameters in order to achieve a target cooling time., 
+    ","['2309.16056v1' '2303.02579v1' '2309.16056v1' '2309.16056v1'
+ '2309.16056v1' '2309.16056v1' '2306.00097v1' '2209.02580v2'
+ '2309.16056v1' '2309.16056v1']",2309.16056v1,https://smith.langchain.com/public/631cf54d-81f3-40e1-a62e-503fe232d3ed/r,1.0,0.9165780128709152,0.8106150793549466,1.0,0.9089354211024498
+ What is the bremsstrahlung process in lepton-nucleus collisions? What is the process used to measure the collider luminosity of HERA?,"Hello! Here are some key points about the bremsstrahlung process in lepton-nucleus collisions and the process used to measure the collider luminosity of HERA:
+
+- The bremsstrahlung process in lepton-nucleus collisions is the dominant contribution to the inelastic cross section, where a photon is emitted into the final state[^1].
+- This process can be calculated to high precision due to its QED nature, which allowed its use to measure the collider luminosity of HERA[^1].
+- The upcoming Electron Ion Collider (EIC) will similarly collide electrons on protons, as well as heavier ions, and will also make use of the bremsstrahlung process to measure luminosity[^1].
+
+I hope this helps you understand more about the bremsstrahlung process and the measurement of collider luminosity at HERA.
+
+[^1]: http://arxiv.org/abs/2307.16245v2","['I. INTRODUCTION\nThe dominant contribution to the inelastic cross sec-\ntion in lepton-nucleus collisions is the bremsstrahlung\nprocess, where a photon is emitted into the final state:'
+ '[15] ZEUScollaboration, Measurement of the Luminosity in the ZEUS Experiment at HERA II ,Nucl.\nInstrum. Meth. A 744(2014) 80 [ 13/zero.alt36.1391 ].'
+ 'process to measure luminosity. Unlike HERA, the EIC\nwill accelerate polarized electrons and polarized nuclei.\nAs the leading-order cross section only depends on the'
+ 'The far-backward detectors measure electrons scattered at very low- Q2(quasi-real photo-\nproduction), and assist in luminosity determination through measurement of bremsstrahlung'
+ 'Photon-induced processes can be measured at the Large Hadron Collider (LHC) at CERN,\nmainly in the form of photon-induced central exclusive production (CEP). In practice, measur-'
+ '[7]H. Kowalski, L. Motyka and G. Watt, Exclusive diffractive processes at HERA within the dipole\npicture , Phys. Rev. D74, 074016 (2006), doi:10.1103 /PhysRevD.74.074016, hep-ph/\n0606272 .'
+ 'electron scattering on the deuteron could be used to mea-\nsure hard exclusive processes on the neutron such as me-\nson production and deeply-virtual Compton scattering'
+ 'e−+N→e−+N+γ. Owing to the QED nature\nof this process, it can be calculated to high precision,\nwhich allowed its use to measure the collider luminos-'
+ 'ity of HERA[1, 2]. The upcoming Electron Ion Collider\n(EIC) will similarly collide electrons on protons, as well as\nheavier ions, and will also make use of the bremsstrahlung'
+ 'information on the physics of heavy-ion collisions. Low-energy photons and low-mass dileptons are radiated']", The bremsstrahlung process in lepton-nucleus collisions is where a photon is emitted into the final state. It can be calculated to high precision and is used to measure the collider luminosity of HERA.,"['2307.16245v2' '2202.13970v1' '2307.16245v2' '2209.00496v1'
+ '2206.11624v1' '2108.01944v1' '2108.08314v1' '2307.16245v2'
+ '2307.16245v2' '2303.02579v1']",2307.16245v2,https://smith.langchain.com/public/cd93b2e4-3a6f-4410-bd06-d737fb59d41c/r,1.0,0.9083628773702238,0.8444444444323809,0.5,0.7984287076524847
+ What are the key research directions for RF technology R&D in the next decade?,"Hello! Thank you for your question about the key research directions for RF technology R&D in the next decade. Here are the main points based on the provided context:
+
+- A comprehensive RF R&D program is needed to advance existing RF technologies and explore nascent ones[^1].
+- Advanced wakefield structures with improved electromagnetic characteristics are considered important for the next decade[^1].
+- Research on the application of SRF technology to dark sector searches is a key direction for RF technology R&D[^1].
+- R&D on high-gradient normal conducting RF structures operating at cryogenic temperatures is essential[^1].
+- Experimental and theoretical research to further understand RF breakdown physics is crucial[^1].
+- Continued development of computational tools for multi-physics and virtual prototyping is necessary for RF technology R&D[^1].
+- Pursuing R&D on companion RF technologies to mitigate field emission, provide precise resonance control, and enable robust low-level RF systems for high gradient and high Q accelerators is important[^1].
+- Upgrading and adding new capabilities to existing R&D and test facilities to investigate new concepts and help integrate them is needed[^1].
+- Longer-term fundamental and exploratory research dedicated to RF sources and their components is essential for more than marginal improvements[^1].
+
+I hope this information is helpful to you!
+
+[^1]: http://arxiv.org/abs/2208.12368v1","['a comprehensive RF R&D program that would advance the existing RF technologies and explore\nthe nascent ones.\nIn 2017, a decadal roadmap for RF technology R&D was developed in the framework of the'
+ 'The following research directions are considered to be of importance for the next decade.\nAdvanced wakeﬁeld structures: Advanced structures with improved electromagnetic char-'
+ 'Accelerators and Colliders ,https://arxiv.org/abs/2203.12043 , 2022.\n[39] B. Weatherford, E. A. Nanni, and S. Tantawi, Advanced RF Sources R&D for Economical'
+ 'etc.;\n•Research on application of SRF technology to dark sector searches;\n•R&D on high-gradient normal conducting RF structures operating at cryogenic temperatures'
+ 'topics thus presenting opportunities for collaboration between the U.S. and European institutions.\nHere we highlight recent progress in selected key RF technology areas.'
+ '•Experimental and theoretical research to further our understanding of the RF breakdown\nphysics;\n•Continued development of computational tools for multi-physics and virtual prototyping;'
+ 'and while there is an abundance of research activity in accelerating structures, R&D in high power\nRF sources is relatively uncommon. Certainly, industrial development of RF sources is required to'
+ '•Pursuing R&D on companion RF technologies to mitigate ﬁeld emission, provide precise res-\nonance control, enable robust low level RF systems for high gradient and high Q accelerators,\netc.;'
+ 'To support these key research directions, there is a need to upgrade and add new capabilities\nto the existing R&D and test facilities to investigate the new concepts and help integrate them'
+ 'Longer term, fundamental and exploratory research dedicated to RF sources and their compo-\nnents is essential for more than marginal improvements. The most reasonable approach involves']"," The key research directions for RF technology R&D in the next decade include studies to push performance of niobium and improve understanding of SRF losses and ultimate quench fields, developing methods for nano-engineering the niobium surface layer, investigations of new SRF materials beyond niobium, developing advanced SRF cavity geometries, research on application of SRF technology to dark sector searches, R&D on high-gradient normal conducting RF structures, development of higher gradient normal conducting cavities in exotic environments, and studies dedicated to industrialization and cost reduction of fabricating RF components and systems.,
+    ","['2208.12368v1' '2208.12368v1' '2208.12368v1' '2208.12368v1'
+ '2208.12368v1' '2208.12368v1' '2208.12368v1' '2208.12368v1'
+ '2208.12368v1' '2208.12368v1']",2208.12368v1,https://smith.langchain.com/public/776b1ea5-4efa-406e-b39c-b6eac2ba7913/r,1.0,0.9857397207093102,0.5687499999857812,1.0,0.4013912951372801
+ What are the contributions to the total three-momentum resolution for spectator protons? What is the total resolution?,"Hello! Here are the contributions to the total three-momentum resolution for spectator protons and the total resolution:
+
+- The absolute and relative total three-momentum resolution for spectator protons is shown in the plots, which include the contributions of various effects and the total resolution[^1].
+- The total resolution is affected by various factors, including the contributions of different effects such as the resolution of the detector, the assumption of a linear transport matrix with decoupled x and y momentum, and the energy resolution under consideration[^1].
+
+I hope this information is helpful to you.
+
+[^1]: [arXiv:2108.08314v1](http://arxiv.org/abs/2108.08314v1)
+
+--- 
+# References
+1. [arXiv:2108.08314v1](http://arxiv.org/abs/2108.08314v1)","['ΔBeam All Effects\nFIG. 15. Absolute (left) and relative (right) total three-momentum resolution for spectator protons. The plots show the\ncontributions of the various eﬀects and the total resolution.'
+ 'events?\n3. What are the particle identiﬁcation (PID) challenges for the elastically scattered electron and proton?'
+ 'momentum. The measurements are performed using data of proton-proton collisions at the LHC\ncollected at a centre-of-mass energy of 13 TeV and corresponding to a total integrated luminosity'
+ 'electrons, positrons, and photons; and the hadronic calorimeter energy resolution which is used for protons'
+ 'tron total (longitudinal) momentum resolution. Since the\nangular divergence only acts on the transverse momen-\ntum components, the three-momentum is dominated by'
+ 'the resolution of the detector. The overall momentum\nsmearing in the case of the neutrons is worse than for\nthe protons due to the energy resolution under consid-'
+ 'ator. The spectator nucleon momentum is reconstructed including eﬀects of detector acceptance and resolution.'
+ '3\n20\n406080100120140160180200p [GeV/c]\n00.10.20.30.4p/pΔResolution Proton (10x110)Neutron\n > 4.6ηProton\n(5x41)\nFIG. 2. Momentum resolution, ∆ p/p, as a function of mo-'
+ 'momentum and the knowledge that the particle is a proton. For both the electron and the proton, the angles\nare reconstructed using the resolutions given in table 1.\n7'
+ 'contributions of the various eﬀects and the total resolution.\ning from the detector comes from the assumption of a lin-\near transport matrix with decoupled x and y momentum']"," The contributions to the total three-momentum resolution for spectator protons are from detectors only, angular divergence only, p/p only, ΔBeam, and all effects. The total resolution is 0.5 GeV/c.
+    ","['2108.08314v1' '2207.04378v1' '2206.11624v1' '2207.04378v1'
+ '2108.08314v1' '2108.08314v1' '2108.08314v1' '2109.09509v1'
+ '2207.04378v1' '2108.08314v1']",2108.08314v1,https://smith.langchain.com/public/865fd946-9cdc-4c20-a85e-61c225574145/r,0.75,0.9729610708595008,0.609523809503492,1.0,0.7180137301573539
+ What is the purpose of the Color Glass Condensate (CGC) effective theory?,"Hello! The Color Glass Condensate (CGC) effective theory serves several purposes, including:
+
+- Describing parton saturation within Quantum Chromodynamics (QCD) [1^] [2^]
+- Providing a framework for understanding high-density regimes and small-x physics [3^]
+- Offering a semi-classical effective field theory (EFT) for small-x, replacing the usual partonic description [4^]
+- Obtaining dipole-hadron cross sections from the solution to the nonlinear evolution equations [5^]
+
+I hope this helps to clarify the purpose of the Color Glass Condensate (CGC) effective theory.
+
+- [1^]: http://arxiv.org/abs/2308.07091v1 
+- [2^]: http://arxiv.org/abs/2203.12289v1 
+- [3^]: http://arxiv.org/abs/2306.17513v1 
+- [4^]: http://arxiv.org/abs/2108.08254v1
+- [5^]: http://arxiv.org/abs/2108.08254v1","['This section will serve as a description to the underlying principles behind the Color\nGlass Condensate (CGC) as the effective ﬁeld theory for saturated gluons. We will discuss the'
+ '[5] F. Gelis, E. Iancu, J. Jalilian-Marian and R. Venugopalan, The Color Glass Condensate ,\nAnn. Rev. Nucl. Part. Sci. 60(2010) 463–489, [ 1002.0333 ].'
+ 'approaches, most recently the Color Glass Condensate (CGC) – i.e.effective theory obtained\nwithin QCD (for a reviews see [3–7] and the textbook [8]).'
+ 'Sec 5 gives an outlook for our ﬁeld followed by acknowledgements (Sec. 6) to the people and\ninstitutions that made this manuscript possible.\n2. Color Glass Condensate effective ﬁeld theory'
+ 'The eﬀective theory which describes parton saturation is the Color Glass Condensate\n(CGC) [102, 103, 104], with the Jalilian-Marian - Iancu - McLerran - Weigert - Leonidov'
+ '6], predicted by the color glass condensate (CGC) the-\nory [7, 8], is one of the cutting-edge topics that many\nphysicists strive to explore, and it is also one of the pro-'
+ 'Glass Condensate (CGC) effective theory (for a review, see e.g. Ref. [4]) in which the dipole-\nhadron cross sections can be obtained from the solution to the nonlinear evolution equations.'
+ 'fect we use the Color Glass Condensate (CGC) frame-\nwork [1, 10, 46]. Here it is convenient to describe DIS\n2We note that a preprint of the updated nNNPDF3.0 set [43]'
+ 'phenomenological approaches to describe this quantity, which are based on the Color Glass Condensate (CGC)'
+ 'replacing the usual partonic description. A description of this high density regime is given by\nthe Color Glass Condensate (CGC), a semi-classical effective ﬁeld theory (EFT) for small- x']"," The Color Glass Condensate (CGC) effective theory is used to describe the nonlinear QCD phenomena that can be observed at high energies, such as the proton structure function, and to study the gluon density in nuclei at small-x regions., 
+    ","['2108.08254v1' '2306.17513v1' '2306.17513v1' '2108.08254v1'
+ '2203.12289v1' '2211.01647v4' '2308.07091v1' '2203.05846v2'
+ '2210.17226v2' '2108.08254v1']",2202.05981v2,https://smith.langchain.com/public/4540e92d-565a-4e7e-82ca-caac317b4876/r,1.0,0.985622256879579,0.9060405643638304,1.0,0.6815824885840496
+ What is the range of luminosity for the Electron Ion Collider (EIC)?,"Hello! The range of luminosity for the Electron Ion Collider (EIC) is as follows:
+
+- The luminosity at lower/intermediate collision energies at the EIC is projected to be between 10$^33$ cm$^{-2}$ s$^{-1}$ and 10$^34$ cm$^{-2}$ s$^{-1}$[^1][^3].
+- The EIC could reach a high luminosity in the range of 10$^33$ cm$^{-2}$ s$^{-1}$ to 10$^34$ cm$^{-2}$ s$^{-1}$[^2][^4].
+- The EIC is expected to produce a significantly greater instantaneous luminosity, by a factor of 10$^2$ to 10$^3$, which is likely to produce an expansive set of data[^5][^6].
+
+I hope this information is helpful to you!
+
+[^1]: [1]
+[^2]: [2]
+[^3]: [5]
+[^4]: [8]
+
+References:
+1. [1]: http://arxiv.org/abs/2211.15746v3
+2. [2]: http://arxiv.org/abs/2210.09287v1
+3. [5]: http://arxiv.org/abs/2205.08607v1
+4. [8]: http://arxiv.org/abs/2202.08286v1","['as the electron accelerator, the EIC could reach a high luminosity in the 1033−1034cm−2s−1\nrange. For our analyses in this work, we choose the following benchmark for the c.m. energy'
+ 'luminosity at lower/intermediate collision energies at the EIC.'
+ 'soreqy@physics.technion.ac.il, mwill@mit.edu\nAbstract: The Electron-Ion Collider (EIC), a forthcoming powerful high-luminosity facility,'
+ 'bounds from Belle II in Table 1, the projected luminosity of the HL-LHC, and a more\nrealistic estimate of the EIC sensitivity, along the lines discussed in Section 5.3.'
+ 'to providing measurements in an energy and luminosity range hardly explored before, the energy range of the EIC'
+ 'likely favor a high luminosity. Thus, while an EIC detector needs to perform well across\nall energies, it is particularly important that it is optimized for collisions between 5-10 GeV'
+ 'EicC [17] EIC [18] CEBAF (24 GeV) [19]\n𝑒[GeV] 3\x955 18 24\n𝑝[GeV] 20 275 0\nLuminosity [cm\x002s\x001] 2\x02103310341036\nIntegrated luminosity [fb\x001] 60 300 3 \x02104'
+ 'luminosity is 100fb−1.\nThis White Paper aims at highlighting the important beneﬁts in the science reach of the EIC.'
+ 'processed by the reconstruction software.\n5. Resource Requirements Summary\nThe EIC luminosity is projected to be between 1033cm−2s−1\nand 1034cm−2s−1 (see sec. 2.10 of the Yellow Report [3]). As-'
+ 'signiﬁcantly greater instantaneous luminosity (by a factor of 102−3). This enhanced luminosity\nis expected to produce an expansive set of DIS data, of magnitude∫\ndtL∼1 ab−1. The EIC']"," The luminosity for the Electron Ion Collider (EIC) will be about 10^33∼10^34cm−2s−1., 
+    ","['2210.09287v1' '2211.15746v3' '2310.08827v1' '2203.14919v2'
+ '2203.13199v2' '2209.00496v1' '2208.02639v2' '2211.15746v3'
+ '2205.08607v1' '2202.08286v1']",2306.02357v1,https://smith.langchain.com/public/5f3e2e48-6142-4166-aad1-bbeb73f10602/r,1.0,0.9840921518282922,0.5047619047492857,1.0,0.4801013773675097
+ What is the proposed beam energy for the incoming electron and incoming proton at EicC and EIC?,"Hello! The proposed beam energy for the incoming electron and incoming proton at EicC and EIC are as follows:
+
+- The proposed design for EIC suggests colliding electrons with an energy of Ee= 5–18 GeV and protons with an energy of Tp= 41–275 GeV[^1^].
+- The EIC will provide capabilities of colliding beams of polarized electrons with polarized beams of protons and light ions, with the electron beam energy at 2.5-18 GeV and the proton/nucleus beam energy at 41, 100-275 GeV[^2^].
+- Another consideration is that the EIC ion beam energies are restricted to a range between 100 GeV/A and 275×Z/A GeV/A (where Z=A= 1 for protons) and a discrete energy at 41 GeV/A[^3^].
+
+I hope this information is helpful to you!
+
+[^1^]: http://arxiv.org/abs/2211.15746v3 
+[^2^]: http://arxiv.org/abs/2306.02357v1 
+[^3^]: http://arxiv.org/abs/2108.02871v1","['oretical calculations. We focus on two future experiments\n(EIC and EicC), and assume the beam energy of incom-\ning electron and incoming proton with Ee= 3.5 GeV,'
+ 'the electron beam energy at 2.5-18 GeV and the proton/nucleus beam energy at 41, 100-275 GeV.\nThe Instantaneous luminosities of the EIC are around 1033\x0034cm\x002s\x001and the bunch crossing'
+ 'The EIC will provide capabilities of colliding beams of polarized electrons with polarized beams of protons and light'
+ 'In the EIC detector frame, assume the incoming proton beam has a 4-momentum ( px,py,pz,E) ofpi=\nEp(sinθc,0,cosθc,1) and the incoming electron has a 4-momentum of ei=Ee(0,0,−1,1).θcis the crossing'
+ 'the EIC requirement σsyst\nP/P≲1%.\nI. INTRODUCTION\nHigh energy, 41–275 GeV, polarized proton and helion\n[3He (Ah= 3,Zh= 2)] beams are proposed for the fu-'
+ '𝑐!𝐽\x9d𝜓𝑝¼[16].\nThe proposed electron-ion collider in China (EicC) [17], the Electron-Ion Collider in the US\n(EIC)[18],andapotential24-GeVupgradeoftheContinuousBeamAcceleratorFacility(CEBAF)'
+ 'the Yellow Report [2]. The proposed design for EIC is 92\nto collide electrons with energy of Ee= 5–18 GeV and 93\nprotons with energy of Tp= 41–275 GeV. The proposed 94'
+ 'beams is 27.5 GeV and that of the proton beams is 920 GeV , while for the EIC, they are\n21 GeV and100 GeV , respectively. We employ CTEQ6L1 [ 29] as the PDF for the protons.'
+ 'Another consideration is that the EIC ion beam energies are restricted to a range between 100\nGeV/A and 275×Z/A GeV/A (where Z=A= 1 for protons) and a discrete energy at 41 GeV/A,'
+ 'proton beam at EIC.\nxB t(GeV2)Q2(GeV2)Asin(ϕ−ϕs) cosϕ\nUT ±stat\n0.002 0.10 1.25 -0.225±0.005\n0.006 0.10 1.25 -0.172±0.008\n0.01 0.10 1.25 -0.121±0.007\n0.1 0.12 2.50 -0.020±0.002\n3\n−102−101−10B']"," The proposed beam energy for the incoming electron and incoming proton at EicC is Ee= 3.5 GeV, Ep= 20 GeV. At EIC, it is Ee= 5 GeV, Ep= 100 GeV., 
+    ","['2306.02357v1' '2302.01447v1' '2203.13199v2' '2207.04378v1'
+ '2207.09420v2' '2208.02639v2' '2108.02871v1' '2110.10268v1'
+ '2211.15746v3' '2306.02357v1']",2306.02357v1,https://smith.langchain.com/public/926b0143-6657-4b79-a5c0-602b09cffc4c/r,1.0,0.9767328479411996,0.99999999999,1.0,0.6590194527764774
+ What is the method of accessing GPDs from lattice QCD simulations? What is the advantage of this method?,"Hello! Here are some key points about accessing GPDs from lattice QCD simulations and the advantages of this method:
+
+- Lattice QCD simulations can be used to access generalized parton distributions (GPDs), which are rigorously defined in the framework of the QCD factorization theorem and the DGLAP approximation[^1^] [^2^].
+- This method allows for the computation of PDFs (TMDs), GPDs, and light-front wave functions, which can be computed on the lattice[^3^].
+- The advantage of using lattice QCD simulations to access GPDs is that it provides a rigorous and systematic approach to studying these distributions, which is essential for understanding the internal structure of hadrons and their partonic constituents[^2^].
+- Lattice QCD simulations also enable the calculation of Mellin moments of GPDs using local matrix elements through the operator product expansion (OPE), allowing for a detailed analysis of these distributions[^3^].
+
+I hope this information helps!
+
+[^1^]: http://arxiv.org/abs/2203.12289v1 
+[^2^]: http://arxiv.org/abs/2305.14572v1
+[^3^]: http://arxiv.org/abs/2203.13199v2","['to access generalized parton distributions (GPDs), which can be rigorously deﬁned in\nthe framework of the QCD factorization theorem [188] and the DGLAP approximation.'
+ 'Lattice QCD\nThe search for BSM physics at the EIC will greatly beneﬁt from lattice QCD, the best theoretical method available'
+ 'Research OR Education of Physics Revista Mexicana de F ´ısica December 2021\nAccessing pion GPDs through the Sullivan process: is it feasible?\nJ. M. Morgado'
+ 'In fact, the GPD model corresponding to the standard scenario, which is favoured by lattice results'
+ 'PDFs (TMDs), generalized PDFs (GPDs), and light-front wave functions can in principle be computed on the lattice.'
+ 'theory. Both methods have been used for lattice calculations using ensembles of gauge conﬁgurations\nat physical quark masses [401–409]. Such studies correspond to diﬀerent lattice discretizations'
+ 'For a long time, lattice-QCD has been limited to calculate the Mellin moments of the GPDs using local matrix\nelements through the operator product expansion (OPE):\n∫+1\n−1dxxn−1H(x,ξ,−Q2) =n−1∑'
+ 'GPDs [442]. We anticipate that, in the near future, lattice results will be incorporated in phe-\nnomenological analysis of GPDs at both the twist-2 and twist-3 level. Lattice-computed twist-3'
+ 'GPDs of the proton from lattice QCD ,” Phys. Rev. D 108(2023) no.5, 054501 [arXiv:2306.05533 [hep-lat]].'
+ 'The appropriate high-energy processes to access GPDs are de eply virtual Compton scattering (DVCS) [5, 7, 27–29]']"," The method relies on the quasi-distribution method of Ji, but a novel aspect is to perform calculations in asymmetric frames of reference. This offers a major advantage of obtaining several values of momentum transfer from a single calculation, by attributing the momentum transfer entirely to the source nucleon state., 
+    ","['2203.12289v1' '2305.14572v1' '2203.16947v1' '2212.00655v1'
+ '2203.13199v2' '2211.15746v3' '2203.13199v2' '2211.15746v3'
+ '2309.09748v1' '2305.14572v1']",2304.14970v1,https://smith.langchain.com/public/f6aea6b9-d1fb-46f2-8724-d3d78f200a89/r,1.0,0.9153426880609136,0.99999999999,1.0,0.6926703770646209
+ What are the conditions for the applicability of the two-tensor-pomeron model to deeply virtual Compton scattering (DVCS)? What is the model used for large γ∗p centre-of-mass energy and small Bjorken-x?,"Hello! Here are the conditions for the applicability of the two-tensor-pomeron model to deeply virtual Compton scattering (DVCS) and the model's use for large γ∗p centre-of-mass energy and small Bjorken-x:
+
+- The two-tensor-pomeron model is applied to deeply virtual Compton scattering (DVCS) on the proton, γ∗p→γp[^1^] [^2^].
+- The model can be used for large γ∗p centre-of-mass energy W≫mp,√|t|, |t|≲1 GeV^2^, and small Bjorken-x, say x=Q^2^/(W^2^+Q^2^−m^2^_p^)<0.02[^1^] [^2^].
+
+I hope this helps you understand the conditions and applications of the two-tensor-pomeron model to deeply virtual Compton scattering (DVCS).
+
+[^1^]: http://arxiv.org/abs/2304.01810v1 
+[^2^]: http://arxiv.org/abs/2305.14572v1","['I. INTRODUCTION\nIn this Letter we apply the two-tensor-pomeron model [1] to d eeply virtual Compton\nscattering (DVCS) on the proton ( γ∗p→γp). This Regge type model can be used for'
+ 'pomeron model the soft component and also the interference o f soft and hard terms are\nvery important up to at least Q2≃20 GeV2.'
+ '[40] K. Deja, V. Martinez-Fernandez, B. Pire, P. Sznajder, and J. Wagner, Phenomenology of double deeply virtual Compton\nscattering in the era of new experiments, arXiv:2303.13668 [hep-ph] (2023).'
+ 'The appropriate high-energy processes to access GPDs are de eply virtual Compton scattering (DVCS) [5, 7, 27–29]'
+ 'model [2] to deeply virtual Compton scattering (DVCS) on the proton,\nγ∗p→γp. Our model can be used for large γ∗pc.m. energy W≫mp,√\n|t|,\n|t|≲1 GeV2, and small Bjorken- x, sayx=Q2/(W2+Q2−m2\np)<0.02.'
+ 'IV . CONCLUSIONS AND DISCUSSION\nIn the present paper we have applied the tensor-pomeron appr oach to deeply virtual\nCompton scattering (DVCS) for high c.m. energies Wand small Bjorken- x,x≲0.02.'
+ 'real and virtual Compton scattering on a proton. The model in cludes two tensor pomerons, a soft\nand a hard one, and tensor reggeons. We include contribution s of both transverse and longitudi-'
+ 'III. RESULTS\nIn this section we compare the tensor-pomeron model to the FN AL data [73] on real-\nphoton-proton scattering ( γp→γp), and to HERA data [17–20] on DVCS ( γ∗(Q2)p→'
+ 'pomeron model which previously was successfully applied to low xDIS in [1]. The model\nprovides amplitudes for all helicity conﬁgurations and, th us, can be checked by experi-'
+ 'Lebiedowicz printed on April 5, 2023 7\n4. Conclusions\nThe two-tensor-pomeron model proposed previously to descr ibe lowx\nDIS data [2] was applied to deeply virtual Compton scatterin g (DVCS) for']"," The two-tensor-pomeron model can be used for large γ∗p centre-of-mass energy W≫mp,√|t|,|t|≲1 GeV2, and small Bjorken-x, say x=Q2/(W2+Q2−m2p)<0.02., 
+    ","['2208.12693v2' '2208.12693v2' '2212.07688v2' '2305.14572v1'
+ '2304.01810v1' '2208.12693v2' '2208.12693v2' '2208.12693v2'
+ '2208.12693v2' '2304.01810v1']",2208.12693v2,https://smith.langchain.com/public/8fea1fb1-d0e4-41be-aaf0-0c46786843a2/r,1.0,0.9494646080863816,0.99999999999,1.0,0.5979122787918647
+ What is the assumed pseudo-rapidity range for the EIC detector? What is the lowest transverse momentum set to be? What condition is applied to ensure the applicability of TMD factorization?,"Hello! The assumed pseudo-rapidity range for the EIC detector is -3.5 < η < 3.5. The lowest transverse momentum is set to be PhT < 0.5 GeV. To ensure the applicability of TMD factorization, the kinematic region that is available at EIC is chosen as follows: 0.001 < x < 0.4, 0.07 < y < 0.9, 0.2 < z < 0.8, 1 GeV^2 < Q^2, W > 5 GeV, and √s = 100 GeV. These conditions are essential to make predictions for unpolarized cross-sections within the TMD factorization framework[^1^] [^2^].
+
+[^1^]: [1](http://arxiv.org/abs/2303.09015v1)
+[^2^]: [2](http://arxiv.org/abs/2209.02580v2)
+
+I hope this information is helpful to you.","['Fig. 3 (left and middle). The assumed EIC detector will\ncover the full azimuth in a ﬁnite pseudo-rapidity range\n−3.5< η < 3.5. The lowest transverse momentum is'
+ '[26] R. Boussarie et al., TMD Handbook ,2304.03302 .\n[27] R. Abdul Khalek et al., Science Requirements and Detector Concepts for the Electron-Ion\nCollider: EIC Yellow Report ,2103.05419 .'
+ 'kinematics of EIC. We give predictions for unpolarized cross-sections within the TMD factorization\nframework. In D-meson and jet formation, the only leading order contribution comes from the'
+ 'theoretical milestone [68]. The EIC will be able to probe the\nrequired low x Bvalues in wide ranges of momentum transfer\nt, oﬀers a unique opportunity to make measurements of these\ntopics.'
+ 'B. Transverse Momentum Dependent Parton Distribution Functions 18\nC. Complementarity between EIC and LHC 21\nD. Forward dijets: from LHC to EIC 21'
+ 'The kinematical region that is available at EIC is chosen as follows [ 48]\n0.001< x <0.4,0.07< y <0.9,0.2< z <0.8,\n1GeV2< Q2, W > 5GeV,√s= 100GeV , PhT<0.5GeV. (68)'
+ 'require precision extractions of the transversity distributions during the initial running of the EIC, which is possible\nusing semi-inclusive DIS data from polarized EIC collisions [33].'
+ 'tion, its momentum, as well as its hadron species. Each of these\naspects of the EIC physics program, and how a single compre-\nhensive detector system could address them, was studied by the'
+ 'of TMD PDFs related to W-mass determinations [13]. In addition to tomographic measurements,\nthe EIC will also have a dedicated program related to perturbative QCD, with the capability of im-\n5'
+ 'tector, considering the expected jet energies at the EIC.\nIn particular, the kinematic range for single particle en-\nergies is about tens of GeV at pseudo-rapidity η= 1 to']"," The assumed EIC detector will cover the full azimuth in a finite pseudo-rapidity range -3.5 < η < 3.5. The lowest transverse momentum is set to be 0.1 GeV. To ensure the applicability of TMD factorization, the condition, Ph⊥/z < Q/4 is also applied., 
+    ","['2108.05383v2' '2305.15461v2' '2306.14463v2' '2208.14575v2'
+ '2203.08129v3' '2303.09015v1' '2301.02304v1' '2209.02580v2'
+ '2202.08286v1' '2310.04442v1']",2108.05383v2,https://smith.langchain.com/public/819d7668-2587-452c-ab39-3776a43b72ce/r,0.5,0.8439591599493065,0.99999999999,0.3333333333333333,0.5135166877283217
+ What is the energy dependence of the total cross section for real Compton scattering at Q2=0? What is the energy dependence of the total cross section for very high Q2?,"Hello! Here are some key points about the energy dependence of the total cross section for real Compton scattering at Q2=0 and very high Q2:
+
+- The cross section of virtual photon collision on the nucleus can be related to the production cross section with real photon, and the cross section depends on Q2 for two c.m. energies W= [1^] [3^].
+- The cross sections rise with energy as $W^{2\epsilon1}$ at Q2=0 and change to $W^{2\epsilon0}$ for very high Q2 [2^].
+
+I hope this helps you understand the energy dependence of the total cross section for real Compton scattering at Q2=0 and very high Q2.
+
+- [1^][1]: http://arxiv.org/abs/2207.10356v1
+- [2^][2]: http://arxiv.org/abs/2208.12693v2
+- [3^][3]: http://arxiv.org/abs/2209.14493v1","['energies. The hard-pomeron contribution is negligibly sma ll there. The cross sections\nrise with energy as W2ǫ1atQ2=0 and change to W2ǫ0for very high Q2. Here ǫ1≈0.09'
+ '[20] S. Chekanov et al. , (ZEUS Collaboration), A measurement of the Q2, W and t dependences of\ndeeply virtual Compton scattering at HERA, JHEP 05(2009) 108, arXiv:0812.2517 [hep-ex].'
+ 'Compton distributions by the ratio of their cross sections as shown in Tab. II. (bottom) Purity fraction and fraction of signal\ncollected for a given missing energy cut.'
+ '9\nQ2= 0.05 GeV2. It then turns out that the tdependence is well described using GLC for all values of Q2considered,\nwhile BG overestimates the data for large Q2.'
+ 'Figure 3: Left: elastically scattered electron energy vs. Q2; right: elastically scattered proton energy vs. Q2.'
+ 'determined by the Q2of the event, and nearly indepen-\ndent of the collision energy.\nC. π0Background Simulations\nTo accurately measure backward Compton scattering'
+ 'Q2⏐⏐⏐⏐⏐⏐\uf8f9\uf8fa\uf8fa\uf8fa\uf8fa\uf8fb.(2)\nThe cross section of virtual photon collision on the nucleus can\nbe related to the production cross section with real photon:\nσγ∗A→VA(\nW,Q2)\n=f(MV)σ(\nW,Q2=0)\uf8eb\uf8ec\uf8ec\uf8ec\uf8ec\uf8edM2\nV\nM2'
+ 'future experiments will tell us what happens in nature.\nIn Fig. 4 we show how the cross section depends on Q2for two c.m. energies W='
+ 'Q2= 2 GeV2, Model-2\nFigure10: Energydependenciesofextractedtrasnversityconv olutionsfor π0(upper\npart) and η(lower part) production at EicC ( Q2= 2 GeV2,|t′|= 0.1 GeV2).'
+ 'dependence. For real Compton scattering ( Q2=0) the cross section is dominated by\nsoft-pomeron exchange with an additional contribution fro m reggeon exchange at lower']"," The total cross section for real Compton scattering at Q2=0 is dominated by soft-pomeron exchange with an additional contribution from reggeon exchange at lower energies. The cross sections rise with energy as W^2ǫ1 at Q2=0 and change to W^2ǫ0 for very high Q2. Here, ǫ1≈0.09 and ǫ0≈0.30 are the intercept parameters of the soft and hard pomerons, respectively., 
+    ","['2208.12693v2' '2208.12693v2' '2308.10478v1' '2301.07980v3'
+ '2207.04378v1' '2308.10478v1' '2207.10356v1' '2208.12693v2'
+ '2209.14493v1' '2208.12693v2']",2208.12693v2,https://smith.langchain.com/public/9adcfac0-13fe-4a83-a424-e6e7298c12fd/r,,0.8703604076055104,0.9765432098656928,1.0,0.6010917046147176
+ What is the method used to extract the diﬀractive longitudinal structure function?,"Hello! The method used to extract the diﬀractive longitudinal structure function involves the following steps:
+
+- The extraction of the diﬀractive longitudinal structure function FD(3) is performed using the diﬀractive DIS cross section measurements[^1].
+- The diﬀractive longitudinal structure function FD(3) is experimentally challenging and is given by the coupling of virtual photons with longitudinal polarization to the hadron that undergoes the process[^2].
+- The expression for the longitudinal structure function can be written with higher order corrections[^3].
+
+I hope this information is helpful to you.
+
+- [^1]: http://arxiv.org/abs/2112.06839v2 
+- [^2]: http://arxiv.org/abs/2112.06839v2 
+- [^3]: http://arxiv.org/abs/2202.04223v1 
+
+--- 
+# References
+[^1]: http://arxiv.org/abs/2112.06839v2 
+[^2]: http://arxiv.org/abs/2112.06839v2 
+[^3]: http://arxiv.org/abs/2202.04223v1","['3.2 Extraction of the diﬀractive longitudinal structure function\nThe extraction of the diﬀractive longitudinal structure function FD(3)\nLis performed using the'
+ 'used in our study will be discussed and the twist expansion of the long itudinal and transverse structure functions'
+ 'functions, they do not to ﬁrst order impact our assessment of the feasibility of measuring the\nlongitudinal diﬀractive structure function, which is our primary objective here.'
+ 'Diﬀractive longitudinal structure function at the\nElectron Ion Collider\nN´ estor Armesto1, Paul R. Newman2, Wojciech S lomi´ nski3, and Anna M. Sta´ sto4'
+ 'the diﬀractive structure function.'
+ 'diﬀractive DIS at HERA at moderate Q2.Phys. Rev. , D86:111501, 2012.\n[22] F. D. Aaron et al. Measurement of the Diﬀractive Longitudinal Structure Function FD\nLat'
+ 'higher order corrections [16,17].\nThe expression for the longitudinal structure function can be written in the following\n4'
+ 'calculation was previously performed from a slightly diﬀerent approach in\nRef. [18]).\nWhen considering diﬀractive structure functions (diﬀractive cross sec-\ntions as a function of e.g. M2'
+ 'yet experimentally challenging, is the diﬀractive longitudinal structure function FD\nL. Given by\nthe coupling of virtual photons with longitudinal polarisation to the hadron that undergoes the'
+ 'variables. Measurements of the total diﬀractive DIS cross section allow for extraction of the diﬀractive structure\nfunctionsFD,(4)']"," The extraction of the diﬀractive longitudinal structure function FD(3) L is performed using the same method as in the H1 analysis [22]. This method was adapted from the measurements of the inclusive longitudinal structure function FL, see [52–54]. The reduced cross section is a linear function of YL, see Eq. (8). The structure function FD(3) L can thus be found by performing a linear ﬁt, and extracting the slope of σD(3) red as a function of YL., 
+    ","['2112.06839v2' '2210.17226v2' '2112.06839v2' '2112.06839v2'
+ '2203.12289v1' '2112.06839v2' '2202.04223v1' '2303.15670v1'
+ '2112.06839v2' '2203.13199v2']",2112.06839v2,https://smith.langchain.com/public/659a79a5-3143-4ba6-b817-5c3c828fd93f/r,1.0,0.9763550037119048,0.99999999999,1.0,0.394411186321509
+ What is the purpose of the ζ-prescription for the dijet soft function evolution kernel? What is the perturbative solution for the small-b region?,"Hello! The purpose of the ζ-prescription for the dijet soft function evolution kernel is to choose the initial scale ζi. This prescription provides a way to maintain the structure of the evolution kernel, ensuring that the z-integral is finite. Additionally, the perturbative solution for the small-b region involves solving the Kovchegov-Levin evolution equation, which resums contributions from dipole states dressed by soft gluons. This approach allows for the expression of the terms in equations in terms of known evolution kernels and the β-function, expanding the latter to account for the small β (large $M^2_X$) region.
+
+- The ζ-prescription for the dijet soft function evolution kernel serves to choose the initial scale ζi, maintaining the structure of the evolution kernel and ensuring the z-integral is finite[^1].
+- The perturbative solution for the small-b region involves solving the Kovchegov-Levin evolution equation, which resums contributions from dipole states dressed by soft gluons[^2].
+
+I hope this information is helpful to you!
+
+[^1]: http://arxiv.org/abs/2111.03703v2 
+[^2]: http://arxiv.org/abs/2308.00028v1","['dijet soft function evolution kernel. The ζ-prescription provides a way to choose the initial scale ζi'
+ 'below and the z-integral is ﬁnite. However, a crucial question then arises: do we really need to\nimpose a cut on the diffractive mass? Actually, canwe impose such a constraint?'
+ '[51] J. Berger and A. M. Stasto, Small x nonlinear evolution\nwith impact parameter and the structure function data ,\nPhys. Rev. D 84(2011) 094022 [ arXiv:1106.5740\n[hep-ph] ].'
+ '4.2 Treatment of angular dependent anomalous dimensions and resummation\nThe dijet soft function, the collinear-soft function in dijets and the heavy meson jet function in hadron'
+ '6.7).\nFinally for the dijet soft function we use the b∗-prescription in the same way as for the TMDPDF:\nµS=2e−γE\nb∗, b∗=b√\n1 +b2/b2max. (6.9)'
+ 'kernel, which depicts the rapidity evolution. One of the challenges is that the soft function is non-\nperturbative for small transverse momenta.'
+ 'function and the heavy meson jet in order to maintain the structure of ζ-prescription and double scale'
+ 'the perturbative evolution, we are then able to express the blue terms in eqs. (3.2)-(3.7) in\nterms of the known evolution kernels, and the βfunction, which we expand as\nβ(αs) =−2αs∞X\nn=0βn\x10αs\n4π\x11n+1'
+ 'Rq,g\nF({µ0,ζ0}→{µf,ζf}) =(ζf\nζµ(b,µf))−Dq,g(b,µf)\n. (5.7)\nIn the next paragraph we deﬁne a ζ-prescription also for the dijet evolution kernel Rg\nS(\n(µ0,ζ2,0)→\n(pT,1), which is the only missing part.'
+ 'small β(large M2\nX) by solving the Kovchegov-Levin evo-\nlution equation which resums contributions from dipole\nstates dressed by soft gluons. These two approaches are\nreviewed below.']"," The purpose of the ζ-prescription for the dijet soft function evolution kernel is to choose the initial scale ζi as a function of µ and b so that the SF does not depend on the initial scale µi. The perturbative solution for the small-b region is given by ζγgµ,pert(b) = (µ/µ0)^(2CF/CA) * ζγg0 * exp(-gγg(as,DS)/DS) and ζγfµ,pert(b) = (µ/µ0)^(CF+CA/CF) * ζγf0 * exp(-gγf(as,DS)/DS),
+    ","['2111.03703v2' '2206.11624v1' '2203.05846v2' '2111.03703v2'
+ '2111.03703v2' '2211.15746v3' '2111.03703v2' '2308.00028v1'
+ '2111.03703v2' '2307.16486v1']",2111.03703v2,https://smith.langchain.com/public/ac3d826a-672e-4ec6-b054-9e17f44bd7f3/r,0.75,0.9230809461209022,0.99999999999,0.5,0.7265270615353692
+ What is the role of the scattered leading electron in electron-proton scattering events? What is the significance of the measurement of the scattered leading electron?,"Hello! The role of the scattered leading electron in electron-proton scattering events is significant for several reasons:
+
+- The scattered leading electron plays an important role in electron-proton scattering events, as it provides valuable information about the distribution of particles, momentum sum rules, and the leading electron kinematics[^1^].
+- The measurement of the scattered leading electron is crucial for understanding clear matter effects and searching for physics beyond the Standard Model[^1^].
+- It is also essential for the identification of particle interactions, such as the measurement of the electron to tau transition, which is a leading observable in precision studies that can significantly test the Standard Model[^2^].
+
+I hope this information is helpful to you!
+
+[^1^]: http://arxiv.org/abs/2203.14919v2 
+[^2^]: http://arxiv.org/abs/2310.16308v1","['for which we choose: pions π+, kaons K+, and electrons\ne−. In particular, the (leading) scattered electron in the\nevent plays an important role in electron-proton scatter-'
+ '[14] The MOLLER Project, Measurement Of a Lepton Lepton Electroweak Reaction An Ultra-precise Measurement of the\nWeak Mixing Angle using Møller Scattering, Conceptual Design Report (2020).'
+ 'scattering on transverse polarized proton. Besides the\nscattered electron, real photon and the scattered proton\nwill be measured after the incoming unpolarized electron.'
+ 'events?\n3. What are the particle identiﬁcation (PID) challenges for the elastically scattered electron and proton?'
+ 'in Fig. 6. The electron multiplicity peaks at ⟨Ne⟩= 1,\nwhich corresponds to the scattered leading electron. The\ndistribution falls off steeply as the multiplicity increases.'
+ 'for both electrons and protons in the source opens the door for precision studies that can\nsigniﬁcantly test the Standard Model. A leading observable in this arena is the electron to\nτtransition.'
+ 'distributions and correlations of particles, momentum sum rules, and the leading electron kinematics,'
+ '[45] F.D. Aaron et al. Measurement of the cross section for diﬀractive deep-inelastic scattering with\na leading proton at HERA. Eur. Phys. J. C , 71:1578, 2011.'
+ 'clear matter effects, and searching for physics beyond\nthe Standard Model. In particular, the measurement of\nthe scattered leading electron provides a clean electro-'
+ 'Figure 3: Left: elastically scattered electron energy vs. Q2; right: elastically scattered proton energy vs. Q2.']"," The scattered leading electron provides a clean electromagnetic probe of the inner structure of hadrons and nuclei. The measurement of the scattered leading electron plays a critical role in advancing the understanding of the structure of hadrons, probing cold nuclear matter effects, and searching for physics beyond the Standard Model., 
+    ","['2310.16308v1' '2203.13199v2' '2306.02357v1' '2207.04378v1'
+ '2310.16308v1' '2203.14919v2' '2310.16308v1' '2203.12289v1'
+ '2310.16308v1' '2207.04378v1']",2310.16308v1,https://smith.langchain.com/public/3bbd452f-1bcb-4a6a-a436-3aa5a4424e3f/r,0.6666666666666666,0.9273477620681382,0.99999999999,1.0,0.6008184255750822
+ What is the center-of-mass energy of the LHeC? What is the electron beam energy at the LHeC? What is the proton beam energy at the LHeC?,"Hello! Here are the details about the center-of-mass energy, electron beam energy, and proton beam energy at the LHeC:
+
+- The center-of-mass energies available at modern accelerators, such as the Large Hadron Collider (LHC), and at future generation accelerators, such as the Electron-Ion Collider (EIC), are in the range of ∼20–100 GeV/nucleon for electron-deuteron collisions at luminosities ∼10^33^–10^34^cm^−2^s^−1^ [^9^] [^10^].
+- The electron beam energy at the LHeC is proposed to be 50-60 GeV, which would achieve center-of-mass energies of $\sqrt{s}=1.2$, 1.3 TeV by colliding with protons having the Ep=7 TeV beam energy[^10^].
+- The proton beam energy at the LHeC is 7 TeV[^6^].
+
+I hope this information is helpful to you!
+
+[^6^]: http://arxiv.org/abs/2203.12289v1 
+[^9^]: http://arxiv.org/abs/2108.08314v1 
+[^10^]: http://arxiv.org/abs/2202.08286v1","['proposal). Kinematically, the LHeC could thus achieve center-of-mass energies ofps=1.2, 1.3\nTeV by colliding Ee=50, 60 GeV electrons with protons having the Ep=7 TeV beam energy'
+ '10 40 63 69 81 85105\n18 54 85 93109 114 141\nTable 1: Centre-of-mass energies (in GeV) for various combinations of beam energies.'
+ 'CONTENTS 21\nThe center-of-mass energies available at modern accelerators, such as the Large Hadron\nCollider (LHC), and at future generation accelerators, such as the Electron-Ion Collider'
+ 'the facility [31].\nThe beam parameters for electron-proton collisions (includ-\ning the resulting luminosities) at di ﬀerent center-of-mass ener-'
+ 'beams is 27.5 GeV and that of the proton beams is 920 GeV , while for the EIC, they are\n21 GeV and100 GeV , respectively. We employ CTEQ6L1 [ 29] as the PDF for the protons.'
+ '2.1. INTRODUCTION 159\n2.1 Introduction\nThe LHC delivers proton and lead beams with an energy of 7 TeV and2.76 TeV per nucleon,'
+ 'and proton as 10 GeV and 275 GeV, respectively. These\nbeam-energy values, which yield a center-of-mass energy\nof√s= 105 GeV, correspond to the operation point'
+ '7\nFIG. 4. Kinematic coverage of LHeC, FCC-eh and EIC data sets for several choices of center-of-mass energy.'
+ 'of center-of-mass energies, ∼20–100 GeV/nucleon for\nelectron-deuteron, at luminosities ∼1033–1034cm−2s−1;\nfor more details on the capabilities for protons, light ion,'
+ 'ion collisions at CERN. The Large Hadron-electron Collider (LHeC) is a project\n[75, 76, 77, 72] that would utilize the 7 TeV proton beam from the High Lumi LHC']"," The center-of-mass energy of the LHeC is 1.2, 1.3 TeV. The electron beam energy at the LHeC is 50, 60 GeV. The proton beam energy at the LHeC is 7 TeV., 
+    ","['2202.08286v1' '2112.06839v2' '2308.03393v1' '2208.14575v2'
+ '2110.10268v1' '2206.11624v1' '2212.02432v1' '2306.05564v1'
+ '2108.08314v1' '2203.12289v1']",2202.08286v1,https://smith.langchain.com/public/46e7787d-dfb0-462e-a7f4-c1f04f305f19/r,0.3333333333333333,0.934111162785658,0.6378306878200574,1.0,0.7945263906343386
+ What is the hard scale set by the virtuality of the exchanged photon in the DVCS subprocess?,"Hello! The hard scale set by the virtuality of the exchanged photon in the DVCS subprocess is a crucial aspect of deeply virtual Compton scattering (DVCS). Here are some key points about this topic:
+
+- The hard scale in the DVCS process is set by the virtuality of the exchanged photon, which is denoted as $-q^2 = -(k-k')^2$[^4^].
+- This hard scale is essential for understanding the DVCS process and is involved in the convolution of a coefficient function with diffractive parton distributions, describing the partonic content of the Pomeron[^2^].
+- The presence of the hard scale in the DVCS process, specifically the minus virtuality of the photon $q^2 = -Q^2$, is a fundamental aspect that makes these processes tractable within the framework of perturbative QCD[^5^].
+
+I hope this information provides a clear understanding of the hard scale set by the virtuality of the exchanged photon in the DVCS subprocess.
+
+[^2^]: [http://arxiv.org/abs/2211.05774v2](http://arxiv.org/abs/2211.05774v2)
+[^4^]: [http://arxiv.org/abs/2108.03426v3](http://arxiv.org/abs/2108.03426v3)
+[^5^]: [http://arxiv.org/abs/2203.12289v1](http://arxiv.org/abs/2203.12289v1)","['four-momenta of the initial and ﬁnal electron. The hard scale is in this case set by the virtuality of\nthe exchanged photon −q2=−(k−k′)2. The gray blob is the part of the amplitude which cannot be'
+ 'prototype for all deeply virtual exclusive scattering (DVES) experiments and as such it has been the\nmost studied process. The DVCS matrix elements are accessed through exclusive photoproduction,'
+ 'renormalization scale setting for semihard processes,” Phys. Rev. D 91(2015) no. 11, 114009,\narXiv:1504.06471 [hep-ph] .'
+ 'solved through Apfel++ software [56, 57].\n10-310-210-11.02.03.0\n0.0\n1.0\n2.0\n3.0\n10-310-210-11.02.03.0\n0.0\n1.0\n2.0\n3.0\nFIGURE 2. DVCS Compton Form Factors at a factorization scale'
+ 'Given the presence of the hard scale in the DIS process, the minus virtuality of\nthe photon q2=−Q2, it was only natural to ask if such processes are tractable within'
+ '0 (longitudinal) or ±1 (transverse). The stringent semi-\nhard scale hierarchy holds, W2≫Q2≫Λ2\nQCD, withW\nbeing the subprocess center-of-mass energy and ΛQCD'
+ 'objects with 3-dimensional physical sizes at the femtometer scale. It requires precision measurements\nof exclusive processes, such as deeply virtual Compton scattering (DVCS) and deeply virtual meson'
+ 'panels have diﬀerent scales to account for the much smaller amplitude of the ECFF.\nFIG. 6. Exclusive photon electroproduction through DVCS (left) and BH processes (middle and right).'
+ 'ton scattering is referred to as virtual Compton scattering\n(VCS) or deeply-virtual Compton scattering (DVCS) de-\npending on the photon’s invariant mass squared ( −Q2).'
+ 'the existence of a hard scale, the photon virtuality Q2of DIS, involving a convolution of a\ncoeﬃcient function with diﬀractive parton distributions, describing the partonic content of\nthe Pomeron.']"," The hard scale is set by the virtuality of the exchanged photon, which is given by -q^2 = -(k-k')^2.","['2108.03426v3' '2211.15746v3' '2203.08129v3' '2203.16947v1'
+ '2203.12289v1' '2207.05726v2' '2211.15746v3' '2211.15746v3'
+ '2308.10478v1' '2211.05774v2']",2108.03426v3,https://smith.langchain.com/public/e1c97b50-9052-42e0-861e-b35885bb4b87/r,0.6666666666666666,0.9556083379617184,0.8835317460207017,1.0,0.4398465963229291
+ What is the purpose of the Polarized Atomic Hydrogen Gas Jet Target polarimeter at RHIC? What is the anticipated systematic uncertainty in the measured 3He beam polarization at the Electron-Ion Collider (EIC)?,"Hello! The purpose of the Polarized Atomic Hydrogen Gas Jet Target polarimeter at RHIC is to measure the absolute transverse (vertical) polarization of the proton beams with a low systematic uncertainty of about $σ_{syst}$. This technique promises to be suitable for measuring the 3He beam polarization at the Electron-Ion Collider (EIC) as well. The anticipated systematic uncertainty in the measured 3He beam polarization at the EIC is expected to be less than or equal to 1%[^1].
+
+- The Polarized Atomic Hydrogen Gas Jet Target polarimeter at RHIC is used to measure the absolute transverse (vertical) polarization of the proton beams with a low systematic uncertainty of about $σ_{syst}$[^2].
+- This technique is also expected to be suitable for measuring the 3He beam polarization at the Electron-Ion Collider (EIC)[^3].
+- The anticipated systematic uncertainty in the measured 3He beam polarization at the EIC is expected to be less than or equal to 1%[^4].
+
+I hope this information is helpful!
+
+[^1]: http://arxiv.org/abs/2303.00677v2 
+[^2]: http://arxiv.org/abs/2305.13099v2 
+[^3]: http://arxiv.org/abs/2207.06999v3 
+[^4]: http://arxiv.org/abs/2212.08628v1","['ing the EIC3He beam polarization with the Polarized\nAtomic Hydrogen Gas Jet Target polarimeter at RHIC,\nPhys. Rev. C 106, 065202 (2022), arXiv:2207.09420 [hep-\nph].'
+ 'purpose.\nIn the Relativistic Heavy Ion Collider, HJET is em-\nployed to measure the absolute transverse (vertical) po-\nlarization of the proton beams with a low systematic un-\ncertainty of about σsyst'
+ 'A. A. Poblaguev∗\nBrookhaven National Laboratory, Upton, New York 11973, USA\n(Dated: December 12, 2022)\nThe Polarized Atomic Hydrogen Gas Jet Target polarimeter (HJET) is used to measure the absolute'
+ 'measure proton beam polarization at the Relativistic Heavy Ion Collider (RHIC), the HJET tech-\nnique promises to be suitable for the3He polarimetry at EIC. For that, however, one needs to know'
+ 'atomic beam polarimeter to measure the nuclear po-\nlarization in the HERMES gaseous polarized hydrogen\nand deuterium target, Nucl. Instrum. Meth. A 482, 606\n(2002).'
+ 'a precision determination of the3He (Ah= 3,Zh= 2)\nbeam polarization,\nσsyst\nP/P≲1%. (1)\nIt has been advocated [3, 4] that the Atomic Polarized\nHydrogen Gas Jet Target (HJET) [5] can be used for this'
+ 'Here, we investigate a possibility to adapt the HJET method for a precise measurement of the3He beam\npolarization at EIC.\n2.3He beam polarimetry at EIC'
+ 'RHIC is very important for the development of hadronic\npolarimetry at EIC.\nAt RHIC, the absolute vertical proton beam polariza-\ntion is determined by the Atomic Polarized Hydrogen'
+ '[3] A. A. Poblaguev, Feasibility study for precisely measur-\ning the EIC3He beam polarization with the Polarized\nAtomic Hydrogen Gas Jet Target polarimeter at RHIC,'
+ 'Hydrogen Gas Jet Target polarimeter at RHIC ,Phys. Rev. C 106(2022) 065202 [ 2207.09420 ].']"," The Polarized Atomic Hydrogen Gas Jet Target polarimeter at RHIC is used to measure the absolute proton beam polarization, σsyst P/P≲0.5%. The anticipated systematic uncertainty in the measured 3He beam polarization at the Electron-Ion Collider (EIC) can satisfy the EIC requirement σsyst P/P≲1%., 
+    ","['2303.00677v2' '2305.13099v2' '2207.09420v2' '2207.06999v3'
+ '2303.00677v2' '2303.00677v2' '2212.08628v1' '2207.09420v2'
+ '2305.13099v2' '2212.08628v1']",2207.09420v2,https://smith.langchain.com/public/be4124f0-7258-4ea9-b69a-395aca608b9d/r,1.0,0.9249238202943372,0.99999999999,1.0,0.7990899433774875
+ What is the dimension of the sTGC gas chambers? How many chambers were built at Shandong University in China? What is the gas mixture used for operating the chambers?,"Hello! Here are the key points about the sTGC gas chambers:
+
+- The sTGC has four identical planes, each with four identical pentagonal-shaped gas chambers[^1].
+- Sixteen chambers and about 5 spare chambers were built at Shandong University in China[^1].
+- The gas mixture used for operating the chambers is not explicitly mentioned in the provided context.
+
+I hope this information is helpful to you.
+
+[^1]: http://arxiv.org/abs/2302.00605v1","['The sTGC has four identical planes, each plane has four identical pentagonal shaped\ngas chambers. These gas chambers are made of double-sided and diagonal strips that'
+ 'Shandong University, Qingdao, Shandong 266237, China\n3School of Physics and Technology, University of Jinan, Jinan, Shandong 250022, China'
+ 'S.T. Schindler40, A. Schmidt3, R. Seidl112,33, M.H. Shabestari113, P.E. Shanahan40,52, C. Shen93,33, T.-A. Sheng40,'
+ 'givex,y,uin each plane. Sixteen chambers and about 5 spare chambers were built\nat Shandong University in China. A custom designed and fabricated aluminum frame'
+ 'oratory of Nuclear Science, Southern Nuclear Science Computing Center, South China Normal\nUniversity, Guangzhou 510006, China'
+ '3University of Chinese Academy of Sciences, Beijing 100049, China\n4Institute of Quantum Matter, South China Normal University ,\nGuangzhou 510006, China\nAbstract'
+ '1School of Science and Engineering, The Chinese University of Hong Kong,\nShenzhen, Shenzhen, Guangdong, 518172, P.R. China'
+ '87Institute of Modern Physics, Chinese Academy of Sciences, Lanzhou, Gansu Province 730000, China\n88Shandong University, Qingdao, Shandong 266237, China\n(Dated: October 19, 2022)'
+ 'Fudan University, Shanghai, 200433, China\n4Key Laboratory of Particle Physics and Particle Irradiation (MOE),\nInstitute of Frontier and Interdisciplinary Science,\nShandong University, QingDao, China'
+ '75School of Physics, Shandong University, Jinan, Shandong 25 0100, China\n76Center for Exploration of Energy and Matter, Indiana Univer sity, Bloomington, IN 47408, USA']"," The sTGC gas chambers are pentagonal shaped with double-sided and diagonal strips, providing x, y, and u coordinates. Sixteen chambers and about 5 spare chambers were built at Shandong University in China. The gas mixture used for operating the chambers is n-Pentane and CO2 at a ratio of 45%55% by volume., 
+    ","['2302.00605v1' '2108.07740v3' '2303.02579v1' '2302.00605v1'
+ '2311.00672v1' '2206.06547v3' '2211.01647v4' '2203.13199v2'
+ '2207.02478v2' '2305.14572v1']",2302.00605v1,https://smith.langchain.com/public/19d01306-e521-4c39-a320-d0b7466fba7a/r,0.6666666666666666,0.8509321607737736,0.99999999999,0.6666666666666666,0.6605467307760637
+ What is the maximum drift length for an electron in the sPHENIX TPC?,"Hello! The maximum drift length for an electron in the sPHENIX TPC is 1.05 m in the z-direction. This is significantly smaller compared to other similar systems such as ALICE and STAR, which have drift lengths of 2.45 m and 2 m, respectively¹.
+
+- The sPHENIX TPC has a maximum drift length of 1.05 m for an electron in the z-direction¹.
+
+I hope this helps!
+
+¹ http://arxiv.org/abs/2212.05541v1","['near the central cathode. One of the advantages of the small size of the sPHENIX TPC is that\nthe maximum drift length is only 1.05 m, to be compared with 2.45 m in ALICE [7] and 2 m in\nSTAR [8].'
+ '30 cm. The maximum drift length for an electron is 1.05 m in z. The readout on each endcap is'
+ 'a position resolution of 90 µm for electrons deposited just above the readout and 130 µm for\nelectrons drifting the full 105 cm TPC drift length.\nFigure 4. sPHENIX readout'
+ 'utmost importance at the EIC, it is reasonable to attempt to reduce the material in the electron-\ngoing direction. While this will increase the average drift length and worsen the TPC spatial'
+ 'measure jets, jet correlations, and dilepton pairs in heavy-ion collisions. With these\nmeasurements in mind, sPHENIX will employ a compact TPC covering 20cm < r < 78 cm'
+ 'statistics for rare probes. This rate requirement demands that the TPC operate in an ungated\nmode with a fast drift velocity gas to reduce occupancy.\n2. sPHENIX TPC Design Considerations'
+ 'STAR [8].\nThe sPHENIX TPC employs a gas mixture of 50% neon with 50% CF 41to provide low\ndiﬀusion and high drift velocity, as can be seen in Fig. 3. The longitudinal diﬀusion and drift'
+ 'the requirement for the sPHENIX tracking system to have a momentum resolution of∆P\nP≈\n.02·Pfor charged particles with momenta around 5 GeV/c .'
+ '4. Summary\nThe compact sPHENIX TPC will be installed into sPHENIX in July 2022. The various factors\naﬀecting the TPC momentum resolution and rate capability have been discussed, along with the'
+ '40 cm drift length TPC with one full readout module installed. Due to the bunched structure\nof the beam and the spacing between spills, space charge contribution to the resolution was']"," The maximum drift length for an electron in the sPHENIX TPC is 1.05 m in z., 
+    ","['2212.05541v1' '2212.05541v1' '2212.05541v1' '2212.05541v1'
+ '2212.05541v1' '2212.05541v1' '2212.05541v1' '2212.05541v1'
+ '2212.05541v1' '2212.05541v1']",2212.05541v1,https://smith.langchain.com/public/70804850-f3b3-412f-b728-a0a6003971ab/r,1.0,0.9837487757316986,0.9317956349089874,1.0,0.732509024210457
+ What are the dimensions of the sPHENIX TPC? What is the gas mixture used in the TPC?,"Hello! Here are some key points about the sPHENIX TPC and its dimensions:
+
+- The sPHENIX TPC employs a gas mixture of 50% neon with 50% CF4 to provide low diffusion and high drift velocity[^1].
+- The primary drivers of the size of the sPHENIX TPC are the requirements that sufficient room be allotted for calorimetry inside the magnet bore, and that the TPC sit in the uniform region[^1].
+- The compact sPHENIX TPC will be installed into sPHENIX in July 2022, covering 20cm $< r < 78$ cm with low occupancy[^1].
+
+I hope this helps answer your question about the dimensions and gas mixture used in the sPHENIX TPC.
+
+[^1]: [1]
+
+--- 
+References:
+1. http://arxiv.org/abs/2212.05541v1","['STAR [8].\nThe sPHENIX TPC employs a gas mixture of 50% neon with 50% CF 41to provide low\ndiﬀusion and high drift velocity, as can be seen in Fig. 3. The longitudinal diﬀusion and drift'
+ '2.2. Size\nThe primary drivers of the size of the sPHENIX TPC are the requirements that suﬃcient room\nbe allotted for calorimetry inside the magnet bore, and that the TPC sit in the uniform region'
+ 'A Compact TPC for the sPHENIX Experiment\nHenry T. Klest on behalf of the sPHENIX Collaboration\nDepartment of Physics and Astronomy, Stony Brook University, Stony Brook, New York\n11794, USA'
+ 'voltages of the GEMs were determined via specialized bench experiments that could measure\nthe amount of IBF and were tested thoroughly in the sPHENIX prototype TPC in test beam.'
+ 'TPC, the gas can be chosen to optimize position resolution. sPHENIX utilizes the 1.4 T\nsolenoid that was designed for and operated successfully in the BaBar Experiment at SLAC. In'
+ '4. Summary\nThe compact sPHENIX TPC will be installed into sPHENIX in July 2022. The various factors\naﬀecting the TPC momentum resolution and rate capability have been discussed, along with the'
+ 'measure jets, jet correlations, and dilepton pairs in heavy-ion collisions. With these\nmeasurements in mind, sPHENIX will employ a compact TPC covering 20cm < r < 78 cm'
+ 'low occupancy. Therefore, sPHENIX is using the 80 ns peaking time option of the SAMPA\nASIC designed for the ALICE upgrade [9]. The sPHENIX TPC will additionally be operated\nin streaming readout mode.'
+ 'The cathode will be held at 45 kV and will have aluminum stripes evaporated on it for laser\ncalibration.\nFigure 1. sPHENIX detector and subsystems.\n Figure 2. Sketch of the sPHENIX TPC.\n2.2. Size'
+ 'plane with closeup of zig-zag\npads.\nFigure 5. sPHENIX Quadruple GEM\nlayout.\n2.3.3. Space Charge The ability of the TPC to precisely measure momentum also depends on']"," The sPHENIX TPC covers 20 cm <r< 78 cm and the gas mixture used is 50% neon with 50% CF4., 
+    ","['2212.05541v1' '2212.05541v1' '2212.05541v1' '2212.05541v1'
+ '2212.05541v1' '2212.05541v1' '2212.05541v1' '2212.05541v1'
+ '2212.05541v1' '2212.05541v1']",2212.05541v1,https://smith.langchain.com/public/3816e63c-9125-4169-af36-1998ac4d7c1e/r,1.0,0.9306493089770655,0.9999999999888888,1.0,0.6017557386131728
+ What is the dimension of the SiPM-on-tile technology used in the Few-Degree Calorimeter (FDC)? How many layers of SiPM-on-tile technology are used in the FDC?,"Hello! The SiPM-on-tile technology used in the Few-Degree Calorimeter (FDC) is based on alternating layers of vertical and horizontal scintillators that are wrapped in reflective foil and read out using SiPMs^1. The FDC design incorporates the latest advancements in SiPM-on-tile calorimetry to create a modern detector that will cover a few degrees from the electron-beam direction. The dimension of the SiPM-on-tile technology used in the FDC is not explicitly mentioned in the provided context. However, the FDC design includes alternating layers of vertical and horizontal scintillators that are wrapped in reflective foil and read out using SiPMs^1. The specific dimensions of the SiPM-on-tile technology used in the FDC are not provided in the available information.
+
+1. [http://arxiv.org/abs/2307.12531v1](http://arxiv.org/abs/2307.12531v1)
+2. [http://arxiv.org/abs/2309.00818v1](http://arxiv.org/abs/2309.00818v1)","['The CALI is based on SiPM-on-tile technology [6, 7], offering flexibility, scalability, cost-\neffectiveness, and high performance for high-granularity calorimeters [8]. In recent years, the'
+ 'that will cover a few degrees from the electron-beam direction.\nWe refer to this detector as the Few-Degree Calorimeter (FDC),'
+ 'Figure 11 shows the FDC design which includes alternating\nlayers of vertical and horizontal scintillators that are wrapped in\nreflective foil and read out using SiPMs (HPK 14160-1315PS).'
+ 'tion to perturbative QCD and the gluon-saturation regime.\nThe FDC design we present here incorporates the latest ad-\nvancements in SiPM-on-tile calorimetry to create a modern'
+ '[31] F. Hummer, L. Emberger, and F. Simon, “Exploring the intrinsic time resolution of the SiPM-on-tile\ntechnology,” 2022. DPG Spring Meeting.'
+ 'Beam Test of the First Prototype of SiPM-on-Tile\nCalorimeter Insert for the Electron-Ion Collider\nUsing 4 GeV Positrons at Jefferson Laboratory'
+ 'arXiv:1809.03909 ,doi:10.1088/1748-0221/13/12/P12022 .\n[55] F. Sefkow, F. Simon, A highly granular SiPM-on-tile calorimeter proto-\ntype, J. Phys. Conf. Ser. 1162 (1) (2019) 012012. arXiv:1808.09281 ,'
+ 'calorimeter insert for the EIC [15] and show advancements in the SiPM-on-tile technology that\ncould also inform other EIC calorimeters and other experiments.\nAcknowledgments'
+ 'Extensive R&D e ﬀorts [8] and rapid progress in silicon-\nphotomultiplier (SiPM) technology [16] have culminated in the\n“SiPM-on-tile” concept for hadronic calorimetry. In this ap-'
+ 'A high-granularity calorimeter insert based on SiPM-on-tile technology\nat the future Electron-Ion Collider']"," The SiPM-on-tile technology used in the FDC has a dimension of 10x10 mm. There are a total of 20 layers of SiPM-on-tile technology in the FDC., 
+    ","['2309.00818v1' '2307.12531v1' '2307.12531v1' '2307.12531v1'
+ '2302.03646v2' '2309.00818v1' '2208.05472v2' '2302.03646v2'
+ '2208.05472v2' '2208.05472v2']",2307.12531v1,https://smith.langchain.com/public/c6073468-ab38-4a2d-86a1-ced9cdcdd2d5/r,0.8,0.8585531930054812,0.841225749549736,0.5,0.7247182827461806
+ What is the sampling fraction for the HCal insert?,"Hello! The sampling fraction for the HCal insert is 0.9%, while the sampling fraction for the HCal is 2.2%^1^. The sampling fraction is computed by taking the ratio of the output energy to the input energy in the calorimeter^2^.
+
+- The sampling fraction for the HCal insert is 0.9%^1^.
+- The sampling fraction for the HCal is 2.2%^1^.
+- The sampling fraction is computed by taking the ratio of the output energy to the input energy in the calorimeter^2^.
+
+^1^: [http://arxiv.org/abs/2208.05472v2](http://arxiv.org/abs/2208.05472v2)
+^2^: [http://arxiv.org/abs/2208.05472v2](http://arxiv.org/abs/2208.05472v2)","['sampling fractions for the insert and HCal, respectively. The\nsampling fraction is computed by taking the ratio of the out-\nput energy to the input energy in the calorimeter. The sampling'
+ 'them (39.6 cm). Together with the 4 mm gap between the two\nhalves of the HCal, and the 4 mm of readout backplanes on\neither side, the total width of the proposed insert is 60.4 cm.'
+ 'considering both the HCal and the insert (red triangles). The YR requirement\nreported up to η∗<3.5 is shown in solid orange and the extrapolation beyond\nη∗=3.5 is presented with the dashed line.\n14'
+ 'fraction is 0.9% for the insert and 2.2% for the HCal.\nThe response for pions in the insert is mostly Gaussian but it\nshows a low-energy tail, which is much less pronounced with'
+ 'the ﬁrst layer of the HCal insert was placed at z=380 mm.\nNo noise was included in the simulation, as a realistic im-\nplementation is not available at this time, but its e ﬀect was ac-'
+ '5\nFIG. 3. Examples of 4 typical reconstructed 3D shower shapes in HCAL for π+. The color code represents deposited energy\nin terms of EMIP.\n(40 GeV) as given by Eq. 7:\nSampling Fraction = PcellEi'
+ 'the analysis done considering the HCal insert only, while the solid markers rep-\nresent the case where both the HCal and the HCal insert are taken into account.'
+ 'Figure 2: Left: the proposed HCal insert inside the full HCal endcap (as viewed from upstream). Right: Zoom-in of the insert surrounded by only the endcap towers'
+ 'the combined measurement using the HCal insert and the HCal\n(this is quantiﬁed in Sec. 3.5). This suggests that the low-energy\ntail is due to leakage in the transverse direction from the HCal'
+ 'HCal, weighted with their respective calorimeter sampling fractions. The dashed curves represent Gaussian ﬁts to the energy responses.']"," The sampling fraction for the HCal insert is 0.9%., 
+    ","['2208.05472v2' '2208.05472v2' '2208.05472v2' '2208.05472v2'
+ '2208.05472v2' '2310.04442v1' '2208.05472v2' '2208.05472v2'
+ '2208.05472v2' '2208.05472v2']",2208.05472v2,https://smith.langchain.com/public/21c064ea-29a7-443d-9e55-d509baa0a990/r,1.0,0.9826559522837398,0.8303571428363838,1.0,0.6016013278502117
+ What are the advantages of using certain forms of the spin precession vector in the Electron Storage Ring (ESR) of the Electron-Ion Collider (EIC)? How are different forms of the spin precession vector related? What is the utility of the form of the spin precession vector?,"Hello! The advantages of using certain forms of the spin precession vector in the Electron Storage Ring (ESR) of the Electron-Ion Collider (EIC) are as follows:
+
+- Certain forms of the spin precession vector in the ESR of the EIC are demonstrated by a detailed re-derivation of the spin matching conditions, showing the utility of the precession vector expressions[^1^].
+- Different forms of the spin precession vector found in the literature are equivalent and related by elegantly showing the amplified spin rotation with velocity vector rotation, which is useful for deriving the spin matching conditions in the ESR of the EIC[^1^].
+- The utility of the form of the spin precession vector is demonstrated by re-deriving the spin matching conditions to show the utility of the precession vector expressions in the ESR of the EIC[^1^].
+
+I hope this information is helpful to you!
+
+[^1^]: [1] http://arxiv.org/abs/2112.07607v3
+
+--- 
+# References
+
+1. http://arxiv.org/abs/2112.07607v3","['The advantages of using certain forms is demonstrated by a detailed re-derivation of the spin\nmatching conditions by V. Ptitsyn for the spin rotators in the Electron Storage Ring (ESR) of'
+ '6 Summary 11\n7 Acknowledgements 12\n1. Introduction\nThe Electron Ion Collider (EIC) is the next generation pre-\ncision nuclear physics accelerator complex that is being con-'
+ 'The question of how quantum mechanical e ﬀects related to spin degrees of freedom or Quantum Field Theory'
+ 'state transverse spin and the ﬁnal-state lepton direction. We expect that this angular quantity can be accurately\nmeasured at a future EIC.'
+ 'spin-orbit motion of a particle in an accelerator including fringe fields was derived. We showed\nhow different forms of the spin precession vector found in the literature are equivalent, related by'
+ 'elegantly shows the (1 + Gγ0) amplified spin rotation with velocity vector rotation and is useful for\nderiving the spin matching conditions in the ESR of the EIC.\nReferences'
+ 'dynamics. Here, the EIC electron beam polarization can be a powerful probe of such\ninteractions, making it a unique tool for illuminating the physics underlying LFV processes.'
+ 'by V. Ptitsyn [9], are now re-derived in detail to show the utility of the precession vector expressions\nin Eq. (20). The ESR employs four “solenoid modules” and “bend modules” to rotate the spin to'
+ 'spin [7].\nThe planned Electron-Ion Colliders (EIC) [8, 9] oﬀer\nunprecedented opportunities for spin physics, especially\nto constrain the ∆ gcontribution to the proton spin via'
+ 'in preparation for the Electron-Ion Collider (EIC). Sar tre simulates exclusive diffraction in eA\ncollisions, in principle for any nuclear species and exclusive final state, usually a vector meson.']", The advantages of using certain forms of the spin precession vector in the Electron Storage Ring (ESR) of the Electron-Ion Collider (EIC) include the ability to elegantly show the amplified spin rotation with velocity vector rotation and the usefulness for fast first-order spin tracking. Different forms of the spin precession vector are related by substitution of the equations of motion. The form of the spin precession vector in Eq. (15) is useful for fast first-order spin tracking.,"['2112.07607v3' '2205.08607v1' '2303.02579v1' '2301.02304v1'
+ '2112.07607v3' '2112.07607v3' '2112.04513v3' '2112.07607v3'
+ '2110.04489v1' '2305.15880v2']",2112.07607v3,https://smith.langchain.com/public/d169bfb4-4978-4615-aa73-09ac0aac94b4/r,1.0,0.9606448290363826,0.99999999999,1.0,0.5867115850962789

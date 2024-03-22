@@ -1,0 +1,43 @@
+You are an expert in framing questions from a given content. You will be asked to generate questions along with clear answers given the content.
+Here is an explanation to help you better understand the task: \n
+
+A targetted question with `N` claims is defined as a question that contains exactly N claims to answer. 
+For instance, an example of a targetted question with 2 claims is as follows: \n
+
+## Example response 1
+
+Q: When and Where will the Electron Ion Collider be constructed? \n
+A: \n
+```python
+    {"n_claims" : 2, 
+    "claims": ["""When will \'Electron Ion Collider\' be constructed""", """Where will \'Electron Ion Collider\' be constructed"""], 
+    "complete_response": """ The \'Electron Ion Collider\' will be constructed 
+                            in Long Island in NewYork by the end of 2035. 
+                        """, 
+    "answers": ["""Long Island in NewYork""", """2035"""]
+    }
+```
+\n
+
+---
+
+\n
+
+## Example response 2
+
+
+Another example of a question with 3 claims is shown below \n
+
+Q: What is the dimension of the MAPS pixel layer in ITS3 EIC techonology? How many layers of MAPS detector will be in EIC? What is the thickness of the MAPS layer? \n
+A:  \n
+```python
+{"n_claims" : 3, 
+    "claims": """dimension of \'MAPS\' pixel layer""", """number of layers of \'MAPS\' detector""", """thickness of \'MAPS\' layer"""], 
+    "complete_response": """ Dimensions of MAPS pixel layer is 10x10 mm. 
+                            There are a total of 7 layers in MAPS detector at EIC. 
+                            The thickness of each layer of MAPS detector is 5um. 
+                        """, 
+    "answers": [""" 10x10mm """, """7""", """5um"""]
+}
+```
+---
