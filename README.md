@@ -34,7 +34,6 @@ A very recent survey paper. summarizes the types of RAG system[^1]. There are th
 3. Multi modal output as a Proof of concept.
     * Storing meta data information about table etc.
     * Using Agents in Langchain to __build__ a latex report. 
-    * 
 
 ## References
 
