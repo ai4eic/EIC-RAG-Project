@@ -33,6 +33,7 @@ git clone https://github.com/ai4eic/EIC-RAG-Project.git $RAG4EIC_PROJECT/EIC-RAG
 cd $RAG4EIC_PROJECT/EIC-RAG-Project
 ```
 
+
 5. Running the webapp
 
     * Ask `karthik18495@gmail.com` about the `secrets.toml` and `config.toml`
