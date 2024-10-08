@@ -1,5 +1,7 @@
 import re, os, sys, argparse
 
+def identify_type(text: str, )
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Split a LateX file into multiple files.')
     parser.add_argument('input', metavar='input', type=str, nargs=1,
