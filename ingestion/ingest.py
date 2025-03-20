@@ -11,10 +11,9 @@ from langchain_community.vectorstores import Pinecone as LangPinecone
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 def SaveFromPDF(args):
-	DB_NAME = args.persist_directory
+	DB_NAME = args.persistent_directory
 	SRC_DIR = args.src_dir
 	COLLECTION_NAME = args.table_name
-	# OPENAI_API_KEY = args.openai_api_key
 	CHUNKING_TYPE = args.chunking
 
 	## recursive chunking 
@@ -26,6 +25,7 @@ def SaveFromPDF(args):
 	# AllPDFs = [os.path.join(f, f.split("/")[-1] + ".pdf") for f in glob.glob(SRC_DIR + "/*")]
 	AllPDFs = [os.path.join(f, os.path.basename(f) + ".pdf") for f in glob.glob(os.path.join(SRC_DIR, "*"))]
 
+	#check if the Vector DB persistent directory exists or not before looping through the pdfs
 	if (args.db_type.lower() == "chroma"):
 		if os.path.exists(DB_NAME):
 			#the code is same for load and create while loading for a path exist or not
@@ -67,12 +67,12 @@ def SaveFromPDF(args):
 				print ("Processing page " + str(page.metadata['page']))
 				##chunking
 				texts = text_splitter.create_documents([page.page_content], metadatas = [meta_data])
-				## create the embedding
+				## create the embeddings
 				db.add_documents(texts)
 				print("new data is added")
 			del data, loader, page
 		else:
-			print("Data already ec=xists")
+			print("Data already exists")
 			continue
     
                 
@@ -87,7 +87,7 @@ if __name__ == "__main__":
     argparser.add_argument('-c', '--chunking', type = str, required=False, help = "Type of Chunking PDF or LATEX", default = "PDF")
     argparser.add_argument('-n', '--nthreads', type=int, default=-1)
     argparser.add_argument('-db_api_key', '--db_api_key', type=str, required=False, help = "VectorDB API key")
-    argparser.add_argument('-persist_dir', '--persist_directory', type=str, required=False, help="Directory to store persistent ChromaDB", default="./chroma_db")
+    argparser.add_argument('-persistent_dir', '--persistent_directory', type=str, required=False, help="Directory to store persistent ChromaDB", default="./chroma_db")
     args = argparser.parse_args()
     SaveFromPDF(args)
     
