@@ -50,7 +50,7 @@ def request_account():
     
     with st.form("Login Form"):
         st.info("By providing your name, you agree that all the prompts and responses will be recorded and will be used to further improve RAG methods")
-        name = st.text_input("What's your username?")
+        name = st.text_input("What's your username? or Name if Guest")
         password = st.text_input("What's your password?", type="password")
         guest = st.checkbox("Login as guest")
         submitted = st.form_submit_button("Submit and start")
@@ -61,6 +61,9 @@ def request_account():
                 st.session_state["first_name"] = name.split(" ")[0] if name != "" else "GUEST"
                 st.session_state["last_name"] = name.split(" ")[-1]
                 st.session_state["user_mode"] = 0
+                st.success(f"Welcome {name} as Guest !! Will redirect to the chat bot in 3 seconds")
+                time.sleep(2)
+                st.switch_page("pages/2_RAG-ChatBot.py")
             if (name not in st.secrets):
                 st.error("User not found. Please try again or request an account")
                 st.stop()
