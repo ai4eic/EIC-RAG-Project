@@ -52,9 +52,15 @@ def request_account():
         st.info("By providing your name, you agree that all the prompts and responses will be recorded and will be used to further improve RAG methods")
         name = st.text_input("What's your username?")
         password = st.text_input("What's your password?", type="password")
+        guest = st.checkbox("Login as guest")
         submitted = st.form_submit_button("Submit and start")
         if submitted:
             userInfo = st.secrets.get#get_user_info(os.environ["USER_DB"], name)
+            if guest:
+                st.session_state["user_name"] = "GUEST"
+                st.session_state["first_name"] = name.split(" ")[0] if name != "" else "GUEST"
+                st.session_state["last_name"] = name.split(" ")[-1]
+                st.session_state["user_mode"] = 0
             if (name not in st.secrets):
                 st.error("User not found. Please try again or request an account")
                 st.stop()
