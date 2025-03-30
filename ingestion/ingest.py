@@ -34,7 +34,7 @@ def SaveFromPDF(args):
 			print("Chroma DB loaded successfully")
 		else:
 		# Create a new database
-			db = Chroma(persist_ditectory=DB_NAME, embedding_function=embeddings, collection_name=COLLECTION_NAME)
+			db = Chroma(persist_directory=DB_NAME, embedding_function=embeddings, collection_name=COLLECTION_NAME)
 			print("Chroma DB created successfully")
 	elif (args.db_type.lower() == "pinecone"):
 		LangPinecone.from_documents(texts, embeddings, index_name=COLLECTION_NAME)
