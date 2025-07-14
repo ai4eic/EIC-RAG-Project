@@ -1,0 +1,42 @@
+# Use Python 3.10 slim image as base
+FROM python:3.10.18-slim
+
+# Set working directory
+WORKDIR /app
+
+# Set environment variables
+ENV PYTHONPATH=/app
+ENV PYTHONUNBUFFERED=1
+ENV STREAMLIT_SERVER_PORT=8502
+ENV STREAMLIT_SERVER_ADDRESS=0.0.0.0
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    gcc \
+    g++ \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy requirements first for better Docker layer caching
+COPY requirements.txt .
+
+# Install Python dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Create .streamlit directory
+RUN mkdir -p /app/.streamlit
+
+# Copy the entire application
+COPY streamlit_app/ ./streamlit_app/
+COPY Templates/ ./Templates/
+COPY Evaluations ./Evaluations/
+COPY ingestion ./ingestion/
+
+# Create a default config.toml
+RUN echo '[server]\nport = 8502\naddress = "0.0.0.0"\nheadless = true\nenableCORS = false\nenableXsrfProtection = false' > /app/.streamlit/config.toml
+
+# Expose the port Streamlit runs on
+EXPOSE 8502
+
+# Run the Streamlit app
+CMD ["streamlit", "run", "streamlit_app/AI4EIC-RAGAS4EIC.py", "--server.port=8502", "--server.address=0.0.0.0"]

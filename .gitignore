@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+*secrets.toml*
+
 *env*
 # The Vector DB
 *EIC_PyPDF*
@@ -169,3 +171,17 @@ cython_debug/
 
 
 *.code-workspace
+
+# Docker artifacts
+.dockerignore
+docker-compose.override.yml
+.docker/
+# Docker volumes and bind mounts
+docker-data/
+# Docker build cache
+.docker-cache/
+# Docker environment files
+.env.docker
+.env.local
+# Test Docker artifacts
+*tests*
