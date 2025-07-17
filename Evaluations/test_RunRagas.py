@@ -187,41 +187,25 @@ import ragas
 '''RAGAS metrics uses openai models by default. So we explicitly define llm and embedding model of ollama and use to
 compute evaluation metrics'''
 
-# required for ollama 
-ollama_embeddings = OllamaEmbeddings(model="mxbai-embed-large:latest")
-ollama_llm = ChatOllama(model="llama3.2:latest", temperature=0)
-
-# wrap the above defined llm and embedding model
-wrapped_llm = LangchainLLMWrapper(ollama_llm)
-wrapped_embeddings = LangchainEmbeddingsWrapper(ollama_embeddings)
-
 ANSWER_CORRECTNESS = ragas.metrics.AnswerCorrectness(name = "ANSWER_CORRECTNESS",
                                                      weights = [0.90, 0.10],
-                                                     llm = wrapped_llm,
-                                                     embeddings = wrapped_embeddings
                                                      )
 ANSWER_RELEVANCY = ragas.metrics.AnswerRelevancy(name = "ANSWER_RELEVANCY",
                                                 strictness = 5,
-                                                llm = wrapped_llm,
-                                                embeddings = wrapped_embeddings
                                                 )
 CONTEXT_ENTITY_RECALL = ragas.metrics.ContextEntityRecall(name = "CONTEXT_ENTITY_RECALL",
-                                                          llm = wrapped_llm
                                                          )
-CONTEXT_PRECISION = ragas.metrics.ContextPrecision(name = "CONTEXT_PRECISION",
-                                                   llm = wrapped_llm
+CONTEXT_PRECISION = ragas.metrics.ContextPrecision(name = "CONTEXT_PRECISION"
                                                     )
-CONTEXT_RECALL = ragas.metrics.ContextRecall(name = "CONTEXT_RECALL",
-                                             llm = wrapped_llm
-                                            )
+CONTEXT_RECALL = ragas.metrics.ContextRecall(name = "CONTEXT_RECALL")
 ## new RAGAS doesn't have this evaluation metric                                             
 # CONTEXT_RELEVANCY = ragas.metrics.ContextRelevancy(name = "CONTEXT_RELEVANCY")
                                                    
-FAITHFULNESS = ragas.metrics.Faithfulness(name = "FAITHFULNESS",
-                                          llm = wrapped_llm)
+FAITHFULNESS = ragas.metrics.Faithfulness(name = "FAITHFULNESS")
 
+# the benchmark Q&A dataset
 import pandas as pd
-df = pd.read_csv("AI4EIC_sample_dataset.csv", sep = ",")
+df = pd.read_csv("AI4EIC2023_DATASETS.csv", sep = ",")
 
 from ragas import evaluate
 dataset = {"question": [],
@@ -270,18 +254,9 @@ for index, row in df.iterrows():
             print (run.trace_id)
             print ("-----")
 
-    # Parse JSON answer and clean it
-    try:
-        answer_dict = json.loads(answer)
-        cleaned_answer = answer_dict["answer"].strip()
-    except json.JSONDecodeError:
-        cleaned_answer = answer.strip()
-
     dataset["question"].append(question)
     print (answer.split("http://")[0].strip("\n"))
-    #adjustment for json
-    # dataset["answer"].append(answer.split("http://")[0].strip("\n"))
-    dataset["answer"].append(cleaned_answer)
+    dataset["answer"].append(answer.split("http://")[0].strip("\n"))
 
     dataset["contexts"].append(contexts)
     dataset["ground_truth"].append(row["output_complete_response"])
