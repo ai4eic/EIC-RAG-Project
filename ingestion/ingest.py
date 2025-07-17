@@ -37,11 +37,16 @@ def SaveFromPDF(args):
 		# Create a new database
 			db = Chroma(persist_directory=DB_NAME, embedding_function=embeddings, collection_name=COLLECTION_NAME)
 			print("Chroma DB created successfully")
+
+	#for Pinecone and other vector DBs
 	elif (args.db_type.lower() == "pinecone"):
 		LangPinecone.from_documents(texts, embeddings, index_name=COLLECTION_NAME)
 
+	#
 	for pdf in AllPDFs:
+		#remove the .pdf extension to get the arxiv_id
 		arxiv_id = os.path.basename(pdf).replace(".pdf", "")
+		
 		# Check whether the arxiv_id exists in db or not
 		existing_docs = db.get(where={"arxiv_id": arxiv_id}, include=["metadatas"])
 
@@ -49,8 +54,14 @@ def SaveFromPDF(args):
 		if not existing_docs['ids']:
 			#load and split the document into pages
 			loader = PyPDFLoader(pdf)
+
+			#pages of the arxiv file
 			data = loader.load_and_split()
+			
+			# 
 			search = arxiv.Search(id_list=[arxiv_id])
+
+			#
 			paper = next(arxiv.Client().results(search))
 
 			#define the metadata for that document
