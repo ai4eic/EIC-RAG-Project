@@ -76,51 +76,38 @@ def RunQuery(input_question, max_k, sim_score,
     # embeddings = OpenAIEmbeddings()
     embeddings = OllamaEmbeddings(model="mxbai-embed-large:latest")
     
-    # # Configure embeddings with GPU support via Ollama
-    # embeddings = OllamaEmbeddings(
-    #     model="mxbai-embed-large:latest",
-    #     num_gpu=999  # Ensure GPU is used if available
-    # )
-
     # Defining some props of DB
     SimilarityDict = {"Cosine similarity" : "similarity", "MMR" : "mmr"}
 
-    # DBProp = {"PINECONE" : {"vector_config" : {"db_api_key" : secrets["PINECONE_API_KEY"], 
-    DBProp = {"PINECONE" : {"vector_config" : {"db_api_key" :pinecone_api_key, 
-                                                "index_name" : "llm-project", 
-                                                "embedding_function" : embeddings
-                                                },
-                            "search_config" : {"metric" : sim_score, 
-                                            "search_kwargs" : {"k" : max_k}
-                                            },
+    #create an instance of the DB  
+    DBProp = {"PINECONE" : {
+                        "vector_config" : {"db_api_key" :pinecone_api_key, "index_name" : "llm-project", "embedding_function" : embeddings},
+                            "search_config" : {"metric" : sim_score, "search_kwargs" : {"k" : max_k}},
                             "available_metrics" : ["Cosine similarity", "MMR"]
-                            },
-                "CHROMA" : {"vector_config" : {"db_name" : db_name, 
-                                                "embedding_function" : embeddings, 
-                                                "collection_name": collection_name
-                                                },
-                            "search_config" : {"metric" : sim_score, 
-                                            "search_kwargs" : {"k" : max_k}
-                                            },
-                            "available_metrics" : ["Cosine similarity", "MMR"]
-                            },
-                "LANCE" : {"vector_config" : {"db_name" : db_name, 
-                                                "table_name": table_name
-                                                },
-                            "search_config" : {"metric" : sim_score, 
-                                            "search_kwargs" : {"k" : max_k}
-                                            },
-                            "available_metrics" : ["Cosine similarity", "MMR"]
-                            },
+                },
+                "CHROMA": {
+                        "vector_config": {"db_name": db_name, "embedding_function": embeddings, "collection_name": collection_name},
+                        "search_config": {"metric": sim_score, "search_kwargs": {"k": max_k}},
+                        "available_metrics": ["Cosine similarity", "MMR"],
+                },
+                "LANCE": {
+                    "vector_config": {"db_name": db_name, "table_name": table_name},
+                    "search_config": {"metric": sim_score, "search_kwargs": {"k": max_k}},
+                    "available_metrics": ["Cosine similarity", "MMR"],
+                },
             }
-    # retriever = GetRetriever("PINECONE", DBProp["PINECONE"]["vector_config"], DBProp["PINECONE"]["search_config"])
+    
+    #create an instance of the VectorDB
     retriever = GetRetriever("CHROMA", DBProp["CHROMA"]["vector_config"], DBProp["CHROMA"]["search_config"])
     print("output of Getretriever")
+
     # project name for tracing in Langsmith
     project_name = f"RAG-CHAT-tapasi"
 
+    # Create a LangChain tracer for tracing the run
     tracer = LangChainTracer(project_name = project_name)
     print("out of LangChainTracer")
+
     run_name = "Evaluation-testings"
     trace_metadata = {"DBType": "CHROMA", 
                     "similarity_score": sim_score, 
@@ -176,7 +163,9 @@ def RunLLM(input_question, MODEL = "llama3.2:latest"):
     output = llm.invoke(input_question).content
     ## for json format
     # return output
-    return json.dumps({"answer": output})
+
+    print(f"output of llm : {output}")
+
 
 #---------------------------------------------
 import pickle
@@ -195,11 +184,10 @@ from ragas.metrics import (
 )
 
 import ragas
-# embeddings = OllamaEmbeddings(model = "mxbai-embed-large:latest")
-
 '''RAGAS metrics uses openai models by default. So we explicitly define llm and embedding model of ollama and use to
 compute evaluation metrics'''
 
+# required for ollama 
 ollama_embeddings = OllamaEmbeddings(model="mxbai-embed-large:latest")
 ollama_llm = ChatOllama(model="llama3.2:latest", temperature=0)
 
@@ -244,7 +232,9 @@ dataset = {"question": [],
             "input_arxiv_id": [], 
             "trace_links": []
             }
-max_k = 3
+
+# no of chunks to be retrieved
+max_k = 20
 sim_score = "mmr"
 db_name="../ingestion/myChromaDB"
 collection_name = "EIC_archive"
@@ -260,7 +250,9 @@ for index, row in df.iterrows():
 
     project_name = f"RAG-CHAT-tapasi"
     run_name = "Evaluation-testings"
-    print(f"before langsmith is called")
+
+    # if verbose==1:
+    #     print(f"before langsmith is called")
 
     runs = client.list_runs(project_name = project_name, trace_id = trace_id)
     print(f"after langsmith client is called : , {runs}")
