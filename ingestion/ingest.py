@@ -17,12 +17,13 @@ def SaveFromPDF(args):
 	CHUNKING_TYPE = args.chunking
 
 	## recursive chunking 
-	text_splitter = RecursiveCharacterTextSplitter(chunk_size=200, chunk_overlap=20)
+	text_splitter = RecursiveCharacterTextSplitter(chunk_size=180, chunk_overlap=20)
+
 	## Ollama embedding model
 	embeddings = OllamaEmbeddings(model="mxbai-embed-large:latest")
 
 	## not able to extract the pdf id
-	# AllPDFs = [os.path.join(f, f.split("/")[-1] + ".pdf") for f in glob.glob(SRC_DIR + "/*")]
+	# AllPDFs = [os.path.join(f, f.split("/")[-1] + ".pdf") for f in glob.glob(SRC_DIR + "/*")] #may not work in windows
 	AllPDFs = [os.path.join(f, os.path.basename(f) + ".pdf") for f in glob.glob(os.path.join(SRC_DIR, "*"))]
 
 	#check if the Vector DB persistent directory exists or not before looping through the pdfs
@@ -62,12 +63,12 @@ def SaveFromPDF(args):
 					}
 			print ("Title is :" + """{}""".format(meta_data["title"]))
 
-			#loop through the splited page within the document
+			#loop through each splited page for a each arvix file
 			for page in data:
 				print ("Processing page " + str(page.metadata['page']))
-				##chunking
+				##creat chunk and add metadatas to each chunk
 				texts = text_splitter.create_documents([page.page_content], metadatas = [meta_data])
-				## create the embeddings
+				## create the embeddings of all the chunks in that page and add to DB
 				db.add_documents(texts)
 				print("new data is added")
 			del data, loader, page
@@ -81,13 +82,13 @@ if __name__ == "__main__":
     argparser = argparse.ArgumentParser(description="Create Vector DB and perform ingestion from source files")
     argparser.add_argument('-s', '--src_dir', type=str, required=True, help = "Source directory where arxiv sources are stored")
     argparser.add_argument('-db_type', '--db_type', type=str, required=True, help = "Type of VectorDB to be created", default="chroma")
-    argparser.add_argument('-db', '--db_name', type=str, required=True, help = "Name of the database to be created")
+    argparser.add_argument('-db', '--db_name', type=str, required=False, help = "Name of the database to be created")
     argparser.add_argument('-t', '--table_name', type=str, required=False, help = "Name of the table to be created", default = "EIC_archive")
     # argparser.add_argument('-openai_key', '--openai_api_key', type=str, required=True, help = "OpenAI API key")
     argparser.add_argument('-c', '--chunking', type = str, required=False, help = "Type of Chunking PDF or LATEX", default = "PDF")
     argparser.add_argument('-n', '--nthreads', type=int, default=-1)
     argparser.add_argument('-db_api_key', '--db_api_key', type=str, required=False, help = "VectorDB API key")
-    argparser.add_argument('-persistent_dir', '--persistent_directory', type=str, required=False, help="Directory to store persistent ChromaDB", default="./chroma_db")
+    argparser.add_argument('-persistent_dir', '--persistent_directory', type=str, required=True, help="Directory to store persistent ChromaDB", default="./chroma_db")
     args = argparser.parse_args()
     SaveFromPDF(args)
     
