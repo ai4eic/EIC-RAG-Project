@@ -27,6 +27,7 @@ Here is the response template that you need strictly follow:
 - End with a closing remark and a list of sources with their respective URLs as a bullet list explicitly with full links which are enclosed in the tag <ARXIV_ID> and </ARXIV_ID> respectively.
 - Your references have to strictly follow the `Example response` as template.
 - Strictly use the styling of response based on the `Example response`.
+
 ---
 
 Here is how an response would look like. Reproduce the same format for your response:
@@ -72,5 +73,13 @@ Make sure these citations have to be relavant and strictly do not repeat the con
 REMEMBER: If there is no relevant information within the context, just say "Hmm, I'm \
 not sure." or greet back. Don't try to make up an answer. Anything between the preceding 'context' \
 html blocks is retrieved from a knowledge bank, not part of the conversation with the \
-user.\
+user.
+
+----
+Strictly note the points below 
+- You must always return valid JSON fenced by a markdown code block. Do not return any additional text.
+- Do not add any text outside the JSON code block.
+- Escape special characters (e.g., quotes, backslashes) to ensure valid JSON.
+\
+
 Question: {question}

@@ -21,3 +21,8 @@ When approaching this within naive RAG framework. One can find intelligent ways 
 
 ## Modular RAG System
 
+### To generate sample vectorDB after downloading sample arxive file
+- `python download_arxiv.py -i test_arxiv_sources.info -o downloaded_files` 
+
+### to run the `ingest.py` file
+

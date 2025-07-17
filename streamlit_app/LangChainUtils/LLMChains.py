@@ -72,6 +72,7 @@ def GeneralChain(llm):
         ) | llm | {"answer" : StrOutputParser()}
     )
     return general_chain
+#------------------------------------
 def RunChatBot(llm, retriever, template_dir = None):
     def format_docs(docs):
         unique_arxiv = list(set(doc.metadata['arxiv_id'] for doc in docs))
@@ -100,7 +101,11 @@ def RunChatBot(llm, retriever, template_dir = None):
     - The content may have latex commands as well. Edit them to make it compatible within Github flavoured markdown by adding $ before and after the latex command.
     - Make sure the citations are superscripted and has to be displayed properly when presented in a chat window. 
     - Do not include the <MARKDOWN_RESPONSE> and <MARKDOWN_RESPONSE/> tags in your answer.
-    - Strictly do no modify the reference URL nor its text. Strictly have only Footnotes with reference links in style of GithubFlavoured markdown.
+    - Strictly do not modify the reference URL nor its text. Strictly have only Footnotes with reference links in style of GithubFlavoured markdown. 
+    Strictly note the points below 
+    - You must always return valid JSON fenced by a markdown code block. Do not return any additional text.
+    - Do not add any text outside the JSON code block.
+    - Escape special characters (e.g., quotes, backslashes) to ensure valid JSON. 
     <MARKDOWN_RESPONSE>
     {markdown_response}
     <MARKDOWN_RESPONSE/>
