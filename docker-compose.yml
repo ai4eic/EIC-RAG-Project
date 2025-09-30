@@ -1,17 +1,13 @@
-version: '3.8'
-
 services:
   streamlit-app:
     build:
       context: .
-      dockerfile: DockerFile
+      dockerfile: Dockerfile
     ports:
       - "8502:8502"
     volumes:
       # Mount secrets.toml from custom location using environment variable
       - ${SECRETS_FILE:-./secrets.toml}:/app/.streamlit/secrets.toml:ro
-      # Optional: mount config.toml from host
-      - ./.streamlit/config.toml:/app/.streamlit/config.toml:ro
     environment:
       - STREAMLIT_SERVER_PORT=8502
       - STREAMLIT_SERVER_ADDRESS=0.0.0.0

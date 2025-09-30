@@ -1,6 +1,5 @@
 import os, sys
 import streamlit as st
-from streamlit_react_flow import react_flow
 
 if "OPENAI_API_KEY" not in st.secrets:
     st.error("Please set the OPENAI_API_KEY secret in your secrets.toml file.")
